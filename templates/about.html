@@ -1,21 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
-    {%extends "base.html" %}
-    {% block content %}
-  </head>
-  <body>
-	<script src="index.js"></script>
-    <h1>BussinFlights</h1>
-     <p>Mexico Flight - flight to tulum mexico - comming soon</p>
-      <img src="../static/plane1.jpg">
-  <h1>Mexico Flight - flight to tulum mexico - comming soon</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HTML 5 Boilerplate</title>
+        <link rel="stylesheet" href="style.css">
+        {%extends "base.html" %}
+        {% block content %}
 
-  </body>
-</html>
+        </head>
+        <style>
+            .grid-container {
+                display: grid;
+                grid-template-columns: 30% 30% 30%;
+            }
+            .mainphoto {
+                padding: 100px;
+                height: 20%;
+                max-height: 200px;
+                min-width: 1400px;
+                width: auto;
+            }
+            .bodyphoto {
+                height: 50;
+                width: 50%;
+            }
+
+            .squafre {
+                height: auto;
+                width: 50%;
+                background-color: #55d5;
+            }
+            .teixt{
+              text-align: center;
+            }
+        </style>
+        <body>
+
+
+            <script src="index.js"></script>
+
+            <img class="mainphoto" src="../static/plane1.jpg">
+            <div class="grid-container">
+            <div></div>
+            <h1 class="square text">Mexico Flight - flight to tulum mexico - comming soon</h1>
+            <p class="square text">Mexico Flight - flight to tulum meExico - comming soon</p>
+            <div></div>
+                </div>
+            <div class="grid-container">
+                <div class>
+                    <p>section 1</p>
+                    <img class="bodyphoto" src="../static/plane1.jpg">
+               
+                </div>
+                <div class="grid-container">
+              <!---->
+                    <p>section2</p>
+                    <img class="bodyphoto" src="../static/plane1.jpg">
+                    <div>
+                      <p>inner section</p>
+                      <p>inner section</p>
+                      <p>inner section</p>
+                    </div>
+
+                </div>
+                <div>
+                <p>section 3</p>
+                <img class="bodyphoto" src="../static/plane1.jpg">
+</div>
+                <div>
+                    <p>section 4</p>
+                    <img class="bodyphoto" src="../static/plane1.jpg">
+
+                </div>
+                <div>
+                    <p>section 5</p>
+                    <img class="bodyphoto" src="../static/plane1.jpg">
+                </div>
+                <div>
+                    <p>section 6</p>
+                    <img class="bodyphoto" src="../static/plane1.jpg">
+
+                </div>
+                <div>
+                <p>section 7</p>
+                <img class="bodyphoto" src="../static/plane1.jpg">
+              </div>
+                <div>
+                    <p class="square">section 8</p>
+                    <img class="bodyphoto" src="../static/plane1.jpg">
+
+                </div>
+                <div>
+                    <p>sector 9</p>
+                    <img class="bodyphoto" src="../static/plane1.jpg">
+
+                </div>
+                <div>
+                  <p>section 10</p>
+                    <img class="bodyphoto" src="../static/plane1.jpg">
+
+                </div>
+                <div>
+                  <p>section 11</p>
+                    <img class="bodyphoto" src="../static/plane1.jpg">
+
+                </div>
+            </div>
+        </body>
+    </html>
 {% endblock %}

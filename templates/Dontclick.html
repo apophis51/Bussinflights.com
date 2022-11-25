@@ -1,0 +1,32 @@
+{%extends 'base.html' %}
+{% block content %}
+
+
+<style>
+    #hack {
+        background-color: brown;
+        height: 50%;
+        font-size: 100px;
+    }
+</style>
+<h2> Dont Click the Big Red Button</h2>
+
+<button id ="hack" type="button">Click Me!</button>
+
+<script>
+
+document.getElementById("hack").addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("hack").innerHTML = "YOU CLICKED ME!";
+  while (0<100){
+  alert("You have viruses now lmao")
+  }
+}    
+
+button.onclick = function(){alert("You have viruses now lmao")}
+</script>
+</body>
+
+</html>
+{% endblock %}

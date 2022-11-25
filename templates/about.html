@@ -13,18 +13,30 @@
         <style>
             .grid-container {
                 display: grid;
-                grid-template-columns: 30% 30% 30%;
+                grid-template-columns: 20% 60% 20%;
+                grid-template-rows: 50%;
+                padding-top: 2%;
+                padding-left: 10%;
+                padding-right:20%;
+                align-content: space-evenly;
+
             }
             .mainphoto {
-                padding: 100px;
-                height: 20%;
+                paedding: 100px;
+                padding-top: 5%;
                 max-height: 200px;
-                min-width: 1400px;
+                min-width: 100%;
                 width: auto;
             }
             .bodyphoto {
-                height: 50;
+                max-height: 50%;
                 width: 50%;
+                
+            }
+            .display
+            {
+                min-height: 400px;
+                width: 70%;
             }
 
             .squafre {
@@ -38,35 +50,39 @@
         </style>
         <body>
 
+          <div class="grid-container">
 
             <script src="index.js"></script>
 
-            <img class="mainphoto" src="../static/plane1.jpg">
-            <div class="grid-container">
+            <img class="mainphoto" style ="grid-column: 1/ span3;padding-bottom: 10%;" src="../static/plane1.jpg">
             <div></div>
-            <h1 class="square text">Mexico Flight - flight to tulum mexico - comming soon</h1>
-            <p class="square text">Mexico Flight - flight to tulum meExico - comming soon</p>
+            <h1 class="square text" style ="grid-column: 1/ span3; text-align: center;">Mexico Flight - flight to tulum mexico - comming soon</h1>
+            <p class="square text" style ="grid-column: 1/ span3; text-align: center;">Mexico Flight - flight to tulum meExico - comming soon</p>
             <div></div>
                 </div>
-            <div class="grid-container">
+            <div class="grid-container" >
                 <div class>
                     <p>section 1</p>
                     <img class="bodyphoto" src="../static/plane1.jpg">
+                    <p>blah blah</p>
+                    <p>inner section</p>
+                      <p>inner sectiofddddddddn</p>
+                      <p>inner section</p>
+                      <p>inner section</p>
+                      <p>inner section</p>
+                      <p>inner section</p>
                
                 </div>
-                <div class="grid-container">
+                <div style = " grid-cgolumn: 1/ span3">
               <!---->
                     <p>section2</p>
-                    <img class="bodyphoto" src="../static/plane1.jpg">
-                    <div>
-                      <p>inner section</p>
-                      <p>inner section</p>
-                      <p>inner section</p>
-                    </div>
+                    <img class="display" src="../static/test1.png">
+
 
                 </div>
                 <div>
-                <p>section 3</p>
+                <h2>Visa Information</h2>
+                <p></p>
                 <img class="bodyphoto" src="../static/plane1.jpg">
 </div>
                 <div>
@@ -76,7 +92,7 @@
                 </div>
                 <div>
                     <p>section 5</p>
-                    <img class="bodyphoto" src="../static/plane1.jpg">
+                  
                 </div>
                 <div>
                     <p>section 6</p>

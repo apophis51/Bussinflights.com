@@ -12,22 +12,33 @@
         </head>
         <style>
             .color {
-                    background-color: rgb(204, 198, 190);
+                background-color: rgb(135, 83, 14);
+                filter:blur()
             }
-            .second{
-                background-color: rgb(206, 210, 209);
-            }
-            .grid-container {
-                display: grid;
-                grid-template-columns: 20% 60% 20%;
-                padding-top: 2%;
-                padding-left: 10%;
-                grid-auto-rsows: 100px;
-                padding-right: 20%;
-                grid-gap: 10px;
-                align-content: space-evenly;
+            .second {
+                background-color: rgb(51, 116, 100);
 
             }
+            .flex {
+                display: flex;
+                padding-left: 8%;
+                padding-right: 8%;
+                max-width: 90%;
+                flex-wrap: wrap;
+            }
+            item {
+                flex: 1;
+
+            }
+            .f1 {
+                flex: 10%;
+                padding-right: 10px;
+            }
+            .f2{
+                flex: 2%
+                
+            }
+
             .mainphoto {
                 paedding: 100px;
                 padding-top: %;
@@ -36,112 +47,59 @@
                 width: auto;
             }
             .bodyphoto {
-                max-height: 100%;
+                max-height: 300px;
                 width: 100%;
-                text-alijgn: center;
+                padding: 80px;
 
             }
-            .display {
-                max-height: 120%;
+            .flightdata {
+                max-height: 100;
                 max-width: 100%;
-            }
-            .disfplay {
+                background-color: aqua;
 
-                padding: 100px;
-            }
-
-            .squafre {
-                height: auto;
-                width: 50%;
-                background-color: rgba(41, 41, 155, 0.333);
-            }
-            .teixt {
-                text-align: center;
             }
         </style>
         <body>
 
-            <div class="grid-container" style="background-color: rgba(67, 3, 85, 0.753)">
+            <div class="grid-container color">
 
                 <script src="index.js"></script>
-                <div style="grid-column: 1/ span3;">
+                <div class=" f1">
                     <img class="mainphoto" src="../static/plane1.jpg">
                 </div>
                 <h1 class="square text" style="grid-column: 1/ span3; text-align: center;background-color: rgb(177, 189, 0);">Mexico Flight - flight to tulum mexico - comming soon</h1>
                 <p class="square text" style="grid-column: 1/ span3; text-align: center;">Mexico Flight - flight to tulum meExico - comming soon</p>
                 <div></div>
             </div>
-            <div class="grid-container second">
-                <div class = "color">
-                    <h2 class = "bodyphoto">Visa Information</h2>
-                    <img class="bodyphoto" src="../static/plane1.jpg">
-                    <p>blah blah</p>
-                    <p>inner section</p>
-                    <p>inner sectiofddddddddn</p>
-                    <p>inner section</p>
-                    <p>inner section</p>
-                    <p>inner section</p>
-                    <p>inner section</p>
+            <div class="flex item">
+                <div class ="f1 item">
+                    <h2 style=>Flight Data</h2>
+
+                    <img class="flightdata" src="../static/test1.png">
 
                 </div>
-                <div
-                    class = "cojlor" style=" grid-column: 2/ span 3; grid-row: 1/ span ">
-                    <!---->
-                    <h2 style = "text-align: center;">Flight Data</h2>
+                <div class="f2 item">
+                                            <h2 class=>Visa Information</h2>
+                        <img class="bodyphoto" src="../static/plane1.jpg">
+                        <p>blah blah</p>
+                        <p>inner section</p>
+                        <p>inner sectiofddddddddn</p>
+                        <p>inner section</p>
+                        <p>inner section</p>
+                        <p>inner section</p>
+                        <p>inner section</p>
 
-                    <img class="display" src="../static/test1.png">
+                    </div>
 
 
-                </div>
-                <!--
-                <div>
-                    <h2>Visa Information</h2>
-                    <p></p>
-                    <img class="bodyphoto" src="../static/plane1.jpg">
-                </div>
-                
-                <div>
-                    <p>section 4</p>
-                    <img class="bodyphoto" src="../static/plane1.jpg">
+                    <div class="color f3 item">
+                        <p>section writing</p>
+                        <p>Finding the right flight to Mexico City from Australia is quick and easy when you have a range of options in front of you, from reputable agents and recognisable airlines. Options that can then be filtered down to find the best fit. That is what momondo does. We make finding flights to Mexico City quick and easy, saving you time and money.</p>
+                        <img class="bodyphoto" src="../static/plane1.jpg">
+                    </div>
 
-                </div>
-                <div></div>
-                <div>
-                    <p>section 6</p>
-                    <img class="bodyphoto" src="../static/plane1.jpg">
 
                 </div>
-                -->
-                <div class = "color" style=" grid-column: 1/ span 3; grid-row: 5/ span 4">
-                    <p>section writing</p>
-                    <p>Finding the right flight to Mexico City from Australia is quick and easy when you have a range of options in front of you, from reputable agents and recognisable airlines. Options that can then be filtered down to find the best fit. That is what momondo does. We make finding flights to Mexico City quick and easy, saving you time and money.</p>
-                    <img class="bodyphoto" src="../static/plane1.jpg">
-                </div>
-                <!--
-
-                <div>
-                    <p class="square">section 8</p>
-                    <img class="bodyphoto" src="../static/plane1.jpg">
-
-                </div>
-                <div>
-                    <p>sector 9</p>
-                    <img class="bodyphoto" src="../static/plane1.jpg">
-
-                </div>
-                
-                <div style=" grid-column: 1/ span 2; grid-row: 8/ span 1">
-                    <p>section 10</p>
-                    <img class="bodyphoto" src="../static/plane1.jpg">
-
-                </div>
-                <div>
-                    <p>section 11</p>
-                    <img class="bodyphoto" src="../static/plane1.jpg">
-
-                </div>
-                -->
-            </div>
         </body>
     </html>
 {% endblock %}

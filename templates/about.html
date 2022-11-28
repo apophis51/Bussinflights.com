@@ -26,13 +26,15 @@
                 max-width: 90%;
                 flex-wrap: wrap;
                 gap: 30px;
+                
             }
             item {
                 flex: 1;
 
             }
             .f1 {
-                
+                border: 140px black;
+
                 width: 80%;
                 padding-right: 10px;
             }
@@ -52,19 +54,39 @@
             .mainphoto {
                 max-height: 200px;
                 min-width: 100%;
-                width: auto;
+                padding-left: 12%;
+                padding: 10px;
+                margin: 23px blue solid;
+                border-style: solid;
+                border-width: 10px;
+                border-color: black;
+                padding-top: 1%;
+                filter:drop-shadow(120px 32px 100px rgb(15, 2, 23))
+
             }
-            .bodyphoto {
+            h2 {
+text-align: center;
+            }   
+                     .bodyphoto {
                 max-height: 300px;
                 width: 95%;
-                padding: 20px;
+                padding-left: 2%;
                 filter:drop-shadow(100px 32px 42px)
             }
             .flightdata {
+                visdibility: hidden;
                 max-height: 100%;
                 max-width: 100%;
                 background-color: aqua;
-                filter:drop-shadow(120px 32px 100px rgb(56, 4, 89))
+                filter:drop-shadow(120px 32px 100px rgb(56, 4, 89))             
+            }
+            .woman {
+                position:fixed;
+                top: 40px;
+                left: 50px;
+                width: 10%;
+                height: 50%;
+                z-index: 1;
             }
         </style>
         <body>
@@ -73,6 +95,8 @@
 
                 <script src="index.js"></script>
                 <div class=" f1">
+                    <img class=" woman" src="../static/woman1.jpg">
+
                     <img class="mainphoto" src="../static/plane1.jpg">
                 </div>
                 <h1 class="square text" style="grid-column: 1/ span3; text-align: center;background-color: rgb(177, 189, 0);">Mexico Flight - flight to tulum mexico - comming soon</h1>
@@ -82,9 +106,7 @@
             <div class="flex item color">
                 <div class="f1 item">
                     <h2 style=>Flight Data</h2>
-
                     <img class="flightdata" src="../static/test1.png">
-
                 </div>
                 <div class="f2 item">
                     <h2 class=>Visa Information</h2>
@@ -95,13 +117,13 @@
                     <p>inner section</p>
                     <p>inner section</p>
                     <p>inner section</p>
-                    <p>inner section</p>
+                    <p>inner flight scanner keyword and flights too section</p>
                 </div>
                 <div class = "break"></div>
                 <div class="f3 item">
                     <h2 class=>Visa Information</h2>
                     <img class="bodyphoto" src="../static/plane1.jpg">
-                    <p>blah blah</p>
+                     <p>blah blah</p>
                     <p>inner section</p>
                     <p>inner sectiofddddddddn</p>
                     <p>inner section</p>
@@ -109,14 +131,11 @@
                     <p>inner section</p>
                     <p>inner section</p>
                 </div>
-
                 <div class="f4 color item">
                     <p>section writing</p>
                     <p>Finding the right flight to Mexico City from Australia is quick and easy when you have a range of options in front of you, from reputable agents and recognisable airlines. Options that can then be filtered down to find the best fit. That is what momondo does. We make finding flights to Mexico City quick and easy, saving you time and money.</p>
                     <img class="bodyphoto" src="../static/plane1.jpg">
                 </div>
-
-
             </div>
         </body>
     </html>

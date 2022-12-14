@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H7VW95FNY9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H7VW95FNY9');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{%block title %} {% endblock%}</title> 
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+      li {
+        display:inline;
+      }
+    </style>
+    <body>
+    <nav>
+      <ul class = "nav">
+        <li>
+          <a href = "/tulum-mexico/">Tulumn Mexico</a>
+        </li>
+      <li>
+      <a href = "{{url_for('home')}}">home</a>
+      </li>
+      </ul>
+    </nav>
+
+  </head>
+<style>
+  .color {
+      background-color: rgb(235, 214, 174);
+      filter:drop-shadow(100px 32px 42px)
+  }
+  .second {
+      background-color: rgb(51, 116, 100 green);
+
+  }
+  .flex {
+      display: flex;
+      padding-left: 8%;
+      padding-right: 8%;
+      max-width: 90%;
+      flex-wrap: wrap;
+      gap: 30px;
+      
+  }
+  item {
+      flex: 1;
+  }
+  .f1 {
+      border: 140px black;
+
+      width: 80%;
+      padding-right: 10px;
+  }
+  .f2 {
+      flex: 1
+  }
+  .f3 {
+      flex: 1
+  }
+  .f4 {
+      width: 80%
+  }
+  .break {
+flex-basis: 100%;
+height: 0;
+}
+  .mainphoto {
+      max-height: 200px;
+      min-width: 90%;
+      padding-left: 12%;
+      ppadding: 10px;
+      pmargin: 23px blue solid;
+      pborder-style: solid;
+      pborder-width: 10px;
+      pborder-color: black;
+      padding-top: 1%;
+      filter:drop-shadow(120px 32px 100px rgb(15, 2, 23))
+
+  }
+  h2 {
+text-align: center;
+  }   
+           .bodyphoto {
+      max-height: 300px;
+      width: 95%;
+      padding-left: 2%;
+      filter:drop-shadow(100px 32px 42px)
+  }
+  .flightdata {
+      visdibility: hidden;
+      max-height: 100%;
+      max-width: 100%;
+      background-color: aqua;
+      filter:drop-shadow(120px 32px 100px rgb(56, 4, 89))             
+  }
+  .woman {
+      position:fixed;
+      top: 40px;
+      left: 50px;
+      width: 10%;
+      height: 50%;
+      z-index: 1;
+  }
+</style>
+<body>
+
+    <div class="grid-container color">
+
+        <script src="index.js"></script>
+         
+        <div class=" f1"><!--
+            <img class=" woman" src="../static/woman1.jpg">
+  -->        {%block mainphoto %} {% endblock %}
+        </div>
+    
+        <h1 class="square text" style="grid-column: 1/ span3; text-align: center;background-color: rgb(177, 189, 0);">{% block h1 %} {% endblock %}</h1>
+        <p class="square text" style="grid-column: 1/ span3; text-align: center;">__</p>
+        <div></div>
+    </div>
+    <div class="flex item color">
+        
+            <div class="f1 item">
+            <h2 style=>Flight Data</h2>
+            {% block blog %} {% endblock %}
+            <div id="widget-holder">
+           
+                </div>
+            <!-- 
+            <img class="flightdata" src="../static/test1.png">-->
+        </div> 
+        <div class="f2 item">
+            <h2 class=>Visa Information</h2>
+            <img class="bodyphoto" src="/static/mexicoflag.png">
+            {% block visa %} {% endblock %}
+  
+            <div class="f3 item">
+              <h2 class=>Flight Information</h2>
+              <img class="bodyphoto" src="/static/plane1.jpg">
+              <p>Once you have chosen your airline and the time of year you are flying, you can begin
+    searching for the best <a
+    href="/tulum-mexico/">flight deals.</a></p>
+    
+          </div>
+        </div>
+  
+        <div class="f4 color item">
+
+        </div>
+    </div>
+  </body>
+  </html>

@@ -4,7 +4,7 @@
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
-
+'''
 @app.route('/')
 def hello_world():
     return 'Hellof from Flask!'
@@ -21,14 +21,21 @@ def home():
 @app.route('/fuck/')
 def hello_worldd():
     return render_template("tutorial.html")
-
+'''
+@app.route('/')
+def home():
+    return render_template("home.html")
+    
 @app.errorhandler(404)
 def page_not_found(e):
     return  render_template('404.html'), 404
-
-@app.route("/about/")
-def about():
-    return render_template("about.html")
+#locatio pages
+@app.route("/tulum-mexico/")
+def tulumnmeta():
+    return render_template("/locations/location-mexico-tulum-meta.html")
+@app.route("/tulum-mexico/tulum-mexico-blog/")
+def tulumn():
+    return render_template("/locations/location-mexico-tulum.html")    
 
 @app.route("/signup/")
 def signup():

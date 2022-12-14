@@ -9,10 +9,14 @@
         {%extends "base.html" %}
         {% block content %}
 
+
+
+
+
         </head>
         <style>
             .color {
-                background-color: rgb(233, 193, 140);
+                background-color: rgb(235, 214, 174);
                 filter:drop-shadow(100px 32px 42px)
             }
             .second {
@@ -30,7 +34,6 @@
             }
             item {
                 flex: 1;
-
             }
             .f1 {
                 border: 140px black;
@@ -94,20 +97,35 @@ text-align: center;
             <div class="grid-container color">
 
                 <script src="index.js"></script>
-                <div class=" f1">
+                 
+                <div class=" f1"><!--
                     <img class=" woman" src="../static/woman1.jpg">
-
+-->
                     <img class="mainphoto" src="../static/plane1.jpg">
                 </div>
+            
                 <h1 class="square text" style="grid-column: 1/ span3; text-align: center;background-color: rgb(177, 189, 0);">Mexico Flight - flight to tulum mexico - comming soon</h1>
                 <p class="square text" style="grid-column: 1/ span3; text-align: center;">Mexico Flight - flight to tulum meExico - comming soon</p>
                 <div></div>
             </div>
             <div class="flex item color">
-                <div class="f1 item">
+                
+                    <div class="f1 item">
                     <h2 style=>Flight Data</h2>
-                    <img class="flightdata" src="../static/test1.png">
-                </div>
+                    
+                    <div id="widget-holder">
+                        <script 
+                        data-affilid="apophis51widget1" 
+                        data-to="tulum_mx,CUN" 
+                        data-transport-types="FLIGHT"
+                        data-background-primary-color="c2b5ff" 
+                        data-background-secondary-color="B5AED6" 
+                        src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+                        </script>
+                        </div>
+                    <!-- 
+                    <img class="flightdata" src="../static/test1.png">-->
+                </div> 
                 <div class="f2 item">
                     <h2 class=>Visa Information</h2>
                     <img class="bodyphoto" src="../static/plane1.jpg">
@@ -119,7 +137,6 @@ text-align: center;
                     <p>inner section</p>
                     <p>inner flight scanner keyword and flights too section</p>
                 </div>
-                <div class = "break"></div>
                 <div class="f3 item">
                     <h2 class=>Visa Information</h2>
                     <img class="bodyphoto" src="../static/plane1.jpg">

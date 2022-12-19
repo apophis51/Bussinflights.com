@@ -1,11 +1,15 @@
-{% extends "blog-base.html" %}
-{%block mainphoto %} <img class="mainphoto" src="/static/nice view of mexico.png">{% endblock %}
+{% extends "base.html" %}
+{% block flag %}<img class="bodyphoto" src="/static/mexicoflag.png">{% endblock %}
+{% block silo %}Once you have chosen your airline and the time of year you are flying, you can begin searching for the best flight deals<a href="/tulum-mexico/">flight deals.</a></p>
+{% endblock %} 
+
+{%block travelphoto %} <img class="mainphoto" src="/static/nice view of mexico.png">{% endblock %}
 <div>{% block visa %} FMM (Forma Migratoria Multiple) is a form that must be filled out by foreign
     visitors to Mexico. Learn more from <a href="https://relocate.mx/mexico-immigration-policy/">Relocate.mx</a>
     {% endblock %}</div>
-<h1>{%block h1%}{% block title %}Exploring Tulum, Mexico: All You Need to Know Before You Go{% endblock %}{% endblock %}
+<h1>{% block h1 %}{% block title %}Exploring Tulum, Mexico: All You Need to Know Before You Go{% endblock %}{% endblock %}
 </h1>;
-{% block blog %}
+{% block widget %}
 <p>Tulum, Mexico is a beautiful destination for tourists and travelers alike. Located in the Yucatan Peninsula, it is a
     popular destination for those looking for a unique and exciting experience in Mexico. With its beautiful beaches and
     lush jungles, Tulum is a great place to explore. But before you book your trip, you may have some questions about

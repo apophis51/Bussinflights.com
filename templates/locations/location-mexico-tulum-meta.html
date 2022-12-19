@@ -1,8 +1,27 @@
 {% extends "base.html" %}
+    {% block silo %}{% endblock %} 
+{% block widget %}
+
+<div id="widget-holder">
+    <script 
+    data-affilid="apophis51mexicotulum" 
+    data-to="CUN,tulum_mx" 
+    data-departure="2023-01-31_2023-02-28" 
+    data-transport-types="FLIGHT" 
+    data-background-primary-color="ffffff" 
+    data-background-secondary-color="fcfcff" 
+    src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+    </script>
+      </div> 
+{% endblock %}
+
+{% block travelphoto %} <img class="bodyphoto" src="../static/nice view of mexico.png">{% endblock %}
+
+{% block flag %} <img class="bodyphoto" src="../static/mexicoflag.png">{% endblock %}
 <h1>{%block h1%}{% block title %} Mexico Flight - Flight to Tulum Mexico{% endblock %}{% endblock %}</h1>
 
 <div>{% block visa %} FMM (Forma Migratoria Multiple) is a form that must be filled out by foreign
-    visitors to Mexico. Learn more from <a href="https://relocate.mx/mexico-immigration-policy/">Relocate.mx</a>
+    visitors to Mexico. Learn more from <a href="https://relocate.mx/mexico-immigration-policy/" >Relocate.mx</a>
     {% endblock %}</div>
 {% block travel %}
     <p>before you book your trip, you may have some questions about

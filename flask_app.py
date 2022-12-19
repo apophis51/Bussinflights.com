@@ -50,3 +50,17 @@ def thankyou():
 @app.route("/dontclick/")
 def dontclick():
     return render_template("Dontclick.html")
+
+### Colombia
+@app.route("/colombia-flights/")
+def colombiaflights():
+    return render_template("/colombia-flights/colombiaflights.html")
+@app.route("/colombia-flights/Exploring-Colombia-All-You-Need-to-Know-Before-You-Go/")
+def ExploringColombiaAllYouNeedtoKnowBeforeYouGo():
+    return render_template("/colombia-flights/Exploring-Colombia-All-You-Need-to-Know-Before-You-Go.html")    
+@app.route("/colombia-flights/cheap-flights-to-colombia/")
+def cheapflightstocolombia():
+    return render_template("/colombia-flights/cheap-flights-to-colombia.html")
+@app.route("/colombia-flights/american-airlines-flights-to-colombia/")
+def americanairlinesflightstocolombia():
+    return render_template("/colombia-flights/american-airlines-flights-to-colombia.html")

@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
-
+{% block flag %}<img class="bodyphoto" src="/static/colombianflag.png">{% endblock flag%}
+{% block travelphoto %} <img class="bodyphoto" src="../static/niceviewofcolombia.png">{% endblock travelphoto %}
 {% block widget %}
 <div id="widget-holder">
     <script data-affilid="apophis51mexicotulum" data-to="CUN,tulum_mx" data-departure="2023-01-31_2023-02-28"
@@ -9,11 +10,6 @@
         </script>
 </div>{% endblock %}
 
-{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
-
-
-{% block flag %} <img class="bodyphoto" src="/static/colombianflag.png">{% endblock %}
-{%block mainphoto %} <img class="mainphoto" src="/static/nicephotoofcolombia.png">{% endblock %}
 <div>{% block visa %} Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
         rel="sponsored">VisaHQ</a>
 

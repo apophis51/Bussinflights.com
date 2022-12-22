@@ -1,5 +1,14 @@
 {% extends "base1.html" %}
 {% block base %}
+<div class = "flex item color section1">
+  <p class  = "top-h1 less1 pointer"> Close Menu</p>
+  <div>{% block flag %} {% endblock flag %}</div>
+  <div>{% block visa %} {% endblock %}</div>
+  <div>{% block travelphoto %} {% endblock travelphoto %}</div>
+  <div>{% block travel %} {% endblock travel %}</div>
+  <p class  = "top-h1 less1 pointer"> Close Menu</p>
+</div>
+
   <div class="flex item color">
       
           <div class="f1 item">
@@ -16,21 +25,15 @@
       </div> 
       <div class="f2 item">
           <h2 class=>Visa Information</h2>
-                    <!-- 
-
-          <img class="bodyphoto" src="../static/mexicoflag.png">
-          -->
-          {% block flag %} {% endblock %}
-          {% block visa %} {% endblock %}
+    
+          
 
           <div class="f3 item">
             <h2 class=>Travel Information</h2>
-            {% block travelphoto %} {% endblock %}
             
             <!--
             <img class="bodyphoto" src="../static/nice view of mexico.png">
             -->
-            {% block travel %} {% endblock travel%}
   
         </div>
       </div>

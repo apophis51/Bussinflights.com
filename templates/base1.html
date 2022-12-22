@@ -11,7 +11,30 @@
   gtag('config', 'G-H7VW95FNY9');
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- Ajax scripts -->
 <script>
+$(document).ready(function(){$(".section1").hide();$(".less1").hide(); });
+// ]]></script><script>
+$(document).ready(function(){
+  $(".less1").click(function(){
+$(".section1").toggle(1000);$(".more1").toggle(1000);$(".less1").toggle();
+  });
+  $(".more1").click(function(){  $(".section1").toggle(1000);$(".less1").toggle(1000);$(".more1").toggle(1000);
+  });
+});
+
+$(document).ready(function(){$(".section2").hide();$(".less2").hide(); });
+// ]]></script><script>
+$(document).ready(function(){
+  $(".less2").click(function(){
+$(".section2").toggle();$(".more2").toggle();$(".less2").toggle();
+  });
+  $(".more2").click(function(){  $(".section2").toggle();$(".less2").toggle();$(".more2").toggle();
+  });
+});
+</script>
+<script>
+
 
   $(window).on('load', function () {
     $('.loading').hide(5000);
@@ -20,6 +43,16 @@
 
 </script>
 
+<style>
+  .pointer{ 
+  text-decoration: underline; 
+  color: #ff0000; 
+  text-decoration: 
+  underline; 
+  color: #ff0000;
+}
+</style>
+  <!-- end Ajax scripts -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -68,6 +101,10 @@
     border-radius: 20px;
     
   }
+  .headerColor{
+    background-color: rgb(241, 206, 141);
+  }
+  
   .color {
       background-color: rgb(245, 213, 156);
       filter:drop-shadow(100px 32px 42px)
@@ -97,7 +134,6 @@
       border-radius: 100px;
       width: 100%;
       padding-right: 10px;
-      padfding-left: 200px
   }
   .f2 {
       flex: 1;
@@ -160,7 +196,7 @@ text-align: center;
 </style>
 <body>
 
-  <div class="grid-container color">
+  <div class="grid-container headerColor">
 
       <script src="index.js"></script>
        
@@ -170,8 +206,8 @@ text-align: center;
           <span class = "spanmain"><img class="mainphoto" src="/static/plane1.jpg"></span>
       </div>
       <div class = pad>
-      <h1 class="top-h1" style="grid-column: 1/ span3; text-align: center;background-color: rgb(248, 224, 245);">{% block h1 %} {% endblock %}</h1>
-      <h2 class="top-h1">Visa Information | Travel Information</h2>
+      <h1 class="top-h1" style="text-align: center;background-color: rgb(248, 224, 245);">{% block h1 %} {% endblock %}</h1>
+      <h2 class="top-h1 more1 pointer">Visa Information | Travel Information</h2>
       </div>
       <div></div>
   </div>

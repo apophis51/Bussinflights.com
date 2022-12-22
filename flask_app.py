@@ -1,9 +1,11 @@
 
-# A very simple Flask Hello World app for you to get started with...
-
 from flask import Flask, render_template, request
+from colombia_blueprint import colombia_blueprint
+
 
 app = Flask(__name__)
+app.register_blueprint(colombia_blueprint, url_prefix='/colombia-flights')
+
 '''
 @app.route('/')
 def hello_world():
@@ -51,19 +53,3 @@ def thankyou():
 def dontclick():
     return render_template("Dontclick.html")
 
-### Colombia
-@app.route("/colombia-flights/")
-def colombiaflights():
-    return render_template("/colombia-flights/colombiaflights.html")
-@app.route("/colombia-flights/Exploring-Colombia-All-You-Need-to-Know-Before-You-Go/")
-def ExploringColombiaAllYouNeedtoKnowBeforeYouGo():
-    return render_template("/colombia-flights/Exploring-Colombia-All-You-Need-to-Know-Before-You-Go.html")    
-@app.route("/colombia-flights/cheap-flights-to-colombia/")
-def cheapflightstocolombia():
-    return render_template("/colombia-flights/cheap-flights-to-colombia.html")
-@app.route("/colombia-flights/american-airlines-flights-to-colombia/")
-def americanairlinesflightstocolombia():
-    return render_template("/colombia-flights/american-airlines-flights-to-colombia.html")
-@app.route("/colombia-flights/flights-to-colombia-from-london/")
-def flightstocolombiafromlondon():
-    return render_template("/colombia-flights/flights-to-colombia-from-london.html")

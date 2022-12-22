@@ -1,11 +1,15 @@
 {% extends "base.html" %}
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+
 {% block widget %}
 <div id="widget-holder">
     <script data-affilid="apophis51mexicotulum" data-to="CUN,tulum_mx" data-departure="2023-01-31_2023-02-28"
         data-transport-types="FLIGHT" data-background-primary-color="ffffff" data-background-secondary-color="fcfcff"
         src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
         </script>
-</div>{% endblock %}
+</div>
+
+{% endblock widget%}
 
 {% block travelphoto %} <img class="bodyphoto" src="../static/niceviewofcolombia.png">{% endblock %}
 

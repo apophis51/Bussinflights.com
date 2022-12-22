@@ -64,3 +64,6 @@ def cheapflightstocolombia():
 @app.route("/colombia-flights/american-airlines-flights-to-colombia/")
 def americanairlinesflightstocolombia():
     return render_template("/colombia-flights/american-airlines-flights-to-colombia.html")
+@app.route("/colombia-flights/flights-to-colombia-from-london/")
+def flightstocolombiafromlondon():
+    return render_template("/colombia-flights/flights-to-colombia-from-london.html")

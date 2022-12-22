@@ -1,10 +1,19 @@
-{% extends "base1.html" %}
+{% extends "base.html" %}
+{% block title %} Bussin Flights{% endblock title %}
+{% block h1 %} Bussin Flights {% endblock %}
+
 {% block base %}
-  <div class="flex item color">
+
+  <div class="flex item color ">
       
           <div class="f1 item">
             <p>At Bussinflights.com, our mission is to provide convenient and affordable flight options to any destination in the world, so that travelers can explore new destinations and cultures with ease and confidence. We strive to make the entire travel experience as affordable and stress-free as possible, while still providing a high-quality service with excellent customer service. We are dedicated to providing our customers with the best possible experience, and to helping them enjoy their travels without financial worries.</p>
-            <div id="widget-holder">
+            <div class = "loading" >
+              <h3 style = "    background-color: aliceblue;
+              "> Loading Fight Data</h3>
+              <img src="/static/loading.gif">
+            </div>
+            <div  id="widget-holder">
             <script 
             data-affilid="apophis51widget1" 
             data-results-only="true" 

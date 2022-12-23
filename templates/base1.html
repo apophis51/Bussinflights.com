@@ -17,7 +17,7 @@ $(document).ready(function(){$(".section1").hide();$(".less1").hide(); });
 // ]]></script><script>
 $(document).ready(function(){
   $(".less1").click(function(){
-$(".section1").toggle(1000);$(".more1").toggle(1000);$(".less1").toggle();
+$(".section1").toggle();$(".more1").toggle(1000);$(".less1").toggle(1000);
   });
   $(".more1").click(function(){  $(".section1").toggle(1000);$(".less1").toggle(1000);$(".more1").toggle(1000);
   });
@@ -56,19 +56,37 @@ $(".section2").toggle();$(".more2").toggle();$(".less2").toggle();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{% block title %} {% endblock %}</title> 
+    <title style>{% block title %} {% endblock %}</title> 
     <link rel="stylesheet" href="style.css">
 
 
     <style>
-      
+        .smallfont{
+  font-size: 1rem;
+}
+.bigfont{
+  font-size: 2rem;
+}
+.maxwidth50{
+  max-width: 50%;
+}
+.borderradius100{
+  border-radius: 2%;
+}
+.close{
+  padding-left: 45%
+}
+
+.white {
+  background-color: white
+}
+
       li {
         display:inline;
       }
     </style>
-    <body>
-    <nav>
-      <ul class = "nav">
+    <nav">
+      <ul class = "nav smallfont">
         <li>
           <a href = "/tulum-mexico/">Tulumn Mexico</a>
         </li>
@@ -84,7 +102,9 @@ $(".section2").toggle();$(".more2").toggle();$(".less2").toggle();
   </head>
 <style>
   .pad{
-    padding-left: 22%;
+    paddizng-left: 20%;
+    paddzing-right: 20%;
+    justify-content: center;
   }
   .top-h1{
     padding-left: 20px;
@@ -102,7 +122,7 @@ $(".section2").toggle();$(".more2").toggle();$(".less2").toggle();
     
   }
   .headerColor{
-    background-color: rgb(241, 206, 141);
+    background-color: rgba(148, 244, 210, 0.585);
   }
   
   .color {
@@ -143,16 +163,13 @@ $(".section2").toggle();$(".more2").toggle();$(".less2").toggle();
       flex: 1
   }
   .f4 {
-      width: 80%
+      width: 100%
   }
   .break {
 flex-basis: 100%;
 height: 0;
 }
 
-#widget-holder{
-s
-}
   .mainphoto {
       max-height: 200px;
       min-width: 90%;
@@ -193,10 +210,12 @@ text-align: center;
       height: 50%;
       z-index: 1;
   }
+
+
 </style>
 <body>
 
-  <div class="grid-container headerColor">
+  <div class="grid-container headerColor" style = "filter: drop-shadow(20px 30px 40px);";>
 
       <script src="index.js"></script>
        
@@ -205,9 +224,9 @@ text-align: center;
 -->
           <span class = "spanmain"><img class="mainphoto" src="/static/plane1.jpg"></span>
       </div>
-      <div class = pad>
-      <h1 class="top-h1" style="text-align: center;background-color: rgb(248, 224, 245);">{% block h1 %} {% endblock %}</h1>
-      <h2 class="top-h1 more1 pointer">Visa Information | Travel Information</h2>
+      <div class >
+      <h1 class="todp-h1" style="text-align: center;background-color: rgb(248, 224, 245); margin:1%;">{% block h1 %} {% endblock %}</h1>
+      <h2 class="todp-h1 more1 pointer; "style =" color: white; text-decoration: underline" >Visa Information | Travel Information</h2>
       </div>
       <div></div>
   </div>

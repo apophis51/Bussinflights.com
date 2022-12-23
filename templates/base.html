@@ -1,30 +1,32 @@
 {% extends "base1.html" %}
 {% block base %}
-<div class = "flex item color section1">
-  <p class  = "top-h1 less1 pointer"> Close Menu</p>
-  <div>{% block flag %} {% endblock flag %}</div>
-  <div>{% block visa %} {% endblock %}</div>
-  <div>{% block travelphoto %} {% endblock travelphoto %}</div>
-  <div>{% block travel %} {% endblock travel %}</div>
-  <p class  = "top-h1 less1 pointer"> Close Menu</p>
-</div>
+<p class  = "less1 pointer bigfont " style="text-align: center; align-items: center; justify-content: center;"> Close Menu</p>
 
+<div class = "flex color section1" style = "justify-content: center;">
+  <div class = ""  style = " object-fit:fill; " ><h2 >Visa Information</h2><div ><span style="object-fit:cover">{% block flag %}{% endblock flag %}</span>{% block visa %} {% endblock %}</div></div>
+  <div class= "" style = "width:340px; max-hCeight: 300px;" > <h2>Travel Information</h2> <div>{% block travelphoto %}{% endblock travelphoto %}{% block travel %} {% endblock travel %}</div></div>
+
+</div>
+<p class  = "f2 less1 pointer bigfont " style="text-align:center"> Close Menu</p>
   <div class="flex item color">
-      
-          <div class="f1 item">
-          <h2 style="background-color: blueviolet;">Flight Data</h2>
+
+          <div class="f1 item ">
+          <h2 style="background-color: rgb(0,169,145);">Flight Data</h2>
           <div class = "loading" >
             <h3 style = "    background-color: aliceblue;
             "> Loading Fight Data</h3>
             <img src="/static/loading.gif">
           </div>
+          
+          <div class="borderradius100">  
+            
           {% block widget %} {% endblock %}
-
+          </div>>
           <!-- 
           <img class="flightdata" src="../static/test1.png">-->
       </div> 
       <div class="f2 item">
-          <h2 class=>Visa Information</h2>
+          
     
           
 

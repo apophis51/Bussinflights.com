@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CKEditor 5 - Classic editor</title>
+    <script src="https://cdn.ckeditor.com/ckeditor5/35.4.0/classic/ckeditor.js"></script>
+</head>
+<body>
+        {{first}}
+    <h1>Classic editor</h1>
+    <form action="/example/mypostt/" method="post">
+        <textarea name="content" id="editor">
+            {{first}}
+            &lt;p&gt;Thisfss is some fsample fdsfcontent.&lt;/p&gt;
+        </textarea>
+        <p><input type="submit" value="Submit"></p>
+    </form>
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '#editor' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
+</body>
+</html>

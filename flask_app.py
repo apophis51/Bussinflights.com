@@ -1,10 +1,12 @@
 
 from flask import Flask, render_template, request
 from colombia_blueprint import colombia_blueprint
-
+from example_blueprint import example_blueprint
 
 app = Flask(__name__)
 app.register_blueprint(colombia_blueprint, url_prefix='/colombia-flights')
+app.register_blueprint(example_blueprint, url_prefix='/example')
+
 
 '''
 @app.route('/')
@@ -23,6 +25,13 @@ def home():
 @app.route('/fuck/')
 def hello_worldd():
     return render_template("tutorial.html")
+
+def b():
+    def c():
+        @app.route('/b')
+        def t():
+            return render_template("tutorial.html")
+    return c()
 '''
 @app.route('/')
 def home():

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <script type = "text/javascript"  src = "/static/app.js" ></script>
+  <link rel= "stylesheet" type= "text/css" href= "/static/test.css">
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H7VW95FNY9"></script>
 <script>
@@ -45,6 +47,7 @@ $(".section2").toggle();$(".more2").toggle();$(".less2").toggle();
 
 <style>
   .pointer{ 
+  cursor:pointer;
   text-decoration: underline; 
   color: #ff0000; 
 
@@ -78,24 +81,22 @@ $(".section2").toggle();$(".more2").toggle();$(".less2").toggle();
 .white {
   background-color: white
 }
+.topnav {
+  bacfkground-color: #7d0808;
+  colfor:antiquewhite;
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
 
-      li {
-        display:inline;
-      }
-    </style>
-    <nav">
-      <ul class = "nav smallfont">
-        <li>
-          <a href = "/tulum-mexico/">Tulumn Mexico</a>
-        </li>
-      <li>
-      <a href = "{{url_for('home')}}">| Home</a>
-      </li>
-      <li>
-      <a href = "/colombia-flights/">| Colombia</a>
-      </li>
-      </ul>
-    </nav>
+
+</style>
+
+    <div class = "topnav">
+      <a class = "topnav" href = "{{url_for('home')}}">| Home</a>
+      <a class = "topnav"href = "/colombia-flights/">| Colombia</a>
+      <a class = "topnav"href = "/tulum-mexico/"> |Tulumn Mexico</a>
+
+      </div>
 
   </head>
 <style>
@@ -229,9 +230,9 @@ text-align: center;
 -->
           <span class = "spanmain"><img class="mainphoto" src="/static/plane1.jpg"></span>
       </div>
-      <div class >
+      <div class = >
       <h1 class="todp-h1" style="text-align: center;background-color: rgb(248, 224, 245); margin:1%;">{% block h1 %} {% endblock %}</h1>
-      <h2 class="todp-h1 more1 pointer; "style =" color: white; text-decoration: underline" >Visa Information | Travel Information</h2>
+      <h2 class="todp-h1 more1 pointer "style =" color: white;" >Visa Information | Travel Information</h2>
       </div>
       <div></div>
   </div>

@@ -18,4 +18,27 @@ def americanairlinesflightstocolombia():
     return render_template("/colombia-flights/american-airlines-flights-to-colombia.html")
 @colombia_blueprint.route("/flights-to-colombia-from-london/")
 def flightstocolombiafromlondon():
-    return render_template("/flights-to-colombia-from-london.html")
+    return render_template("/colombia-flights/flights-to-colombia-from-london.html")
+
+@colombia_blueprint.route("/flights-to-colombia-medellin/")
+def flightstocolombiamedellin():
+    return render_template("/colombia-flights/flights-to-colombia-medellin.html")
+
+@colombia_blueprint.route("/cheap-flights-to-medellin-colombia/")
+def cheapflightstomedellincolombia():
+    return render_template("/colombia-flights/cheap-flights-to-medellin-colombia.html")
+@colombia_blueprint.route("/flights-to-medellin-colombia-from-miami/")
+def flightstomedellincolombiafrommiami():
+    return render_template("/colombia-flights/flights-to-medellin-colombia-from-miami.html")
+@colombia_blueprint.route("/flights-from-orlando-to-medellin-colombia/")
+def flightsfromorlandotomedellincolombia():
+    return render_template("/colombia-flights/flights-from-orlando-to-medellin-colombia.html")
+@colombia_blueprint.route("/cheap-flights-from-miami-to-medellin-colombia/")
+def cheapflightsfrommiamitomedellincolombia():
+    return render_template("/colombia-flights/cheap-flights-from-miami-to-medellin-colombia.html")
+@colombia_blueprint.route("/cheap-flights-to-medellin-colombia-from-new-york/")
+def cheapflightstomedellincolombiafromnewyork():
+    return render_template("/colombia-flights/cheap-flights-to-medellin-colombia-from-new-york.html")
+@colombia_blueprint.route("/flights-to-medellin-colombia-from-los-angeles")
+def flightstomedellincolombiafromlosangeles():
+    return render_template("/colombia-flights/flights-to-medellin-colombia-from-los-angeles.html")

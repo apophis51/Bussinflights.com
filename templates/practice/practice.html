@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>My Todo APP</title>
+    <style>
+        div1 {
+            font-size: 2rem;
+            display: flex
+            wrap
+        }
+    </style>
+</head>
+<body>
+
+<button onclick = "todos.push('new todo');" disabdled = "true">press me</button>
+<script>
+
+   let todos = ['get groceries', 'wash car', 'make dinner'];
+   todos.push('another todo')
+
+
+    todos.forEach( function(todoTitle){
+        let element = document.createElement('div');
+        element.innerText = todoTitle;
+        document.body.appendChild(element);
+    });
+    
+
+</script>
+
+
+
+</body>
+</html>

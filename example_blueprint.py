@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request
-from flask_ckeditor import CKEditorField, CKEditor
+#from flask_ckeditor import CKEditorField, CKEditor
 
 example_blueprint = Blueprint('example_blueprint', __name__)
 #second = Blueprint('example_blueprint', __name__, template_folder='templates')

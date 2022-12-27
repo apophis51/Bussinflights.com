@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block h1 %}{% block title %}Flights from Salt Lake City to Bogota Colombia{% endblock %}{% endblock %}
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+{% block widget %}
+<div id="widget-holder">
+    <script data-affilid="apophis51mexicotulum" data-to="CUN,tulum_mx" data-departure="2023-01-31_2023-02-28"
+        data-transport-types="FLIGHT" data-background-primary-color="ffffff" data-background-secondary-color="fcfcff"
+        src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+        </script>
+</div>
+
+{% endblock widget%}
+
+
+<div class = "white">
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+ {% endblock %}
+
+{% block content %}
+<h2>Which Airlines Provide the Cheapest Flights from Salt Lake City to Bogota?</h2><p>Are you looking for a great deal on flights from Salt Lake City to Bogota, Colombia? There are several airlines that offer flights from Salt Lake City to Bogota, including Delta, American Airlines, United, and Avianca. Prices may vary depending on the airline, but Delta typically offers the cheapest flights. You can also search for flights on online travel sites like Expedia or Travelocity to compare prices and find the best deal.</p><h2>What's the Cheapest day of the week to fly from Salt Lake city to Bogota?</h2><p>The cheapest day of the week to fly from Salt Lake City to Bogota is typically a Tuesday or Wednesday. Prices tend to be lower during the week, since fewer people are flying during those days. However, it is always wise to compare prices and check availability before booking your flight.</p><h2>Are there non-stop flights from Salt Lake City to Bogota?</h2><p>Unfortunately, there are no non-stop flights from Salt Lake City to Bogota. Most flights will have at least one stop before arriving in Bogota. However, most flights will be relatively short, with the total travel time typically ranging from 8 to 10 hours.</p><h2>What is the shortest flight from salt lake city to Bogota?</h2><p>The shortest flight from Salt Lake City to Bogota is usually offered by Delta. This flight usually takes around 8 hours and 15 minutes and will make one stop before arriving in Bogota. The flight will usually have a layover of one to two hours at either Atlanta, Dallas, or Miami.</p><p>Overall, there are many options available when it comes to flights from Salt Lake City to Bogota. By doing a bit of research and comparing prices, you can find the best deal and get to your destination in no time.</p>
+
+<em>
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+</em>
+</div>
+{% endblock %}

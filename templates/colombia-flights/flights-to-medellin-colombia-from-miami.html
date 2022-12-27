@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block h1 %}{% block title %}Flights to Medellin Colombia from Miami{% endblock %}{% endblock %}
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+{% block travelphoto %} <img class="bodyphoto" src="../static/niceviewofcolombia.png">{% endblock %}
+
+
+{% block widget %}
+<div id="widget-holder">
+    <script data-affilid="apophis51mexicotulum" data-to="CUN,tulum_mx" data-departure="2023-01-31_2023-02-28"
+        data-transport-types="FLIGHT" data-background-primary-color="ffffff" data-background-secondary-color="fcfcff"
+        src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+        </script>
+</div>
+
+{% endblock widget%}
+
+
+<div class = "white">
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+ {% endblock %}
+
+{% block content %}
+<h2>Which Airlines Provide the Cheapest Flights from Miami to Medellin?</h2><p>If you’re looking for the cheapest flights from Miami to Medellin, Colombia, you’ll want to check out Spirit Airlines and JetBlue. Both airlines offer great deals on flights to Medellin, with Spirit often having the lowest prices. Other airlines like American, Delta, and United also offer flights, but you might find that their prices are higher.</p><h2>What’s the Cheapest Day of the Week to Fly from Miami to Medellin?</h2><p>If you’re looking to save some money on your flight from Miami to Medellin, you’ll want to choose your departure day carefully. Generally, the cheapest day to fly is on a Tuesday or Wednesday. If you’re willing to be flexible with your travel dates, you may be able to save some money by flying on other days of the week.</p><h2>Are There Non-Stop Flights from Miami to Medellin?</h2><p>Yes, there are several non-stop flights from Miami to Medellin. American Airlines, JetBlue, and Spirit Airlines all offer non-stop flights on this route. These flights tend to be more expensive than flights with layovers, so you may want to explore other options if your budget is tight.</p><h2>What is the Shortest Flight from Miami to Medellin?</h2><p>The shortest flight from Miami to Medellin is about three hours and thirty minutes. Non-stop flights are typically the shortest, so you’ll want to look into those options if you’re looking to get to your destination as quickly as possible. Keep in mind that flight times may vary depending on the airline and the type of plane you’re flying on.</p>
+
+<em>
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+</em>
+</div>
+{% endblock %}

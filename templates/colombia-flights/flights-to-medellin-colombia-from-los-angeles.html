@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block h1 %}{% block title %}Flights to Medellin Colombia from Los Angeles{% endblock %}{% endblock %}
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+{% block widget %}
+<div id="widget-holder">
+    <script data-affilid="apophis51mexicotulum" data-to="CUN,tulum_mx" data-departure="2023-01-31_2023-02-28"
+        data-transport-types="FLIGHT" data-background-primary-color="ffffff" data-background-secondary-color="fcfcff"
+        src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+        </script>
+</div>
+
+{% endblock widget%}
+
+
+<div class = "white">
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+ {% endblock %}
+
+{% block content %}
+<p>The city of Medellin, Colombia is an exciting destination for travelers looking for an unforgettable adventure. Many travelers from Los Angeles, California are looking for the best deals on flights to Medellin, Colombia. With the help of a few online search tools, you can easily find the cheapest flights from Los Angeles to Medellin.</p><h2>Which Airlines Provide the Cheapest Flights from Los Angeles to Medellin?</h2><p>The cheapest airlines to fly from Los Angeles to Medellin include Avianca, LATAM Airlines, and Copa Airlines. These airlines offer the most competitive prices when booking flights. It’s also important to compare prices between different airlines to find the best deal.</p><h2>What's the Cheapest Day of the Week to Fly from Los Angeles to Medellin?</h2><p>The cheapest days to fly from Los Angeles to Medellin are Tuesday and Wednesday. These days tend to offer the lowest fares. It’s also important to compare prices between different airlines to find the best deal.</p><h2>Are There Non-Stop Flights from Los Angeles to Medellin?</h2><p>Yes, there are non-stop flights from Los Angeles to Medellin. Avianca, LATAM Airlines, and Copa Airlines offer non-stop flights from Los Angeles International Airport to Medellin's Jose Maria Cordova International Airport.</p><h2>What is the Shortest Flight from Los Angeles to Medellin?</h2><p>The shortest flight from Los Angeles to Medellin is a non-stop flight on LATAM Airlines. The flight time is approximately 10 hours and 20 minutes. This is the fastest way to get from Los Angeles to Medellin. It’s important to compare prices between airlines to find the best deal.</p>
+
+<em>
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+</em>
+</div>
+{% endblock %}

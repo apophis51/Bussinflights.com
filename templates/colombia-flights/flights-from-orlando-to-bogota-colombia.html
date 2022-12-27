@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block h1 %}{% block title %}Flights from Orlando to Bogota Colombia{% endblock %}{% endblock %}
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+{% block widget %}
+<div id="widget-holder">
+    <script data-affilid="apophis51mexicotulum" data-to="CUN,tulum_mx" data-departure="2023-01-31_2023-02-28"
+        data-transport-types="FLIGHT" data-background-primary-color="ffffff" data-background-secondary-color="fcfcff"
+        src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+        </script>
+</div>
+
+{% endblock widget%}
+
+
+<div class = "white">
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+ {% endblock %}
+
+{% block content %}
+<h2><br>Which airlines provide the cheapest flights from Orlando to Bogota?</h2><p>The cheapest flights from Orlando to Bogota, Colombia can be found with a variety of airlines, including American Airlines, Spirit, and United. Prices can vary significantly depending on the time of year and the day of the week, so it pays to do your research.</p><h2>What's the cheapest day of the week to fly from Orlando to Bogota?</h2><p>Typically, the cheapest day of the week to fly from Orlando to Bogota is Tuesday. Prices tend to be the lowest on Tuesdays, so if you’re looking to save money on your flight, try to book a flight for that day of the week.</p><h2>Are there non-stop flights from Orlando to Bogota?</h2><p>Occasionally there are non-stop flights from Orlando to Bogota. However, most flights departing from Orlando require at least one stop in another city.</p><h2>What is the shortest flight from Orlando to Bogota?</h2><p>The shortest flight from Orlando to Bogota is operated by takes just under 5 hours. In conclusion, the cheapest way to travel from Orlando to Bogota is by taking advantage of cheap deals from American Airlines, Spirit, and United. Most flights from Orlando require at least one stop, but the total flight time is still relatively short, with the shortest flight taking just under 5 hours but an be as long as 16hrs.</p>
+
+<em>
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+</em>
+</div>
+{% endblock %}

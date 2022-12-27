@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block h1 %}{% block title %}Flights from Orlando to to Medellin Colombia{% endblock %}{% endblock %}
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+{% block widget %}
+<div id="widget-holder">
+    <script data-affilid="apophis51mexicotulum" data-to="CUN,tulum_mx" data-departure="2023-01-31_2023-02-28"
+        data-transport-types="FLIGHT" data-background-primary-color="ffffff" data-background-secondary-color="fcfcff"
+        src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+        </script>
+</div>
+
+{% endblock widget%}
+
+
+<div class = "white">
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+ {% endblock %}
+
+{% block content %}
+<h2>Which airlines provide the cheapest flights from Orlando to Medellin?</h2><p>When looking for the cheapest flights from Orlando to Medellin, Colombia, there are a variety of airlines to consider. The most affordable option for this route is often Spirit Airlines. They offer some of the lowest prices for flights from Orlando to Medellin. Other airlines such as Avianca, Copa Airlines, and American Airlines are also available for this route, though typically more expensive than Spirit.</p><h2>What's the cheapest day of the week to fly from Orlando to Medellin?</h2><p>The cheapest day of the week to fly from Orlando to Medellin is typically Tuesdays or Wednesdays. While prices can vary depending on the season, these days typically offer the lowest cost for this flight. Additionally, traveling during the off-peak season can also help save money on flights.</p><h2>Are there non-stop flights from Orlando to Medellin?</h2><p>Yes, Spirit airlines fly direct from Orlando to Medellin, Colombia.</p><h2>What is the shortest flight from Orlando to Medellin?</h2><p>The shortest flight from Orlando to Medellin is operated by Spirit Airlines. This flight has a total travel time of 3 hours and 43 minutes.</p>
+
+
+
+
+
+<em>
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+</em>
+</div>
+{% endblock %}

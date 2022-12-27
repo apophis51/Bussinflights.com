@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block h1 %}{% block title %}Flights from Miami to Bogota Colombia{% endblock %}{% endblock %}
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+{% block widget %}
+<div id="widget-holder">
+    <script data-affilid="apophis51mexicotulum" data-to="CUN,tulum_mx" data-departure="2023-01-31_2023-02-28"
+        data-transport-types="FLIGHT" data-background-primary-color="ffffff" data-background-secondary-color="fcfcff"
+        src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+        </script>
+</div>
+
+{% endblock widget%}
+
+
+<div class = "white">
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+ {% endblock %}
+
+{% block content %}
+<h2>Which airlines provide the cheapest flights from Miami to Bogota?</h2><p>The first step to finding cheap flights from Miami to Bogota, Colombia is to compare the prices of different airlines. The airline offering the cheapest flights from Miami to Bogota is Spirit Airlines. The prices may vary depending on the time of year and the availability of tickets, but these airlines typically offer the best deals.</p><h2>What's the cheapest day of the week to fly from Miami to Bogota?</h2><p>The cheapest day of the week to fly from Miami to Bogota is usually on a Wednesday, as this is when most airlines offer discounted flights. However, it's important to check the prices of the different airlines to make sure you're getting the best deal. If you're flexible with your travel dates, you may be able to find even better deals.</p><h2>Are there non-stop flights from Miami to Bogota?</h2><p>You'll be happy to know that most flights leaving from Miami to Bogota are direct and nonstop! :)</p><h2>What is the shortest flight from Miami to Bogota?</h2><p>The shortest flight from Miami to Bogota is usually around 3 hours and 20 minutes.&nbsp;</p><p>Overall, finding cheap flights from Miami to Bogota is possible with a bit of research and flexibility with travel dates. Comparing the prices of different airlines and looking for the cheapest day of the week to fly can help you save money. Non-stop flights may be more expensive than flights with layovers, but they can get you to your destination faster. Finally, the shortest flight from Miami to Bogota is usually around 3 hours and 20 minutes.</p>
+
+<em>
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+</em>
+</div>
+{% endblock %}

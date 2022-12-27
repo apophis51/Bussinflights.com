@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block h1 %}{% block title %}Flights from Atlanta to Bogota Colombia{% endblock %}{% endblock %}
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+{% block widget %}
+<div id="widget-holder">
+    <script data-affilid="apophis51mexicotulum" data-to="CUN,tulum_mx" data-departure="2023-01-31_2023-02-28"
+        data-transport-types="FLIGHT" data-background-primary-color="ffffff" data-background-secondary-color="fcfcff"
+        src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+        </script>
+</div>
+
+{% endblock widget%}
+
+
+<div class = "white">
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+ {% endblock %}
+
+{% block content %}
+<p>The Colombian capital of Bogota is a popular destination for travelers due to its vibrant culture, lively nightlife, and gorgeous colonial architecture. Fortunately, there are plenty of flights from Atlanta to Bogota that can get you there quickly and affordably. In this blog, we will discuss some of the cheapest airlines, best days of the week to fly, non-stop flights, and the shortest flight times from Atlanta to Bogota.</p><h2>Which Airlines Provide the Cheapest Flights from Atlanta to Bogota?</h2><p>The cheapest airlines for flights from Atlanta to Bogota is Spirit.</p><h2>What's the Cheapest Day of the Week to Fly from Atlanta to Bogota?</h2><p>The cheapest days of the week to fly from Atlanta to Bogota are Monday, Wednesday, and Saturday. Generally, flights leave Atlanta on Mondays and Wednesdays, while flights return from Bogota on Saturdays. This is because these days tend to be the least busy, which can result in lower fares.</p><h2>Are There Non-Stop Flights from Atlanta to Bogota?</h2><p>Yes, there are non-stop flights from Atlanta to Bogota. These flights tend to be more expensive than those with layovers, but they are the fastest and most convenient option. The non-stop flight time from Atlanta to Bogota is slightly over 6 hours, so you can get there quickly and start your vacation right away.</p><h2>What is the Shortest Flight from Atlanta to Bogota?</h2><p>The shortest flight from Atlanta to Bogota is operated by Delta Airlines and takes just over 6 hours. This flight is non-stop and offers a comfortable cabin with plenty of legroom and a variety of in-flight entertainment. Delta Airlines also offers a generous baggage allowance so you can bring all your vacation essentials with you.</p>
+
+<em>
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+</em>
+</div>
+{% endblock %}

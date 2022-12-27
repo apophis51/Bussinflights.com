@@ -36,6 +36,10 @@ def b():
 @app.route('/')
 def home():
     return render_template("home.html")
+
+@app.route('/sitemap/')
+def sitemap():
+    return render_template("sitemap.txt")
     
 @app.errorhandler(404)
 def page_not_found(e):

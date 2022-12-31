@@ -13,29 +13,8 @@ https://www.flightticketfinder.com/colombia-flights/flights-miami-to-bogota-colo
 https://www.flightticketfinder.com/colombia-flights/flights-from-orlando-to-bogota-colombia/
 https://www.flightticketfinder.com/colombia-flights/flights-from-lax-to-bogota-colombia/
 https://www.flightticketfinder.com/colombia-flights/flights-from-atlanta-to-bogota-colombia/
-
-
-
 https://www.flightticketfinder.com/colombia-flights/flights-fort-lauderdale-to-bogota-colombia/
-<div id="widget-holder"></div>
-<script 
-data-affilid="apophis51saltlaketobogota" 
-data-from="fort-lauderdale_fl_us" 
-data-to="bogota_co" 
-data-transport-types="FLIGHT" 
-src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
-</script>
-
-
 https://www.flightticketfinder.com/colombia-flights/flights-from-salt-lake-city-to-bogota-colombia/
-<div id="widget-holder"></div>
-<script 
-data-affilid="apophis51saltlaketobogota" 
-data-from="salt-lake-city_ut_us" 
-data-to="bogota_co" 
-data-transport-types="FLIGHT" 
-src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
-</script>
 
 
 

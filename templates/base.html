@@ -1,10 +1,12 @@
 {% extends "base1.html" %}
 {% block base %}
 <p class  = "less1 pointer bigfont " style="text-align: center; align-items: center; justify-content: center;"> Close Menu</p>
+<p class  = "less3 pointer bigfont " style="text-align: center; align-items: center; justify-content: center;"> Close Menu</p>
 
-<div class = "flex color section1" style = "justify-content: center; margin-left: 5%; margin-right: 5%;">
-  <div class = ""  style = " object-fit:fill; " ><h2 >Visa Information</h2><div ><span style="object-fit:cover">{% block flag %}{% endblock flag %}</span>{% block visa %} {% endblock %}</div></div>
-  <div class= "" style = "width:340px;" > <h2>Travel Information</h2> <div>{% block travelphoto %}{% endblock travelphoto %}{% block travel %} {% endblock travel %}</div></div>
+
+<div class = "flex color " style = "justify-content: center; margin-left: 5%; margin-right: 5%;">
+  <div class = "section1"  style = " object-fit:fill; " ><h2 >Visa Information</h2><div ><span style="object-fit:cover">{% block flag %}{% endblock flag %}</span>{% block visa %} {% endblock %}</div></div>
+  <div class= "section3" style = "width:340px;" > <h2>Travel Blogs</h2> <div>{% block travelphoto %}{% endblock travelphoto %}{% block travel %} {% endblock travel %}</div></div>
 
 </div>
 <script>
@@ -12,7 +14,7 @@
   $(document).ready(function(){$(".expandtext").click(function(){$(".expand").toggleClass("hide");});});
   </script>
 
-<p class  = "f2 less1 pointer bigfont " style="text-align:center"> Close Menu</p>
+<p class  = "f2 less1 less3 pointer bigfont " style="text-align:center"> Close Menu</p>
 <div class = "expand smallfont white" style="background-color: aliceblue; padding-left: 8%;padding-right: 8%;"> 
   {% block content %}
   {% endblock content %}

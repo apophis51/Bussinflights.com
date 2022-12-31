@@ -1,14 +1,17 @@
 {% extends "base.html" %}
 {% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
 {% block flag %}<img class="bodyphoto" src="/static/colombianflag.png">{% endblock flag%}
-{% block travelphoto %} <img class="bodyphoto" src="../static/niceviewofcolombia.png">{% endblock travelphoto %}
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock travelphoto %}
 {% block widget %}
-<div id="widget-holder">
-    <script data-affilid="apophis51mexicotulum" data-to="CUN,tulum_mx" data-departure="2023-01-31_2023-02-28"
-        data-transport-types="FLIGHT" data-background-primary-color="ffffff" data-background-secondary-color="fcfcff"
-        src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
-        </script>
-</div>{% endblock %}
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-to="CO" 
+data-transport-types="FLIGHT" 
+data-airlines-list="AA" 
+data-airlines-exclude="false" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>{% endblock %}
 
 <div>{% block visa %} Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
         rel="sponsored">VisaHQ</a>

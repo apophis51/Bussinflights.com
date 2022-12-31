@@ -7,9 +7,19 @@
   <div class= "" style = "width:340px;" > <h2>Travel Information</h2> <div>{% block travelphoto %}{% endblock travelphoto %}{% block travel %} {% endblock travel %}</div></div>
 
 </div>
-<p class  = "f2 less1 pointer bigfont " style="text-align:center"> Close Menu</p>
-  <div class="flex item color">
+<script>
+  $(document).ready(function(){$(".expand").addClass("hide");})
+  $(document).ready(function(){$(".expandtext").click(function(){$(".expand").toggleClass("hide");});});
+  </script>
 
+<p class  = "f2 less1 pointer bigfont " style="text-align:center"> Close Menu</p>
+<div class = "expand smallfont white" style="background-color: aliceblue; padding-left: 8%;padding-right: 8%;"> 
+  {% block content %}
+  {% endblock content %}
+  <div class ="expandtext pointer more2"><p class = "bigfont" style = "text-align: center; color:black">+ Expand</p></div>
+  <div class ="expandtext pointer less2"><p class = "bigfont" style = "text-align: center; color:black">- Less</p></div>
+  </div>
+  <div class="flex item color">
           <div class="f1 item ">
           <h2 style="background-color: rgb(0,169,145);">Flight Data</h2>
           <div class = "loading" >
@@ -42,8 +52,7 @@
 
       <div class="f4 color item">
           
-          {% block content %}
-          {% endblock %}
+          
       </div>
   </div>
 </body>

@@ -22,7 +22,7 @@ def home():
     return render_template("tutorial.html",my_variable=some_variable, letters=letters,mylist=mylist,userlogedin=userlogedin)
 
 
-@app.route('/fuck/')
+@app.route('/gfdg/')
 def hello_worldd():
     return render_template("tutorial.html")
 

@@ -9,18 +9,43 @@
         {{first}}
     <h1>Classic editor</h1>
     <form action="/example/mypostt/" method="post">
-        <textarea name="content" id="editor">
+        <textarea name="content" class="editor">
             {{first}}
-            &lt;p&gt;Thisfss is some fsample fdsfcontent.&lt;/p&gt;
+            <p>{{myprompt}}</p>
         </textarea>
         <p><input type="submit" value="Submit"></p>
+     </form>
+
+    <form action="/example/gpt3/" method="post">
+        <textarea name="content" class="editor">
+            {{first}}
+            <p>{{myprompt}}</p>
+        </textarea>
+       <p>  <input  type="submit" value="GPT" /></p>
     </form>
+
+    <form action="/example/print/" method="post">
+    <label for = "title">title:</label>
+    <input type = "text"  name="title">
+    <label for = "url">url:</label>
+    <input type = "text"  name = "url">
+        <textarea name="content" class="editor">
+            {{first}}
+            <p>{{myprompt}}</p>
+        </textarea>
+    <input   type="submit" value="Print" />
+    </form>
+
     <script>
         ClassicEditor
-            .create( document.querySelector( '#editor' ) )
+            .create( document.querySelector( '.editor' ) )
             .catch( error => {
                 console.error( error );
             } );
     </script>
+
+
+
+
 </body>
 </html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CKEditor 5 - Classic editor</title>
+    <script src="https://cdn.ckeditor.com/ckeditor5/35.4.0/classic/ckeditor.js"></script>
+</head>
+<body>
+        {{first}}
+    <h1>Classic editor</h1>
+    <form action="/example/mypostt/" method="post">
+        <textarea name="content" id="editor">
+            {{first}}
+            &lt;p&gt;Thisfss is some fsample fdsfcontent.&lt;/p&gt;
+        </textarea>
+        <p><input type="submit" value="Submit"></p>
+    </form>
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '#editor' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
+<h3>Generate new country blog</h3>
+<form action="/example/mypostt/" method="post">
+  <input type="text" name="animal" placeholder="Enter an animal" required />
+  <input type="submit" value="Generate names" />
+</form>
+{% if result %}
+<div class="result">{{ result }}</div>
+{% endif %}
+
+
+
+
+</body>
+</html>

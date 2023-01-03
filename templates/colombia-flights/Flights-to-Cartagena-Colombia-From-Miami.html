@@ -1,0 +1,54 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights to Cartagena Colombia From Miami{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="miami_fl_us" 
+data-to="cartagena_co" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+<p>Cartagena is a city full of culture, history, and stunning beaches, making it an excellent destination for a vacation. Direct flights from Miami make it easy to get to Cartagena without breaking the bank. By planning ahead and booking your tickets in advance, you can find the best deals and make the most of your trip.</p><h2>What airport do you fly into for Cartagena?&nbsp;</h2><p>The Rafael Núñez International Airport is the main airport serving the city of Cartagena, Colombia. It is located in the northwest part of the city, just 12 km away from the historic center. The airport has a wide range of domestic and international flights, making it the most important airport in the Caribbean region of Colombia.&nbsp;</p><h2>Can you fly from Miami to Cartagena?&nbsp;</h2><p>Yes, there are several direct flights from Miami to Cartagena, Colombia. American Airlines, Avianca, and Copa Airlines offer direct flights from Miami to Cartagena, with flight times lasting 2hr 55m.&nbsp;</p><h2>How far is Miami to Cartagena?&nbsp;</h2><p>The distance between Miami and Cartagena is approximately 1,105 miles</p><h2>What is the cheapest month to fly from Miami to Cartagena?&nbsp;</h2><p>The cheapest month to fly from Miami to Cartagena is usually in the months of August, September and October. These months typically experience the lowest fares, with prices ranging from $300 to $500 for a round-trip ticket. Prices tend to increase in the months leading up to the holidays, so it's best to book your tickets early if you're looking for the best deals.</p><p>&nbsp;</p>
+Classic editor
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

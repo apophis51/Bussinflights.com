@@ -1,0 +1,54 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights From Chicago to Cali Colombia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="chicago_il_us" 
+data-to="cali_co" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+<p>Planning a trip from Chicago to Cali, Colombia?</p><p>Whether you’re looking for a long-term stay or a quick getaway, finding the right flight to Cali can be daunting. In this blog, we’ll help you navigate the process of getting the best flight deal from Chicago to Cali by answering some of the most common questions about the flight.&nbsp;</p><h2>How far is the flight from O'Hare Intl. Airport (ORD) to Cali Airport?&nbsp;</h2><p>The flight from Chicago O’Hare International Airport (ORD) to Cali Airport (CLO) is 2,775 miles and takes approximately 8 hours and 20 minutes.&nbsp;</p><h2>How much is a flight from O'Hare Airport to Cali Airport?&nbsp;</h2><p>The cost of the flight depends on the airline, the flight times, and the class of travel. Generally, direct flights from Chicago to Cali range from $450 to $1,000, while flights with layovers may cost as little as $350.</p><h2>&nbsp;What is the cheapest airline to fly from Chicago to Cali round-trip?&nbsp;</h2><p>The cheapest airline to fly from Chicago to Cali round-trip is Avianca. The airline offers round-trip flights for as low as $450.&nbsp;</p><h2>What’s the cheapest day of the week to fly from Chicago to Cali?&nbsp;</h2><p>The cheapest days to fly from Chicago to Cali are usually on Tuesdays and Wednesdays but can depend on the season. Flights on these days are usually up to 20% cheaper than flights on other days. Finding the right flight to Cali doesn’t have to be a daunting task. With a little research and planning, you can find the best flight deal from Chicago to Cali, and have a great time in Colombia.</p> <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

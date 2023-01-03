@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Non Stop Flights to Cali Colombia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-to="cali_co" 
+data-transport-types="FLIGHT" 
+data-stop-number="0" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+<p>Are you looking to buy a non-stop flight to Cali, Colombia? With the rise of budget airlines, it's now easier than ever to travel from one country to another without having to worry about long layovers or multiple connections. Here's everything you need to know about finding non-stop flights to Cali, Colombia.&nbsp;</p><h2>Can you fly direct to Colombia?&nbsp;</h2><p>Yes, there are several non-stop flights to Colombia available from major airports around the world. Airlines such as Avianca, Copa Airlines, and LATAM all offer direct flights to Cali.&nbsp;</p><h2>What airport is close to Cali Colombia?&nbsp;</h2><p>The closest airport to Cali is Alfonso Bonilla Aragón International Airport (CLO). This airport serves as a hub for domestic flights and offers a wide range of international connections.&nbsp;</p><h2>What are the requirements for flying to Colombia?&nbsp;</h2><p>All passengers traveling to Colombia must have a valid passport with at least 6 months validity remaining, proof of onward travel, and a valid visa or visa waiver depending on their nationality.&nbsp;</p> <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

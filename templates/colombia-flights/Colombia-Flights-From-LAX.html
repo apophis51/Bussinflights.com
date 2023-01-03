@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Colombia Flights From LAX{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="LAX" 
+data-to="CO" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Are you planning a trip to Colombia and looking to purchase flights from LAX? If so, you have come to the right place! In this blog, we will discuss the details of flights from LAX to Colombia, such as the duration, distance, and airlines. Read on to learn more!</p><h2>How long is a direct flight from LAX to Colombia?</h2><p>A direct flight from LAX to Colombia typically takes around 7 hours and 5 minutes. This is the total flight time, including take-off and landing. Depending on the airline and the route taken, this time can vary, so be sure to check your flight details carefully.</p><h2>How far is the flight from lax to Colombia?</h2><p>The flight from LAX to Colombia is approximately 3473 miles. This distance is calculated in a straight line from the two airports, so the actual flight path may be slightly longer.</p><h2>What airlines fly direct to Colombia?</h2><p>There are a number of airlines that offer direct flights from LAX to Colombia, including American Airlines, Delta, and United. These airlines offer a variety of flight times and prices, so be sure to compare your options before booking.</p><p>&nbsp;</p><p>In conclusion, flights from LAX to Colombia typically take around 7 hours and 5 minutes, and are around 3473 miles. There are a number of airlines that offer direct flights, including American Airlines, Delta, and United. Be sure to compare your options before booking!</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

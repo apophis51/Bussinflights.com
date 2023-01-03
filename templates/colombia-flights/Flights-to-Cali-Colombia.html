@@ -1,0 +1,53 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights to Cali Colombia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-to="cali_co" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+<p>Purchasing flights to Cali Colombia is an exciting way to explore a vibrant and diverse culture. With its rich history, stunning landscapes, and vibrant nightlife, Colombia has something to offer every traveler. But before you book your flights, it’s important to do your research. This blog will provide you with all the information you need to make the best decision when it comes to booking flights to Cali Colombia.&nbsp;</p><h2>What airline goes to Cali Colombia?&nbsp;</h2><p>The main airlines that fly to Cali Colombia are Avianca, LATAM, and Viva Colombia. All of these airlines offer direct flights to Cali, with Avianca offering the most frequent flights.&nbsp;</p><h2>Can you fly direct to Colombia?&nbsp;</h2><p>Yes, you can fly direct to Colombia from the US, Europe, and other countries around the world. The most popular direct flights from the US include Miami, New York, and Los Angeles.</p><h2>Is Cali in Colombia worth visiting?&nbsp;</h2><p>Absolutely! Cali is known as the salsa capital of the world and is home to some of the best salsa clubs in the world. Aside from its nightlife, Cali is also home to stunning colonial architecture, vibrant street art, and a range of outdoor activities.&nbsp;</p><h2>How long should I stay in Cali Colombia?&nbsp;</h2><p>How long you stay in Cali depends on your interests and budget. If you’re looking for a short trip, three to four days is recommended. If you’re looking for a longer trip, five to seven days is a great amount of time to explore the city and its surroundings. Overall, booking flights to Cali Colombia is a great way to explore the culture and beauty of this vibrant country. By doing your research and planning ahead, you can ensure that you make the most of your trip.</p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

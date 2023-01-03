@@ -1,0 +1,61 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Chicago to Colombia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="chicago_il_us" 
+data-to="CO" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+                         <p>Planning a trip from Chicago to Colombia can be an exciting yet daunting task. There are a lot of factors to consider when booking a flight, such as the cost of the ticket, the amount of time it will take to get there, and when to book the flight. In this blog, we will discuss the details of flying from Chicago to Colombia.</p><h2><strong>How many hours is Colombia from Chicago?</strong>&nbsp;</h2><p>The flight time from Chicago to Colombia is approximately 6 hours and 20 minutes. This does not include the time spent waiting at the airport for the flight or for any layovers. Depending on the length of the layover, the total flight time could be longer.</p><h2><strong>How much is flight from Chicago to Colombia?</strong>&nbsp;</h2><p>The cost of a flight from Chicago to Colombia can vary greatly depending on the time of year, the airline, and the type of ticket purchased. Generally, tickets range from $400 - $1,000 depending on the airline and type of fare. However, it is possible to find cheaper flights if booked in advance.</p><h2><strong>How far in advance should I book a flight from Chicago to Colombia?</strong>&nbsp;</h2><p>It is recommended to book a flight from Chicago to Colombia at least five weeks in advance. This will give you the best chance of finding the cheapest fare and the most convenient flight. Additionally, booking in advance will also allow you to plan your trip more effectively.</p><p>&nbsp;</p><p>In conclusion, flying from Chicago to Colombia can be a great experience. It is important to consider the flight time, cost, and when to book the flight. By doing so, you can ensure that your trip goes as smoothly as possible.</p>
+
+            <p></p>
+
+        
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,61 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights From NYC to Cali Colombia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="new-york-city_ny_us" 
+data-to="cali_co" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+                         <p>Planning a trip from New York City to Cali, Colombia can seem daunting, but with a few tips and tricks it can be a breeze. With a bit of research, you can easily find the best flight deals and times that fit your schedule. In this blog, we will discuss the cost, duration, airlines, and days to fly from JFK Airport in New York City to the Alfonso B. Aragon Airport in Cali, Colombia.&nbsp;</p><h2>How much is a flight from JFK to Cali Airport?&nbsp;</h2><p>The cost of a flight from JFK to Cali Airport can range from $400 to $1,200 depending on the airline, the time of year, and any promotional offers. The cost can be further reduced by booking well in advance and looking for deals throughout the year.&nbsp;</p><h2>How many hours is the flight from JFK Airport to Cali Airport?&nbsp;</h2><p>The flight from JFK to Cali takes around 7 hours</p><h2>Which airlines provide the cheapest flights from New York to Cali?&nbsp;</h2><p>The cheapest flights from New York to Cali are typically offered by American Airlines, Avianca, JetBlue, and LATAM Airlines. It is always a good idea to compare prices between airlines to find the best deal.&nbsp;</p><h2>On which days can I fly direct from New York to Cali?&nbsp;</h2><p>Direct flights from New York to Cali are available on Tuesdays, Thursdays, and Saturdays. If you are looking for a cheaper option, you can always opt for a connecting flight with a layover.&nbsp;</p><p>&nbsp;</p><p>In conclusion, flying from New York City to Cali, Colombia can be a great experience. With the right research and preparation, you can find the best flight deals and times that fit your schedule. Don't forget to compare prices between airlines and look for promotional offers!</p>
+
+            <p></p>
+
+        
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

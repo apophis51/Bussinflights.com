@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights From Houston to Colombia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="houston_tx_us" 
+data-to="CO" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Buying a flight from Houston to Colombia is a great way to explore the beauty of the country. There are several options to consider when booking a flight, including the availability of direct flights, the distance of the flight, and the cost of the ticket. In this blog, we'll discuss the different aspects of flying from Houston to Colombia.</p><h2>Are there direct flights from Houston to Colombia?&nbsp;</h2><p>Yes, there are direct flights from Houston to Colombia. Currently, the only airline offering direct flights is Avianca, which operates several flights a week from Houston's George Bush Intercontinental Airport to El Dorado International Airport in Bogota, Colombia. These flights take approximately five hours and fifty minutes.&nbsp;</p><h2>How far is a flight from Houston to Colombia?&nbsp;</h2><p>The flight from Houston to Colombia is approximately 2,220 miles. This is a relatively long flight, so travelers should plan to take advantage of any in-flight amenities offered by the airline.&nbsp;</p><h2>What is the cheapest airline that flies to Colombia from Houston?</h2><p>&nbsp;Avianca is the cheapest airline that currently offers direct flights from Houston to Colombia. The airline offers competitive fares, as well as a variety of discounts and special offers. Additionally, Avianca is known for its excellent customer service, making it a great choice for budget-minded travelers. In conclusion, there are several options for flying from Houston to Colombia. Avianca offers direct flights, making the trip a little shorter. Additionally, the airline is the cheapest option for those looking to purchase a ticket. Finally, Avianca is known for its excellent customer service, making the flight an enjoyable experience.</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

@@ -4,7 +4,7 @@ import openai  #new
 
 example_blueprint = Blueprint('example_blueprint', __name__)
 #second = Blueprint('example_blueprint', __name__, template_folder='templates')
-openai.api_key = "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" #new
+openai.api_key = "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" #new
 
 myprompt = """make a 4 paragraph blog about Flights to bogota colombia from Orlando
 first H2:  Which airlines provide the cheapest flights from Orlando to Bogota?
@@ -12,6 +12,9 @@ Second h2:  What's the cheapest day of the week to fly from Orlando to Bogota?
 third h2:  Are there non-stop flights from Orlando to Bogota?
 fourth h2:  What is the shortest flight from Orlando to Bogota? 
 start every new paragraph with '#'
+
+make an introduction about buying flights from Houston to Cartagena colombia
+
 """
 
 @example_blueprint.route('/mypost/')
@@ -111,5 +114,6 @@ def printt():
     text.writelines(navigation)
     return render_template("cool.html", first=content)
 
+    
 
-
+    

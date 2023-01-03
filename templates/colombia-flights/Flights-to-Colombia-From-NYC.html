@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights to Colombia From NYC{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="new-york-city_ny_us" 
+data-to="CO" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>With the rise of budget airlines, it is now possible to fly to Colombia from New York City at a fraction of the cost of traditional carriers. A quick search of flights can reveal surprisingly low prices for flights from NYC to Colombia. Whether you are looking for a short weekend trip or a longer holiday, it is possible to find a great deal on flights from NYC to Colombia.&nbsp;</p><h2>What is the cheapest flight to Colombia from New York?&nbsp;</h2><p>The cost of flights to Colombia from NYC can vary widely depending on the airline, route, and time of year.&nbsp;</p><p>Generally, flights booked in advance with budget airlines such as Spirit, Frontier, and JetBlue can offer the lowest prices. Prices can also vary depending on the season, with the cheapest flights often occurring in the winter months.</p><h2>What is the cheapest month to fly from New York to Colombia?</h2><p>Generally, the cheapest months to fly to Colombia from New York City are March. These months often offer the lowest fares due to lower demand. Additionally, there are usually more flight making it easier to find a great deal.&nbsp;</p><h2>What is the cheapest New York to Colombia flight route?&nbsp;</h2><p>The cheapest New York to Colombia flight route typically involves a stopover in either Panama City or Miami. A flight from NYC to Panama City followed by another flight from Panama City to Colombia is often the cheapest option. Flights with a stopover in Miami can also be cheaper than non-stop flights from NYC to Colombia. Again this will depend on the season and airline.</p><p>&nbsp;</p><p>With the right planning and research, it is possible to find affordable flights to Colombia from NYC. Whether you are looking for a short weekend trip or a longer holiday, there are plenty of ways to save money on flights from New York to Colombia.</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

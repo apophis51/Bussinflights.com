@@ -1,0 +1,56 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Miami to San Andres Colombia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="miami_fl_us" 
+data-to="san-andres_co" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+<p>With its stunning beaches, vibrant nightlife and countless activities, San Andrés, Colombia is a popular destination for travelers. Whether you’re looking for a fun family vacation or an adventure-filled getaway, booking a flight from Miami to San Andrés is a great way to get there. Before you book your flight, it’s important to learn more about the options available so you can find the best deal and make the most of your trip.</p><h2>On which days can I fly direct from Miami to San Andrés?&nbsp;</h2><p>Direct flights from Miami International Airport (MIA) to Gustavo Rojas Pinilla International Airport (ADZ) are available seven days a week. There are usually several daily flights, so you can easily find a flight that fits into your travel plans.</p><h2>Which airlines provide the cheapest flights from Miami to San Andrés?</h2><p>American Airlines, Copa Airlines, and Avianca are the main airlines offering flights from Miami to San Andrés. Prices can vary depending on the day and time of your flight, so it’s important to shop around and compare prices. Generally, American Airlines offers the cheapest fares, but it’s always a good idea to check all the options before booking.</p><h2>How many hours is the flight from Miami Intl. Airport (MIA) to ADZ?</h2><p>The direct flight from Miami to San Andrés takes approximately 3 hours and 20 minutes. If you choose to fly with a layover, the total flight time can be anywhere from 4 to 12 hours, depending on the number of stops and the length of the layovers.</p><p>&nbsp;</p> <p></p>
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

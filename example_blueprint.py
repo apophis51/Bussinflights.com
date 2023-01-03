@@ -115,5 +115,3 @@ def printt():
     return render_template("cool.html", first=content)
 
     
-
-    

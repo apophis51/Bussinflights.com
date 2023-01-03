@@ -1,0 +1,56 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Seattle to Colombia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="seattle_wa_us" 
+data-to="CO" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling to Colombia from Seattle is an exciting adventure that requires some preparation and research. There are many flights available from Seattle to Colombia, and it can be overwhelming to compare the prices and schedules. In this blog, we will discuss the cheapest flights from Seattle to Colombia, as well as how far in advance to book a flight for the best price.</p><h2>What are the Cheapest Flights from Seattle to Colombia?&nbsp;</h2><p>When searching for the cheapest flights from Seattle to Colombia, it is important to compare prices across multiple airlines. Several major airlines fly directly from Seattle to Colombia, including American Airlines, United Airlines, and Delta Airlines. Prices vary widely depending on the airline and the time of year, but in general, you can expect to pay at least $400 for a round-trip ticket. Additionally, budget airlines such as Spirit and Allegiant offer cheaper fares, but they often have more restrictions and fewer amenities. To get the best deal, it is best to compare prices across all airlines and be flexible with travel dates.</p><h2>How Far in Advance Should I Book a Flight from Seattle to Colombia?&nbsp;</h2><p>The best time to book a flight from Seattle to Colombia is typically around 4-6 weeks before the desired travel date. This is because airlines often offer discounts for flights booked in advance. Booking a flight too early can be costly, as airlines sometimes increase prices for flights booked more than 8 weeks in advance. Additionally, booking too late can be expensive, as airlines are likely to increase prices as the desired travel date approaches.</p><p>When planning a trip from Seattle to Colombia, it is important to compare prices across multiple airlines and book the flight at least 4-6 weeks in advance. By researching the cheapest flights and being flexible with travel dates, you can find the best deal ]for your journey to Colombia.</p><p>Happy travels!</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

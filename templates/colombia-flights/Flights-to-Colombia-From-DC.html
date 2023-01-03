@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights to Colombia From DC{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="washington_dc_us" 
+data-to="CO" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>&nbsp;Flying to Colombia from Washington, D.C. can be a great way to explore a new part of the world. With so many flights and airlines to choose from, it can be difficult to decide which one to book. To help make your decision easier, we�ve put together some information about the cheapest flights to Colombia from Washington, D.C.</p><h2>What is the cheapest flight to Colombia from Washington, D.C.?&nbsp;</h2><p>The cheapest flight to Colombia from Washington, D.C. is usually offered by Spirit Airlines. This airline typically offers flights for around $300 round trip.</p><h2>What is the cheapest month to fly from Washington, D.C. to Colombia?&nbsp;</h2><p>The cheapest month to fly from Washington, D.C. to Colombia is usually in the summer months from May to August. During this time, flights can be found for as low as $250 round trip.</p><h2>What is the cheapest Washington, D.C. to Colombia flight route?&nbsp;</h2><p>The cheapest flight route from Washington, D.C. to Colombia is usually through Fort Lauderdale, Florida. This route typically offers flights for around $300 round trip.&nbsp;</p><p>&nbsp;</p><p>No matter which route or airline you choose, flying to Colombia from Washington, D.C. can be a great way to explore a new part of the world. With the right research and booking, you can find a great deal that fits your budget.</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

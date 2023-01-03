@@ -1,0 +1,56 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from USA to Colombia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="US" 
+data-to="CO" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+<p>Traveling from the United States to Colombia is a great way to explore the beauty of South America. Many airlines offer flights from the U.S. to Colombia, making it convenient and affordable to get to your destination. In this blog, we will explore what airlines offer flights to Colombia, how to get to Colombia from the U.S., and how much a flight from America to Colombia typically costs.&nbsp;</p><h2>What Airlines Fly To Colombia From USA?</h2><p>&nbsp;Travelers from the U.S. can fly to Colombia with a variety of airlines. American Airlines, Delta, United, and Avianca are some of the more popular carriers that offer direct flights from the United States to Colombia. Other airlines, such as Copa Airlines, offer connecting flights with a layover in another country.&nbsp;</p><h2>How Do You Get To Colombia From The US?&nbsp;</h2><p>Getting to Colombia from the U.S. is relatively easy. Many direct flights are available from major cities in the U.S., such as New York, Miami, and Los Angeles. Flights from the U.S. to Colombia typically take around 8 hours, depending on the route. Additionally, many connecting flights with layovers in other countries are available, which can shorten the flight time.&nbsp;</p><h2>How Much Is Flight From America To Colombia?&nbsp;</h2><p>The cost of a flight from the U.S. to Colombia can vary depending on the airline, time of year, and route. Generally, flights from the U.S. to Colombia are quite affordable. Prices can range from $300 to $800, depending on the airline and route. In conclusion, traveling to Colombia from the U.S. is easy and affordable. Many airlines offer direct and connecting flights, and prices are usually quite reasonable. Whether you’re looking for a weekend getaway or a longer vacation, Colombia is an excellent destination for travelers from the U.S.</p><p>&nbsp;</p><p>&nbsp;</p> <p></p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights From Boston to Colombia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="boston_ma_us" 
+data-to="CO" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>When looking for a flight from Boston to Colombia, there are many factors to consider. The cost of the flight, the duration of the flight, and the time of year are all important things to consider when searching for the right flight. In this blog, we will discuss the cheapest flight to Colombia from Boston, the cheapest month to fly from Boston to Colombia, and how far Colombia is from Boston by plane.&nbsp;</p><h2>What is the cheapest flight to Colombia from Boston?&nbsp;</h2><p>The cheapest flight to Colombia from Boston is typically around $400. Depending on the day and time of year, the price of the flight can fluctuate. To get the best deal, it is important to compare prices and book the flight in advance. Additionally, taking a layover flight instead of a non-stop flight can also help save on costs.&nbsp;</p><h2>What is the cheapest month to fly from Boston to Colombia?</h2><p>The cheapest month to fly from Boston to Colombia is typically in the months of July and August. During these months, the prices of flights tend to be lower due to the start of off season. Additionally, there are often more flights available during these months, making it easier to find the right flight.</p><h2>&nbsp;How far is Colombia from Boston by plane?</h2><p>The distance from Boston to Colombia by plane is approximately 2,618 miles. The flight time is usually around 8 hours and 30 minutes, depending on the route taken and any layovers. The flight from Boston to Colombia is generally a long one, so it is important to be prepared for the long journey.&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

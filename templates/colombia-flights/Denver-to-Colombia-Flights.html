@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Denver to Colombia Flights{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="denver_co_us" 
+data-to="CO" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>If you're looking to buy a flight from Denver to Colombia, you're in luck. Not only are there many flights available, but they can also be quite affordable. In this blog post, we'll take a look at the cheapest flights to Colombia from Denver, the cheapest airlines to fly one-way, and the cheapest flight route.</p><h2>What is the cheapest flight to Colombia from Denver?</h2><p>The cheapest flight from Denver to Colombia is usually around $400. This price can vary depending on the time of year and the airline, but $400 is a good estimate. There are many different airlines that offer flights from Denver to Colombia, so it's important to compare prices to find the best deal.&nbsp;</p><h2>What are the cheapest airlines to fly from Denver to Colombia one-way?</h2><p>The cheapest airlines to fly one-way from Denver to Colombia are usually Spirit Airlines and Frontier Airlines. Both airlines offer low fares and have a good reputation for safety. However, it's important to note that Spirit Airlines does not offer non-stop flights, so you may have to make a stop or two in order to get to your destination.&nbsp;</p><h2>What is the cheapest Denver to Colombia flight route?</h2><p>The cheapest flight route from Denver to Colombia is usually through Miami. This route takes you through the United States and then to Bogota, Colombia. There are usually several flights available each day, and the prices are usually quite reasonable.</p><p>&nbsp;</p><p>In conclusion, there are many affordable flights available from Denver to Colombia. The cheapest flight is usually around $400, and the cheapest airlines to fly one-way are Spirit Airlines and Frontier Airlines. The cheapest route is usually through Miami. By doing some research and comparing prices, you can find the best deal on your Denver to Colombia flight.</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

@@ -128,3 +128,69 @@ def FlightsfromChicagotoColombia(): #ai-generated
 @colombia_blueprint.route("/Orlando-to-Colombia-Flights/") #ai-generated
 def OrlandotoColombiaFlights(): #ai-generated
 	return render_template("/colombia-flights/Orlando-to-Colombia-Flights.html") #ai-generated
+
+
+
+
+    #####
+
+ 
+
+    
+@colombia_blueprint.route("/Flights-From-Boston-to-Colombia/") #ai-generated
+def FlightsFromBostontoColombia(): #ai-generated
+	return render_template("/colombia-flights/Flights-From-Boston-to-Colombia.html") #ai-generated
+@colombia_blueprint.route("/Flights-to-Colombia-From-Tampa/") #ai-generated
+def FlightstoColombiaFromTampa(): #ai-generated
+	return render_template("/colombia-flights/Flights-to-Colombia-From-Tampa.html") #ai-generated
+@colombia_blueprint.route("/Flights-to-Colombia-From-DC/") #ai-generated
+def FlightstoColombiaFromDC(): #ai-generated
+	return render_template("/colombia-flights/Flights-to-Colombia-From-DC.html") 
+@colombia_blueprint.route("/Denver-to-Colombia-Flights/") #ai-generated
+def DenvertoColombiaFlights(): #ai-generated
+	return render_template("/colombia-flights/Denver-to-Colombia-Flights.html") 
+@colombia_blueprint.route("/Flights-from-USA-to-Colombia/") #ai-generated
+def FlightsfromUSAtoColombia(): #ai-generated
+	return render_template("/colombia-flights/Flights-from-USA-to-Colombia.html") 
+@colombia_blueprint.route("/Flights-to-Colombia-from-SFO/") #ai-generated
+def FlightstoColombiafromSFO(): #ai-generated
+	return render_template("/colombia-flights/Flights-to-Colombia-from-SFO.html") 
+@colombia_blueprint.route("/Miami-To-Colombia-Flights/") #ai-generated
+def MiamiToColombiaFlights(): #ai-generated
+	return render_template("/colombia-flights/Miami-To-Colombia-Flights.html") 
+@colombia_blueprint.route("/Flights-from-Seattle-to-Colombia/") #ai-generated
+def FlightsfromSeattletoColombia(): #ai-generated
+	return render_template("/colombia-flights/Flights-from-Seattle-to-Colombia.html") #ai-generated
+@colombia_blueprint.route("/Las-Vegas-to-Colombia-Flights/") #ai-generated
+def LasVegastoColombiaFlights(): #ai-generated
+	return render_template("/colombia-flights/Las-Vegas-to-Colombia-Flights.html") #ai-generated
+@colombia_blueprint.route("/Flights-from-Pheonix-to-Colombia/") #ai-generated
+def FlightsfromPheonixtoColombia(): #ai-generated
+	return render_template("/colombia-flights/Flights-from-Pheonix-to-Colombia.html") #ai-generated
+@colombia_blueprint.route("/Flights-to-Cucuta-Colombia/") #ai-generated
+def FlightstoCucutaColombia(): #ai-generated
+	return render_template("/colombia-flights/Flights-to-Cucuta-Colombia.html") #ai-generated
+@colombia_blueprint.route("/Flights-from-Miami-to-Barranquilla-Colombia/") #ai-generated
+def FlightsfromMiamitoBarranquillaColombia(): #ai-generated
+	return render_template("/colombia-flights/Flights-from-Miami-to-Barranquilla-Colombia.html")
+@colombia_blueprint.route("/Flights-to-Barranquilla-Colombia/") #ai-generated
+def FlightstoBarranquillaColombia(): #ai-generated
+	return render_template("/colombia-flights/Flights-to-Barranquilla-Colombia.html") #ai-generated 
+@colombia_blueprint.route("/Flights-to-Armenia-Colombia/") #ai-generated
+def FlightstoArmeniaColombia(): #ai-generated
+	return render_template("/colombia-flights/Flights-to-Armenia-Colombia.html") #ai-generated
+@colombia_blueprint.route("/Santa-Marta-Colombia-Flights/") #ai-generated
+def SantaMartaColombiaFlights(): #ai-generated
+	return render_template("/colombia-flights/Santa-Marta-Colombia-Flights.html") #ai-generated
+@colombia_blueprint.route("/Flights-to-Pereira-Colombia/") #ai-generated
+def FlightstoPereiraColombia(): #ai-generated
+	return render_template("/colombia-flights/Flights-to-Pereira-Colombia.html") #ai-generated
+@colombia_blueprint.route("/Flights-to-Bucaramanga-Colombia/") #ai-generated
+def FlightstoBucaramangaColombia(): #ai-generated
+	return render_template("/colombia-flights/Flights-to-Bucaramanga-Colombia.html") #ai-generated
+@colombia_blueprint.route("/Flights-from-Miami-to-San-Andres-Colombia/") #ai-generated
+def FlightsfromMiamitoSanAndresColombia(): #ai-generated
+	return render_template("/colombia-flights/Flights-from-Miami-to-San-Andres-Colombia.html") 
+@colombia_blueprint.route("/Flights-to-San-Andres-Colombia/") #ai-generated
+def FlightstoSanAndresColombia(): #ai-generated
+	return render_template("/colombia-flights/Flights-to-San-Andres-Colombia.html") #ai-generated

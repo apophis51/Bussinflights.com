@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights to Colombia from SFO{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="SFO" 
+data-to="CO" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Planning a trip to Colombia from San Francisco can be an exciting adventure! Whether you are looking for a fun-filled vacation or a business trip, finding the right flight is an important part of the process. With so many airlines and routes to choose from, it can be difficult to know where to start. Fortunately, there are a few tips to help you find the cheapest flight to Colombia from San Francisco.&nbsp;</p><h2><br>What is the Cheapest Flight to Colombia from San Francisco?&nbsp;</h2><p><br>The cheapest flight to Colombia from San Francisco can vary depending on the airline and route you choose. Generally speaking, the lowest fares are available when flying with budget airlines such as Spirit, Frontier, and Allegiant. These airlines may have fewer amenities than the major carriers, but they can offer much lower prices. Additionally, it is important to look for flights with multiple stops, as these can often be the most affordable option.</p><h2>What is the Cheapest Month to Fly from San Francisco to Colombia?&nbsp;</h2><p><br>The cheapest month to fly from San Francisco to Colombia is typically April or May. This is due to the fact that these months are considered low season for tourism in Colombia, so airlines often offer discounts and special deals. Additionally, these months tend to have fewer crowds and better weather, making them an ideal time to visit.&nbsp;</p><p><br>Finding the cheapest flight to Colombia from San Francisco can be a bit of a challenge. However, by keeping an eye out for budget airlines, multiple-stop flights, and special deals, you can often find great deals. Additionally, planning your trip for the low-season months of April and May can help you save even more. With a bit of research and patience, you can find an affordable flight to Colombia from San Francisco and start planning your dream vacation!</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/colombia-flights/">flights to Colombia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

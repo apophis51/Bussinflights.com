@@ -4,7 +4,7 @@ import openai  #new
 
 example_blueprint = Blueprint('example_blueprint', __name__)
 #second = Blueprint('example_blueprint', __name__, template_folder='templates')
-openai.api_key = "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" #new
+openai.api_key = "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" #new
 
 myprompt = """make a 4 paragraph blog about Flights to bogota colombia from Orlando
 first H2:  Which airlines provide the cheapest flights from Orlando to Bogota?

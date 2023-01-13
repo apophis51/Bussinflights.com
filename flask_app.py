@@ -1,10 +1,12 @@
 
 from flask import Flask, render_template, request
 from colombia_blueprint import colombia_blueprint
+from mexico_blueprint import mexico_blueprint
 from example_blueprint import example_blueprint
 
 app = Flask(__name__)
 app.register_blueprint(colombia_blueprint, url_prefix='/colombia-flights')
+app.register_blueprint(mexico_blueprint, url_prefix='/mexico-flights')
 app.register_blueprint(example_blueprint, url_prefix='/example')
 
 
@@ -45,12 +47,7 @@ def sitemap():
 def page_not_found(e):
     return  render_template('404.html'), 404
 #locatio pages
-@app.route("/tulum-mexico/")
-def tulumnmeta():
-    return render_template("/locations/location-mexico-tulum-meta.html")
-@app.route("/tulum-mexico/tulum-mexico-blog/")
-def tulumn():
-    return render_template("/locations/location-mexico-tulum.html")    
+ 
 
 @app.route("/signup/")
 def signup():

@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from LAX to Mexico City{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="LAX" 
+data-to="mexico-city_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling to Mexico City from Los Angeles International Airport (LAX) is a popular option for travelers all over the world. Mexico City is a vibrant and exciting destination with plenty to offer, and it's easy to get there by air. In this blog, we'll discuss the available airlines that fly to Mexico City from LAX, the types of flights available, the distance between the two cities, and the cost of the flight.&nbsp;</p><h2>What airlines fly to Mexico from LAX?</h2><p><br>There are several airlines that offer flights from LAX to Mexico City. The most common carriers are Aeromexico, American Airlines, Delta, Interjet, and United Airlines. All of these airlines offer direct flights to Mexico City from LAX, and many of them offer additional flights with layovers at other airports in Mexico.&nbsp;</p><h2>What airlines fly straight to Mexico?</h2><p>Aeromexico and Interjet both offer direct flights from LAX to Mexico City. American Airlines and Delta offer flights with one layover in Mexico, while United Airlines offers flights with two layovers in Mexico. All of these flights can be booked online or through a travel agent.&nbsp;</p><h2>How far is the flight from LAX to Mexico City?</h2><p><br>The flight from LAX to Mexico City is approximately 1,548 miles and takes around 3 hours and 40 minutes. The exact length of the flight will depend on the airline and the type of plane used.&nbsp;</p><h2>How much is flight from Los Angeles to Mexico?</h2><p><br>The cost of a flight from Los Angeles to Mexico City will depend on the airline and the time of year. Generally speaking, flights from LAX to Mexico City range from $250 to $500. Prices may be higher during peak travel times such as the summer months. It's also important to note that some airlines may offer discounts for booking in advance or for booking multiple flights</p><h2>Are You Ready To Buy A Flight to Mexico?&nbsp;</h2><p>In conclusion, flying to Mexico City from Los Angeles International Airport is a popular and convenient option for travelers. There are several airlines that offer flights from LAX to Mexico City, and the cost of the flight will depend on the airline and the time of year. The flight is approximately 1,548 miles and takes around 3 hours and 30 minutes. With a bit of research, travelers can find the best deal on a flight to Mexico City from LAX.</p><p>&nbsp;</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

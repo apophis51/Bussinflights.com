@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Denver to Mexico City{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="denver_co_us" 
+data-to="mexico-city_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling from Denver to Mexico City is a popular route for many travelers. Whether you are planning a vacation or business trip, it is important to know the details of the flight. In this blog, we will discuss the flight time, days of the week that offer direct flights, and if flights are still available during the COVID-19 pandemic.&nbsp;</p><h2>How long does a flight from Denver to Mexico City take?</h2><p>&nbsp;The flight time from Denver to Mexico City is approximately four hours. This flight time does not include any delays due to weather or other unforeseen circumstances.&nbsp;</p><h2>On which days can I fly direct from Denver to Mexico City?&nbsp;</h2><p>Direct flights are available from Denver to Mexico City on a Daily Basis. These flights are generally more expensive than flights with layovers, but they are sometimes more convenient for travelers who want to save time.</p><h2>Am I able to catch a flight from Denver to Mexico City now?</h2><p>&nbsp;Yes, flights from Denver to Mexico City are still available during the COVID-19 pandemic. However, it is important to check with your airline for the latest safety protocols and restrictions in place. Additionally, it is important to check with the Mexican government for any entry requirements before planning your trip.</p><h2>Are You Ready To Buy A Flight to Mexico?&nbsp;</h2><p>In conclusion, traveling from Denver to Mexico City is a great way to explore a new country. Flights generally take four hours, and are available on a daily basis. However, it is important to check with your airline and government for the latest safety protocols and entry requirements before planning your trip.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

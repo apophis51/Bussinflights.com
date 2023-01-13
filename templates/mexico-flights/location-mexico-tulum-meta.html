@@ -1,16 +1,45 @@
-{% extends "base.html" %}
-{% block flag %}<img class="bodyphoto" src="/static/mexicoflag.png">{% endblock %}
-{% block silo %}Once you have chosen your airline and the time of year you are flying, you can begin searching for the best flight deals<a href="/tulum-mexico/">flight deals.</a></p>
-{% endblock %} 
 
-{%block travelphoto %} <img class="mainphoto" src="/static/nice view of mexico.png">{% endblock %}
-<div>{% block visa %} FMM (Forma Migratoria Multiple) is a form that must be filled out by foreign
-    visitors to Mexico. Learn more from <a href="https://relocate.mx/mexico-immigration-policy/">Relocate.mx</a>
-    {% endblock %}</div>
-<h1>{% block h1 %}{% block title %}Exploring Tulum, Mexico: All You Need to Know Before You Go{% endblock %}{% endblock %}
-</h1>;
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Mexico Flights{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
 {% block widget %}
-<p>Tulum, Mexico is a beautiful destination for tourists and travelers alike. Located in the Yucatan Peninsula, it is a
+
+<div id="widget-holder">
+    <script 
+    data-affilid="apophis51mexicotulum" 
+    data-to="CUN,tulum_mx" 
+    data-departure="2023-01-31_2023-02-28" 
+    data-transport-types="FLIGHT" 
+    data-background-primary-color="ffffff" 
+    data-background-secondary-color="fcfcff" 
+    src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+    </script>
+      </div> 
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+<div> <p>Tulum, Mexico is a beautiful destination for tourists and travelers alike. Located in the Yucatan Peninsula, it is a
     popular destination for those looking for a unique and exciting experience in Mexico. With its beautiful beaches and
     lush jungles, Tulum is a great place to explore. But before you book your trip, you may have some questions about
     the area, including how long is the flight to Tulum, how much does it cost, and&nbsp;if it is safer than Cancun? In
@@ -53,9 +82,13 @@ recommended to ask the driver to provide a receipt for the fare, as this can be 
 dispute.<br>
 <br>
 <em>
+
     <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
-        get started, check out Bussinflights.com flight tracker for the best deals and discounts on <a
-            href="/tulum-mexico/">flights to Tulum
-            Mexico.</a></strong>
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
 </em>
+
+</div>
+
 {% endblock %}

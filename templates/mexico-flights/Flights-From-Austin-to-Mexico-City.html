@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights From Austin to Mexico City{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="austin_tx_us" 
+data-to="mexico-city_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+<p>Traveling from Austin to Mexico City is a popular route for tourists and business travelers alike. With direct flights available throughout the year, the trip can be completed in just over three hours. To help travelers find the best flight options, this article will discuss the duration of the flight, the various airlines that offer the route and the cost of a flight from Austin-Bergstrom International Airport (AUS) to Benito Juárez International Airport (MEX).&nbsp;</p><h2>How long does a flight from Austin to Mexico City take?</h2><p>&nbsp;Direct flights from Austin to Mexico City typically take four hours and 30 minutes. However, the flight time can vary depending on the airline and the number of stops. Flights with one or more stops may take up to ten hours.&nbsp;</p><h2>Which airlines provide the cheapest flights from Austin to Mexico City?&nbsp;</h2><p>Several airlines offer flights from Austin to Mexico City, including American Airlines, United Airlines, Aeromexico and Interjet. Prices vary depending on the airline, the type of ticket purchased and the time of year. Generally speaking, Aeromexico and Interjet offer the cheapest flights, while American Airlines and United Airlines offer more expensive tickets.&nbsp;</p><h2>How much is a flight from AUS to Benito Juárez Intl. Airport?&nbsp;</h2><p>The cost of a flight from Austin to Mexico City can range from $200 to $800 depending on the airline, the type of ticket purchased and the time of year. For example, a round-trip ticket on Aeromexico can cost as little as $200, while a round-trip ticket on United Airlines can cost up to $800.&nbsp;</p><h2>Are You Ready To Buy A Flight to Mexico?&nbsp;</h2><p>Overall, a flight from Austin to Mexico City is a convenient and cost-effective way to travel. With several airlines offering direct and indirect flights throughout the year, travelers can find the best flight options to suit their budget and travel needs.</p><p>&nbsp;</p><p>Hope this helps!</p><p>&nbsp;</p><p>&nbsp;</p> <p></p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

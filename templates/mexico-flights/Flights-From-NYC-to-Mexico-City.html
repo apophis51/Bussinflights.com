@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights From NYC to Mexico City{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="JFK" 
+data-to="mexico-city_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Mexico City is one of the most popular tourist destinations in Latin America, and for good reason. With its vibrant culture, delicious cuisine, and stunning architecture, Mexico City has something for everyone. For those looking to travel from New York City to Mexico City, there are several airlines that offer direct flights. In this blog, we will explore what airlines fly to Mexico from NYC, where in Mexico you can fly direct from NYC, and how much a flight from New York to Mexico City costs.</p><h2>&nbsp;What airlines fly to Mexico from NYC?&nbsp;</h2><p>There are several airlines that offer direct flights from New York City to Mexico City. These include American Airlines, United Airlines, Aeromexico, and Delta Airlines. All of these airlines offer direct flights to Mexico City from both John F. Kennedy International Airport and LaGuardia Airport.&nbsp;</p><h2>Where in Mexico can you fly direct from NYC?</h2><p>In addition to Mexico City, there are several other destinations in Mexico that can be reached with direct flights from NYC. These include Cancun, Monterrey, Acapulco, and Puerto Vallarta. All of these destinations are popular tourist spots and offer plenty of activities and attractions for travelers.</p><h2>&nbsp;How much is flight from New York to Mexico City?</h2><p>&nbsp;The cost of a flight from New York to Mexico City depends on various factors, such as the time of year and the airline. Generally speaking, flights from NYC to Mexico City can range from $300 to $800. It is also important to note that flights from LaGuardia Airport tend to be slightly cheaper than flights from JFK.&nbsp;</p><h2>Are You Ready To Buy A Flight to Mexico?&nbsp;</h2><p>In conclusion, there are several airlines that offer direct flights from New York City to Mexico City. These airlines include American Airlines, United Airlines, Aeromexico, and Delta Airlines. In addition to Mexico City, travelers can also fly direct to other destinations in Mexico, such as Cancun, Monterrey, Acapulco, and Puerto Vallarta. The cost of a flight from New York to Mexico City can range from $300 to $800, depending on the time of year and the airline.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

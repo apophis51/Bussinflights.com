@@ -4,7 +4,7 @@ import openai  #new
 
 example_blueprint = Blueprint('example_blueprint', __name__)
 #second = Blueprint('example_blueprint', __name__, template_folder='templates')
-openai.api_key = "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" #new
+openai.api_key = "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" #new
 
 myprompt = """make a 4 paragraph blog about Flights to bogota colombia from Orlando
 first H2:  Which airlines provide the cheapest flights from Orlando to Bogota?
@@ -50,9 +50,9 @@ def gpt3():
 blog ="""
 \n{% extends "base.html" %}
 \n{% block h1 %}{% block title %}TTT{% endblock %}{% endblock %}
-\n{% block travel %}  {% include "colombia-flights/colombia-base.html" %}{% endblock travel%}
-\n{% block flag %}<img class="bodyphoto visainfodiv" src="/static/colombianflag.png">{% endblock flag%}
-\n{% block travelphoto %} <img class="bodyphoto" src="/static/niceviewofcolombia.png">{% endblock %}
+\n{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+\n{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+\n{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
 
 
 \n{% block widget %}
@@ -68,7 +68,7 @@ blog ="""
 
 
 \n<div class = "white">
-\n{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/colombia/"
+\n{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
         rel="sponsored">VisaHQ</a></p>
 \n {% endblock %}
 
@@ -78,7 +78,7 @@ blog ="""
 \n<em>
 \n    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
         get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
-            href="/colombia-flights/">flights to Colombia.</a></strong>
+            href="/mexico-flights/">flights to Mexico.</a></strong>
 \n</em>
 \n</div>
 \n{% endblock %}
@@ -100,7 +100,7 @@ def printt():
 
     navigation = f"""
     \n\n<li>
-     \n <a href = "/colombia-flights/{url}/">{title}</a>
+     \n <a href = "/mexico-flights/{url}/">{title}</a>
    \n </li>
     """
 
@@ -108,10 +108,15 @@ def printt():
     #text.writelines(first)
     text.writelines(blog.replace("TTT",title).replace("###",content))
     text = open('example_blueprint.py', 'a')
-    text.writelines(f'\n@colombia_blueprint.route("/{route}/") #ai-generated')
+    text.writelines(f'\n@mexico_blueprint.route("/{route}/") #ai-generated')
     text.writelines(f'\ndef {method}(): #ai-generated')
-    text.writelines(f'\n\treturn render_template("/colombia-flights/{url}") #ai-generated')
+    text.writelines(f'\n\treturn render_template("/mexico-flights/{url}") #ai-generated')
     text.writelines(navigation)
     return render_template("cool.html", first=content)
 
     
+
+
+    
+
+

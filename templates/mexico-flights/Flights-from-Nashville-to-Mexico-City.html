@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Nashville to Mexico City{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="nashville_tn_us" 
+data-to="mexico-city_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+<p>Flying from Nashville, Tennessee to Mexico City, Mexico can be an exciting adventure. Whether you are visiting for business or pleasure, there are many options for flights available between these two cities. In this blog, we will discuss the cost, duration, cheapest day of the week, and distance of flights from Nashville to Mexico City.</p><h2>How much are flights from Nashville to Mexico City?</h2><p>The cost of flights from Nashville to Mexico City can vary depending on the day of the week, time of year, and airline. Generally, flights from Nashville to Mexico City can cost anywhere from $350 to $1,000 depending on the factors mentioned above.</p><h2>How long are the flights from Nashville to Mexico City?</h2><p>The flight duration from Nashville to Mexico City is approximately 3 hours and 5 minutes. With layovers, the flight comes closer to 10 hours.</p><h2>What's the cheapest day for flights from Nashville to Mexico City?</h2><p>The cheapest day to fly from Nashville to Mexico City is typically Tuesday.</p><h2>How far are the flights from Nashville to Mexico City?</h2><p>The distance from Nashville to Mexico City is 1,373.08 miles.</p><p>&nbsp;</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

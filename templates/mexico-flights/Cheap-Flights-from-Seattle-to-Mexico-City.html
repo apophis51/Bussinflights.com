@@ -1,0 +1,59 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Cheap Flights from Seattle to Mexico City{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="seattle_wa_us" 
+data-to="mexico-city_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Are you looking for a budget-friendly way to get from Seattle to Mexico City? Look no further! Cheap flights from Seattle to Mexico City are widely available, with prices ranging from around $100 to $400 depending on the time of year and the airline you choose.<br>&nbsp;</p><h2>How Much Are Cheap Flights from Seattle to Mexico City?<br>&nbsp;</h2><p>Cheap flights from Seattle to Mexico City typically cost between $100 and $400, depending on the airline and the time of year. Prices tend to be highest during the peak tourist season, which runs from late November to early April.<br>&nbsp;</p><h2>How Long Are Cheap Flights from Seattle to Mexico City?&lt;<br>&nbsp;</h2><p>Cheap flights from Seattle to Mexico City typically take around 4 hours and 55 minutes. However total travel time, which includes layovers is closer to 10 hours.&lt;<br>&nbsp;</p><h2>What's the Cheapest Day for Cheap Flights from Seattle to Mexico City?<br>&nbsp;</h2><p>Tuesday is generally the cheapest day to fly from Seattle to Mexico City.<br>&nbsp;</p><h2>How Far Are the Cheap Flights from Seattle to Mexico City?<br>&nbsp;</h2><p>The distance between Seattle and Mexico City is 2,340.83 miles.</p><p>&nbsp;</p><h2>Are You Ready To Buy a Flight to Mexico?</h2><p><br>Finding cheap flights from Seattle to Mexico City doesn't have to be a difficult task. With a bit of research and planning, you can find great deals on airfare that will help you save money on your trip.&lt;</p><p>&nbsp;</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

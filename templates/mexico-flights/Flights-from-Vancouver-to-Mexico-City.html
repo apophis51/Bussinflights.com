@@ -1,0 +1,59 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Vancouver to Mexico City{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="vancouver_bc_ca" 
+data-to="mexico-city_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling from Vancouver to Mexico City can be a great way to explore North America and experience the culture of Mexico. With direct flights and a variety of airlines to choose from, it's easy to find a flight that fits your budget and schedule. In this blog, we'll explore how much you can expect to pay for flights from Vancouver to Mexico City, how long the flight is, the cheapest day to book your flight, and how far the flight is.&nbsp;</p><h2>&nbsp;How much are Flights from Vancouver to Mexico City?&nbsp;</h2><p>The cost of flights from Vancouver to Mexico City can vary depending on the airline and the time of year. Generally, you can expect to pay anywhere between $250 and $500 for a one-way ticket.&nbsp;</p><h2>&nbsp;How long are Flights from Vancouver to Mexico City?&nbsp;</h2><p>The flight time from Vancouver to Mexico City is approximately 5 hours and 8 minutes.&nbsp;</p><h2>What's the cheapest day for Flights from Vancouver to Mexico City?&nbsp;</h2><p>Tuesdays are usually the cheapest days to fly from Vancouver to Mexico City, so it's worth considering if you're trying to save money on your flight.&nbsp;</p><h2>&nbsp;How far are the Flights from Vancouver to Mexico City?&nbsp;</h2><p>The distance from Vancouver to Mexico City is approximately 2,450.93 miles.&nbsp;&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>No matter what your reason for travel, flying from Vancouver to Mexico City can be an enjoyable and memorable experience. With a variety of airlines, flight times, and prices to choose from, you're sure to find a flight that meets your needs.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

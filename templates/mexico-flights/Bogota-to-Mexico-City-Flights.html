@@ -1,0 +1,56 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Bogota to Mexico City Flights{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="bogota_co" 
+data-to="mexico-city_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+<p>Flying from Bogota to Mexico City is an easy and convenient way to travel between two of the most iconic cities in Latin America. With a number of airlines offering direct flights between the two cities, passengers have a variety of options to choose from in order to get the best value for their money. Read on to learn more about the cost, duration, cheapest days, and distance of Bogota to Mexico City flights.</p><h2>&nbsp;How Much Are Bogota to Mexico City Flights?</h2><p>The cost of flights from Bogota to Mexico City can vary depending on the airline and the time of year. Generally, flights from Bogota to Mexico City can cost anywhere from $150 to $400 USD. However, bargain hunters can often find deals for under $100 USD.</p><h2>&nbsp;How Long Are Bogota to Mexico City Flights?<br>&nbsp;</h2><p>The duration of flights from Bogota to Mexico City is approximately 4 hours and 13 minutes. This includes the time it takes for takeoff, cruising, and landing.</p><h2>What's the Cheapest Day for Bogota to Mexico City Flights?</h2><p>The cheapest day to book flights from Bogota to Mexico City is usually Tuesday. Airlines often offer discounts on flights on this day in order to fill their planes. It's important to note that prices are always subject to change and vary depending on the airline.</p><h2>How Far Are the Bogota to Mexico City Flights</h2><p>The distance of flights from Bogota to Mexico City is 1,969.20 miles. This is equivalent to 3,162.67 kilometers.</p><h3><br>Are You Ready to Buy Your Flight to Mexico?<br>&nbsp;</h3><p>Overall, flying from Bogota to Mexico City is an easy and affordable way to travel between two of the most iconic cities in Latin America. With a number of airlines offering direct flights between the two cities, passengers have a variety of options to choose from in order to get the best value for their money.</p><p><br>&nbsp;</p>
+
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,56 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Tucson to Mexico City{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="tucson_az_us" 
+data-to="mexico-city_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling between Tucson, Arizona and Mexico City, Mexico has never been easier than it is today. With a variety of airlines offering flights between the two cities, travelers can find the best options that fit their needs and budget. From the cost of flights to the length of the journey, read on to learn more about flights from Tucson to Mexico City.</p><h2>How much are flights from Tucson to Mexico City?</h2><p>&nbsp;The cost of flights from Tucson to Mexico City will depend on a few factors, including the airline, time of year, and the type of ticket purchased. Generally, flights from Tucson to Mexico City can cost anywhere between $200 and $800. Travelers can often find deals on flights by shopping around and looking for promotions. &nbsp;</p><h2>How long are flights from Tucson to Mexico City?&nbsp;</h2><p>Flights from Tucson to Mexico City typically take around 11 hours. This includes both the flight time and any layovers. Depending on the airline and ticket type, travelers may be able to take a direct flight or may have to make a layover in another city.</p><h2>What's the cheapest day for flights from Tucson to Mexico City?&nbsp;</h2><p>Tuesdays are usually the cheapest days for flights from Tucson to Mexico City. Many airlines offer discounts for flights on Tuesdays, so travelers should shop around for the best deals. Some airlines may also offer discounts for flights on other days of the week, so it is important to compare prices.&nbsp;</p><h2>How far are the flights from Tucson to Mexico City?&nbsp;</h2><p>The flights from Tucson to Mexico City are approximately 1,147.11 miles. This distance can vary slightly depending on the route taken by the plane. The total travel time for the flight will also depend on how many layovers are included in the ticket.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from SFO to Mexico City{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="SFO" 
+data-to="mexico-city_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>&nbsp;Flights from San Francisco International Airport (SFO) to Mexico City are a popular routes for many travelers. With a variety of airline options and the convenience of nonstop flights, this route is becoming increasingly popular for both business and leisure travelers. With so many choices, it can be difficult to decide which is the best option for you.&nbsp;</p><h2>How much are flights from SFO to Mexico City?</h2><p>Prices for flights from SFO to Mexico City vary depending on the airline and season. Generally, round-trip flights can range from $100 to $400, with nonstop flights being slightly more expensive.</p><h2>How long are flights from SFO to Mexico City?&nbsp;</h2><p>Flights from SFO to Mexico City typically take 4h3min. Nonstop flights are the quickest option, while flights with one or more stops will take longer. Total travel time including stops is closer to 10 hours.</p><h2>What's the cheapest day for flights from SFO to Mexico City?</h2><p>Tuesdays are typically the cheapest day to fly from SFO to Mexico City. However, prices can fluctuate based on the airline and season.&nbsp;</p><h2>How far are the flights from SFO to Mexico City?&nbsp;</h2><p>The distance from SFO to Mexico City is 1,881.02 miles. This is a long flight, so it's best to plan accordingly and make sure to bring enough snacks and entertainment for the flight.</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

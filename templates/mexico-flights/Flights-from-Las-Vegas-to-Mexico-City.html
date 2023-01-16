@@ -1,0 +1,56 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Las Vegas to Mexico City{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="las-vegas_nv_us" 
+data-to="mexico-city_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+<p>&nbsp;Are you looking for an affordable and convenient way to get from Las Vegas to Mexico City? Whether you're looking for a vacation or a business trip, there are plenty of flights available between these two cities. In this blog, we'll explore the cost, duration, cheapest day to fly, and distance of flights from Las Vegas to Mexico City.</p><h2>How Much are Flights from Las Vegas to Mexico City?</h2><p>The average cost of flights from Las Vegas to Mexico City is $385. Prices can range from $230 to $600, depending on the airline and the type of ticket. Prices may also vary depending on the day and time of the flight.</p><h2>How Long are Flights from Las Vegas to Mexico City?</h2><p>The average flight time from Las Vegas to Mexico City is 3 hours and 21 minutes. However, this can vary depending on the airline, type of aircraft, and number of stops.</p><h2>What's the Cheapest Day for Flights from Las Vegas to Mexico City?</h2><p><br>Tuesdays are usually the cheapest days for flights from Las Vegas to Mexico City. Prices may vary depending on the airline, time of the year, and other factors.</p><h2><br>How Far are the Flights from Las Vegas to Mexico City?</h2><p>The distance between Las Vegas and Mexico City is 1,509.09 miles. This is equivalent to 2,430 kilometers.</p><h2>Are You Ready to Buy Your Flight to Mexico?</h2><p>Overall, flights from Las Vegas to Mexico City are relatively affordable and convenient. With the right airline and ticket type, you can save money and get to your destination in a timely manner.</p>
+
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

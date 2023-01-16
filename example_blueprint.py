@@ -1,19 +1,17 @@
 from flask import Blueprint, render_template, request
 #from flask_ckeditor import CKEditorField, CKEditor
 import openai  #new
+import os.path
 
 example_blueprint = Blueprint('example_blueprint', __name__)
 #second = Blueprint('example_blueprint', __name__, template_folder='templates')
-openai.api_key = "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" #new
+openai.api_key = "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" #new
 
-myprompt = """make a 4 paragraph blog about Flights to bogota colombia from Orlando
-first H2:  Which airlines provide the cheapest flights from Orlando to Bogota?
-Second h2:  What's the cheapest day of the week to fly from Orlando to Bogota?
-third h2:  Are there non-stop flights from Orlando to Bogota?
-fourth h2:  What is the shortest flight from Orlando to Bogota? 
+myprompt = """make a 4 paragraph blog about Flights to 
+
 start every new paragraph with '#'
-
-make an introduction about buying flights from Houston to Cartagena colombia
+separate the questions on its own line
+make an introduction about
 
 """
 
@@ -36,7 +34,7 @@ def gpt3():
     first = request.form['content']
     response = openai.Completion.create(
             model="text-davinci-003",
-            max_tokens=200,
+            max_tokens=2000,
             prompt=first,
             temperature=0.6)
     first=first + response.choices[0].text    
@@ -93,6 +91,7 @@ def printt():
     title = request.form['title']
     route = title.replace(" ","-")
     url = title.replace(" " , "-") + ".html"
+    urlwithouthtml = title.replace(" ", "-")
     method = title.replace(' ', '')
     print(title)
     print(url)
@@ -100,23 +99,46 @@ def printt():
 
     navigation = f"""
     \n\n<li>
-     \n <a href = "/mexico-flights/{url}/">{title}</a>
+     \n <a href = "/mexico-flights/{urlwithouthtml}/">{title}</a>
    \n </li>
+   \n
     """
+    #writes everything here instead of individual files
+    #text = open(f"{url}","a")
+    #text.writelines(blog.replace("TTT",title).replace("###",content))
+    #text = open('example_blueprint.py', 'a')
+    #text.writelines(f'\n@mexico_blueprint.route("/{route}/") #ai-generated')
+    #text.writelines(f'\ndef {method}(): #ai-generated')
+    #text.writelines(f'\n\treturn render_template("/mexico-flights/{url}") #ai-generated')
+    #text.writelines(navigation)
+    #return render_template("cool.html", first=content)
 
-    text = open(f"{url}","a")
-    #text.writelines(first)
+    save_path = r"C:\Users\malco\Bussinflights.com\templates\mexico-flights" 
+    filelocation = f"{url}"
+    completeName = os.path.join(save_path, filelocation)
+    text = open(completeName,"a")
     text.writelines(blog.replace("TTT",title).replace("###",content))
-    text = open('example_blueprint.py', 'a')
+
+    text = open('mexico_blueprint.py', 'a')
     text.writelines(f'\n@mexico_blueprint.route("/{route}/") #ai-generated')
     text.writelines(f'\ndef {method}(): #ai-generated')
     text.writelines(f'\n\treturn render_template("/mexico-flights/{url}") #ai-generated')
-    text.writelines(navigation)
+
+    filelocation = "mexico-base.html"
+    completeName = os.path.join(save_path, filelocation)
+
+
+    text = open(completeName,"r")
+    data = text.readlines()
+   # data = data[len(data)-2]+ navigation
+    data[len(data)-4] = navigation
+    text = open(completeName,"w")
+    text.writelines(data)
+    #text.writelines(navigation)
+    #data[-1] = navigation
+    
+
     return render_template("cool.html", first=content)
 
+ 
     
-
-
-    
-
-

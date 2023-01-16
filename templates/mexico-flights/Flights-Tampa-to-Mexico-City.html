@@ -1,0 +1,56 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights Tampa to Mexico City{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="tampa_fl_us" 
+data-to="mexico-city_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Tampa to Mexico City is a popular route for travelers, offering a warm and sunny climate, a vibrant culture and interesting attractions. The flight from Tampa to Mexico City is a great way to explore what the cities have to offer.&nbsp;<br>&nbsp;</p><h2>How much are flights Tampa to Mexico City?</h2><p><br>Flight prices from Tampa to Mexico City can vary greatly depending on the season, airline and seating class. On average, you can find flights ranging from $100 to $600.&nbsp;</p><h2><br>How long are flights Tampa to Mexico City?</h2><p><br>Including layovers, the travel time from Tampa to Mexico City is approximately 8 hours.&nbsp;</p><h2><br>What's the cheapest day for flights Tampa to Mexico City?</h2><p><br>Tuesdays are usually the cheapest day to fly from Tampa to Mexico City.&nbsp;</p><h2><br>How far are the flights Tampa to Mexico City?</h2><p><br>The distance from Tampa to Mexico City is 1,203.00 miles.&nbsp;</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

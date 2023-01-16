@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Toronto to Mexico City{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="toronto_on_ca" 
+data-to="mexico-city_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Flying to Mexico City from Toronto is a great way to explore the vibrant culture, stunning architecture, and exciting nightlife of Mexico's largest city. With so many airlines and flight options available, it can be difficult to decide which route to take and which one is right for you. In this blog, we will explore the cost, duration, and distance of flights from Toronto to Mexico City, as well as the best days to fly and find the cheapest flights.&nbsp;</p><h2>How much are Flights from Toronto to Mexico City?&nbsp;</h2><p>The cost of flights from Toronto to Mexico City can vary greatly depending on the airline and the time of year. Generally, flights can range from $100 to $800 CAD,but can also fluctuate due to demand, so it's important to book in advance to get the best deal.&nbsp;</p><h2>&nbsp;How long are Flights from Toronto to Mexico City?&nbsp;</h2><p>Most flights from Toronto to Mexico City take around 10 hours, with some flights taking as little as 8 hours and some flights taking as long as 11 hours. The duration of the flight will depend on the airline and the route taken, so it's important to check with your airline for the exact flight duration.&nbsp;&nbsp;</p><h2>What's the cheapest day for Flights from Toronto to Mexico City?&nbsp;</h2><p>Tuesdays are usually the cheapest days to fly from Toronto to Mexico City, with most airlines offering discounts on this day. It's important to note that prices can fluctuate depending on the airline and the time of year, so it's best to compare flights on different days to find the cheapest option.&nbsp;</p><h2>&nbsp;How far are the Flights from Toronto to Mexico City?&nbsp;</h2><p>Flights from Toronto to Mexico City are a distance of 2,022.36 miles, or 3,259.68 kilometers. This flight is considered a long-haul flight, and is usually flown by larger planes such as Boeing 747s or Airbus A380s.&nbsp;</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

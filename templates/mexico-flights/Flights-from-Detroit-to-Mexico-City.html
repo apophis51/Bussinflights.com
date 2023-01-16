@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Detroit to Mexico City{% endblock %}{% endblock %}
+
+{% block travel %} {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script data-affilid="apophis51saltlaketobogota" data-from="detroit_mi_us" data-to="mexico-city_mx"
+    data-transport-types="FLIGHT" src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+    </script>
+
+{% endblock widget%}
+
+
+
+<div class="white">
+
+    {% block visa %} <p class="smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+            rel="sponsored">VisaHQ</a></p>
+
+    {% endblock %}
+
+
+    {% block content %}
+
+   <p>Cheap flights from Detroit to Mexico City offer travelers a great way to explore the culture and history of the region at an affordable price. Whether you are looking for a quick weekend getaway or a longer vacation, there are options available for flights from Detroit to Mexico City.<br>&nbsp;</p><h2>How much are Cheap flights from Detroit to Mexico City?&nbsp;</h2><p>On average, travelers can find round-trip flights from Detroit to Mexico City for as low as $200 USD. Prices may vary depending on the airline and the time of year, so it is always best to compare prices before booking.</p><h2>How long are Cheap flights from Detroit to Mexico City?&nbsp;</h2><p>The average flight time for this route is 3h58min. This can vary depending on the airline and the weather, so it is best to check the flight times before booking.<br>&nbsp;</p><h2>What's the cheapest day for Cheap flights from Detroit to Mexico City?</h2><p>&nbsp;Tuesdays are usually the cheapest days to book flights from Detroit to Mexico City. This is because airlines usually offer discounts on Tuesdays.<br>&nbsp;</p><h2>How far are the Cheap flights from Detroit to Mexico City?</h2><p>The distance between Detroit and Mexico City is 1,835.18 miles. This is the approximate distance for a direct flight, and the actual distance may vary depending on the route taken.</p><h2><br>Are You Ready to Buy Your Flight to Mexico?<br>&nbsp;</h2><p>Cheap flights from Detroit to Mexico City are a great way to explore the region at an affordable price. Whether you are looking for a short getaway or a longer vacation, there are plenty of options available for flights from Detroit to Mexico City. Be sure to compare prices and flight times before booking to get the best deal.</p><p>&nbsp;</p><p>&nbsp;</p>
+    <p></p>
+
+
+
+
+    <em>
+
+        <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your
+            experience. To
+            get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+                href="/mexico-flights/">flights to Mexico.</a></strong>
+
+    </em>
+
+</div>
+
+{% endblock %}

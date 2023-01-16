@@ -1,0 +1,59 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Reynosa to Mexico City{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="reynosa_mx" 
+data-to="mexico-city_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Reynosa is a city in Mexico located on the northernmost tip of the country, right on the border with the United States. It is a popular tourist destination, and many visitors choose to take a flight from Reynosa to Mexico City, which is the capital and most populous city of the country. By taking a flight, travelers can get to Mexico City quickly and conveniently.</p><h2>How Much are Flights from Reynosa to Mexico City?</h2><p>Flights from Reynosa to Mexico City typically range in price from $150 to $400 USD, depending on the airline, the time of year, and the type of ticket purchased. Most flights are direct, with a flight time of around 1 hour and 22 minute to 1 hr and 40 minutes.</p><h2>What's the Cheapest Day for Flights from Reynosa to Mexico City?</h2><p>Tuesday is usually the cheapest day for flights from Reynosa to Mexico City. Prices can vary depending on the season, but generally, Tuesdays are the least expensive days to fly.</p><h2>How Far are the Flights from Reynosa to Mexico City?</h2><p>The distance between Reynosa and Mexico City is 459.22 miles. This distance can be covered in just over 1 hour and 22 minutes when traveling by plane.</p><p>&nbsp;</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

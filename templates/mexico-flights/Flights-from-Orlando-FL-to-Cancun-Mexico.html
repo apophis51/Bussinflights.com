@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Orlando FL to Cancun Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="orlando_fl_us" 
+data-to="CUN" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling from Orlando, Florida to Cancun, Mexico is a great way to explore a different culture. There are a variety of airlines that offer flights from Orlando to Cancun, making it easy to find a flight that fits your budget and schedule. Whether you are looking for a luxurious getaway or just a quick jaunt, a flight from Orlando to Cancun can provide the perfect escape.</p><h2>How much are Flights from Orlando, Florida to Cancun, Mexico?</h2><p>Prices for flights from Orlando to Cancun vary depending on the time of year and the airline you select. Generally, flights can range from $200 to $400, with the average cost being around $300. Prices also tend to be cheaper if you book in advance or during certain off-peak times.</p><h2>How long are Flights from Orlando, Florida to Cancun, Mexico?</h2><p>Most direct flights from Orlando, Florida to Cancun, Mexico take approximately 1 hour and 40 minutes. Non-direct flights may take longer, depending on the route and the number of stops. Additionally, if you choose to take a connecting flight, the total travel time may be longer.</p><h2>What's the cheapest day for Flights from Orlando, Florida to Cancun, Mexico?</h2><p>Tuesdays tend to be the cheapest day to book flights from Orlando, Florida to Cancun, Mexico. However, prices can change at any time, so it is always best to shop around and compare prices before booking a flight. Additionally, certain times of the year such as the holidays may have higher prices than usual.</p><h2>How far are the Flights from Orlando, Florida to Cancun, Mexico?</h2><p>The distance between Orlando, Florida and Cancun, Mexico is approximately 621.02 miles. This is the approximate distance the plane will travel during the flight, not the actual driving distance. The driving distance between the two cities is approximately 2701 miles.</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

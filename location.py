@@ -33,11 +33,11 @@ current_row = 2  #we start the sheet from the second row
 for x,y in enumerate(sheet["a"]):
     if x < 1000:
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
-        result = sheet[f"b{1+x+273}"].value.replace(" ","-")#####
+        result = sheet[f"b{1+x}"].value.replace(" ","-")#####
         print(2, result)
         if result is not None:
             location = result
-            url_from = f"https://www.distance.to/{location}/Mexico-city"
+            url_from = f"https://www.distance.to/{location}/Cancun"   #change city name her
             driver.get(url_from)
             time.sleep(1)
             try:
@@ -51,8 +51,8 @@ for x,y in enumerate(sheet["a"]):
 
 
             time.sleep(0)
-            sheet[f"c{1+x+273}"] = fuck_you[2]
-            sheet[f"d{1+x+273}"] = fuck_you[6]+fuck_you[7]
+            sheet[f"c{1+x}"] = fuck_you[2]
+            sheet[f"d{1+x}"] = fuck_you[6]+fuck_you[7]
             
             driver.close()
             wu.save('keywordget.xlsx')

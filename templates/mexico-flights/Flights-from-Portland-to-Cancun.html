@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Portland to Cancun{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="portland_or_us" 
+data-to="CUN" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Planning a vacation to Cancun, Mexico from Portland, Oregon? Flights from Portland to Cancun are relatively affordable and convenient. With a flight time of 5 hours and 29 minutes, travelers can be in the sun and sand of Cancun in a short period of time.</p><h2>How much are flights from Portland to Cancun?&nbsp;</h2><p>Prices for flights from Portland to Cancun vary depending on the season, the airline and the type of ticket you purchase. Generally, you can expect to pay between $300 and $800 for a roundtrip ticket.</p><h2>How long are flights from Portland to Cancun?</h2><p>&nbsp;The flight time from Portland to Cancun is 5 hours and 29 minutes. This includes a layover, so the actual time in the air is shorter.</p><h2>What's the cheapest day for flights from Portland to Cancun?</h2><p>&nbsp;Tuesday is usually the cheapest day to fly from Portland to Cancun. However, prices for flights can vary depending on the season and the airline.</p><h2>How far are the flights from Portland to Cancun?&nbsp;</h2><p>The flights from Portland to Cancun are 2,635.73 miles. This distance is usually covered in the 5 hours and 29 minutes of flight time.</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

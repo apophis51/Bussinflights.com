@@ -5,7 +5,7 @@ import os.path
 
 example_blueprint = Blueprint('example_blueprint', __name__)
 #second = Blueprint('example_blueprint', __name__, template_folder='templates')
-openai.api_key = "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" #new
+openai.api_key = "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" #new
 
 myprompt = """make a 4 paragraph blog about Flights to 
 

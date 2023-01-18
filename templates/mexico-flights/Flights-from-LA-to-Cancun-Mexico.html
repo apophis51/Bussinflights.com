@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from LA to Cancun Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="los-angeles_ca_us" 
+data-to="CUN" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling to Cancun, Mexico from Los Angeles, California can be a fun and exciting experience. With its beautiful beaches, amazing culture and vibrant nightlife, Cancun is a great destination for a vacation. Whether you are looking for a romantic getaway or a family vacation, there are plenty of options for flights from LA to Cancun, Mexico.</p><h2>How much are Flights from LA to Cancun, Mexico?&nbsp;</h2><p>Prices for flights from LA to Cancun, Mexico can vary depending on the time of year, airline, and other factors. Generally, a round-trip flight from Los Angeles to Cancun will cost between $300 and $600 per person.</p><h2>How long are Flights from LA to Cancun, Mexico?</h2><p>&nbsp;Flights from LA to Cancun, Mexico typically take around 4h30min.</p><h2>What's the cheapest day for Flights from LA to Cancun, Mexico?&nbsp;</h2><p>Tuesday is usually the cheapest day to fly from LA to Cancun, Mexico.</p><h2>How far are the Flights from LA to Cancun, Mexico?</h2><p>&nbsp;The flight from Los Angeles to Cancun, Mexico is approximately 2,118.69 miles.</p><h2>Buy a flight to Mexico</h2><p>No matter what type of vacation you are looking for, flights from LA to Cancun, Mexico can be a great way to experience the beauty of Mexico. With the right planning and research, you can find the perfect flight that fits your budget and travel needs.&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from San Francisco to Cancun Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="SFO" 
+data-to="CUN" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>&nbsp;Cancun is a popular destination for tourists from around the world, and San Francisco is a great starting point for a trip to Mexico. If you're looking for a cheap flight from San Francisco to Cancun, you've come to the right place. Here we will discuss the cost, duration, cheapest days, and distance of these cheap flights.</p><h2>How much are Cheap flights from San Francisco to Cancun Mexico?</h2><p>&nbsp;Cheap flights from San Francisco to Cancun Mexico can vary in cost depending on the airline, time of year, and other factors. However, you can usually find flights for around $200 USD or less if you book in advance and are flexible with your dates.&nbsp;</p><h2>How long are Cheap flights from San Francisco to Cancun Mexico?&nbsp;</h2><p>Cheap flights from San Francisco to Cancun Mexico typically last 5 hours and 4 minutes.&nbsp;</p><h2>What's the cheapest day for Cheap flights from San Francisco to Cancun Mexico?</h2><p>&nbsp;Tuesdays are usually the cheapest days for flights from San Francisco to Cancun Mexico. It's best to book your flight on a Tuesday to get the best deal.</p><h2>How far are the Cheap flights from San Francisco to Cancun Mexico?&nbsp;</h2><p>The distance between San Francisco and Cancun Mexico is 2,413.02 miles.</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

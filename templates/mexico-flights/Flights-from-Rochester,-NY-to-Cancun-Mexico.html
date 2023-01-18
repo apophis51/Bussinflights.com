@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Rochester, NY to Cancun Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="rochester_ny_us" 
+data-to="CUN" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling to Cancun, Mexico from Rochester, NY can be a great adventure. Flights from Rochester, NY to Cancun, Mexico can be relatively affordable and offer great views of the landscape and coastline of Mexico. Here is a look at the cost, duration, cheapest day, and distance of flights from Rochester, NY to Cancun, Mexico.</p><h2>&nbsp;How much are Flights from Rochester, NY to Cancun, Mexico?</h2><p>&nbsp;The average cost of flights from Rochester, NY to Cancun, Mexico is around $400 USD. Prices may vary depending on the day of the week and season.</p><h2>&nbsp;How long are Flights from Rochester, NY to Cancun, Mexico?</h2><p>&nbsp;Flights from Rochester, NY to Cancun, Mexico typically take around 3 hours and 33 minutes. This can vary slightly depending on the airline and route taken.&nbsp;</p><h2>What's the cheapest day for Flights from Rochester, NY to Cancun, Mexico?&nbsp;</h2><p>Tuesdays are usually the cheapest days for flights from Rochester, NY to Cancun, Mexico. Prices may vary depending on the season, so it is always best to check in advance.</p><h2>&nbsp;How far are the Flights from Rochester, NY to Cancun, Mexico?</h2><p>&nbsp;Flights from Rochester, NY to Cancun, Mexico are around 1,615.47 miles in distance. This is equivalent to around 2,604.18 kilometers.</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

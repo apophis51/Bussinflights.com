@@ -1,0 +1,56 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Direct flights from Boston to Cancun Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="boston_ma_us" 
+data-to="CUN" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Direct flights from Boston to Cancun Mexico are the perfect way to get away and enjoy some of the best beaches in the world. With direct flights, you can save time and money while still having the chance to explore the beauty of Mexico.&nbsp;</p><h2>How much are Direct flights from Boston to Cancun Mexico?&nbsp;</h2><p>The cost of direct flights from Boston to Cancun Mexico can vary depending on the airline, season, and other factors. However, you can usually find direct flights for around $400 - $600.&nbsp;</p><h2>How long are Direct flights from Boston to Cancun Mexico?</h2><p>&nbsp;Direct flights from Boston to Cancun Mexico take approximately 3h46min.&nbsp;</p><h2>What's the cheapest day for Direct flights from Boston to Cancun Mexico?&nbsp;</h2><p>Tuesday is usually the cheapest day for direct flights from Boston to Cancun Mexico.&nbsp;</p><h2>How far are the Direct flights from Boston to Cancun Mexico?&nbsp;</h2><p>The direct flights from Boston to Cancun Mexico are approximately 1,733.00 miles.&nbsp;</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

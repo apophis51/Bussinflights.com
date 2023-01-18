@@ -125,3 +125,93 @@ def BogotatoMexicoCityFlights(): #ai-generated
 @mexico_blueprint.route("/Bangalore-to-Mexico-City-Flights/") #ai-generated
 def BangaloretoMexicoCityFlights(): #ai-generated
 	return render_template("/mexico-flights/Bangalore-to-Mexico-City-Flights.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-PHX-to-Cancun-Mexico/") #ai-generated
+def FlightsfromPHXtoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-PHX-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Syracuse-to-Cancun-Mexico/") #ai-generated
+def FlightsfromSyracusetoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Syracuse-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Seattle-to-Cancun/") #ai-generated
+def FlightsfromSeattletoCancun(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Seattle-to-Cancun.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Portland-to-Cancun/") #ai-generated
+def FlightsfromPortlandtoCancun(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Portland-to-Cancun.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Sioux-Falls-SD-to-Cancun-Mexico/") #ai-generated
+def FlightsfromSiouxFallsSDtoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Sioux-Falls-SD-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Miami-to-Cancun-Mexico/") #ai-generated
+def FlightsfromMiamitoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Miami-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Dallas-to-Canun-Mexico/") #ai-generated
+def FlightsfromDallastoCanunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Dallas-to-Canun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/St-Louis-to-Cancun-Mexico/") #ai-generated
+def StLouistoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/St-Louis-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Atlanta-GA-to-Cancun-Mexico/") #ai-generated
+def FlightsfromAtlantaGAtoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Atlanta-GA-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-NYC-to-Cancun-Mexico/") #ai-generated
+def FlightsfromNYCtoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-NYC-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Orlando-FL-to-Cancun-Mexico/") #ai-generated
+def FlightsfromOrlandoFLtoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Orlando-FL-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Rochester,-NY-to-Cancun-Mexico/") #ai-generated
+def FlightsfromRochesterNYtoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Rochester,-NY-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Providence-to-Cancun-Mexico/") #ai-generated
+def FlightsfromProvidencetoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Providence-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Detroit-to-Cancun-Mexico/") #ai-generated
+def FlightsfromDetroittoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Detroit-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-New-Orleans-to-Cancun-Mexico/") #ai-generated
+def FlightsfromNewOrleanstoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-New-Orleans-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-PDX-to-Cancun-Mexico/") #ai-generated
+def FlightsfromPDXtoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-PDX-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-St-Louis-to-Cancun-Mexico/") #ai-generated
+def FlightsfromStLouistoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-St-Louis-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-San-Antonio-Tx-to-Cancun/") #ai-generated
+def FlightsfromSanAntonioTxtoCancun(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-San-Antonio-Tx-to-Cancun.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-LA-to-Cancun-Mexico/") #ai-generated
+def FlightsfromLAtoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-LA-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Philadelphia-to-Cancun-Mexico/") #ai-generated
+def FlightsfromPhiladelphiatoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Philadelphia-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Denver-CO-to-Cancun-Mexico/") #ai-generated
+def FlightsfromDenverCOtoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Denver-CO-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Charlotte-NC-to-Cancun-Mexico/") #ai-generated
+def FlightsfromCharlotteNCtoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Charlotte-NC-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Washington-DC-to-Cancun-Mexico/") #ai-generated
+def FlightsfromWashingtonDCtoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Washington-DC-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Reno-to-Cancun-Mexico/") #ai-generated
+def FlightsfromRenotoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Reno-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Jackson-MS-to-Cancun-Mexico/") #ai-generated
+def FlightsfromJacksonMStoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Jackson-MS-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-San-Francisco-to-Cancun-Mexico/") #ai-generated
+def FlightsfromSanFranciscotoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-San-Francisco-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Rockford-IL-to-Cancun-Mexico/") #ai-generated
+def FlightsfromRockfordILtoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Rockford-IL-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Direct-flights-from-Boston-to-Cancun-Mexico/") #ai-generated
+def DirectflightsfromBostontoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Direct-flights-from-Boston-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Albuquerque-to-Cancun-Mexico/") #ai-generated
+def FlightsfromAlbuquerquetoCancunMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Albuquerque-to-Cancun-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Harlingen-TX-to-Cancun-Mexico-Flights/") #ai-generated
+def HarlingenTXtoCancunMexicoFlights(): #ai-generated
+	return render_template("/mexico-flights/Harlingen-TX-to-Cancun-Mexico-Flights.html") #ai-generated

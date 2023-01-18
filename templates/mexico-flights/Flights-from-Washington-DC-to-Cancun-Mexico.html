@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Washington DC to Cancun Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="washington_dc_us" 
+data-to="CUN" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling from Washington, DC to Cancun, Mexico is a great way to experience the beauty of Mexico. Direct flights from Washington, DC to Cancun, Mexico make the journey easier and more convenient. With this in mind, here's a look at the cost, duration, cheapest day, and distance of direct flights from Washington, DC to Cancun, Mexico.</p><h2>How much are Direct flights from Washington, DC to Cancun, Mexico?</h2><p><br>Direct flights from Washington, DC to Cancun, Mexico typically cost around $500-$600, depending on the airline and time of year. Prices can vary, so it's important to shop around for the best deal.</p><h2>How long are Direct flights from Washington, DC to Cancun, Mexico?</h2><p><br>Direct flights from Washington, DC to Cancun, Mexico usually take around 3 hours and 4 minutes. This includes the time it takes for takeoff and landing, as well as any delays due to weather or other factors.</p><h2>What's the cheapest day for Direct flights from Washington, DC to Cancun, Mexico?</h2><p><br>Tuesdays are typically the cheapest days for direct flights from Washington, DC to Cancun, Mexico. If you can be flexible with your travel dates, it's a good idea to check prices on Tuesdays to get the best deal.</p><h2>How far are the Direct flights from Washington, DC to Cancun, Mexico?</h2><p><br>Direct flights from Washington, DC to Cancun, Mexico are 1,362.25 miles. This is a relatively short distance, and the direct flight makes it easy and convenient to get to your destination.</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

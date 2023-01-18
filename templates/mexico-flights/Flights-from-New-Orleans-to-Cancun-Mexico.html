@@ -1,0 +1,56 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from New Orleans to Cancun Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="new-orleans_la_us" 
+data-to="CUN" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Direct flights from New Orleans to Cancun, Mexico offer a convenient way to travel between the two cities without the need for a connecting flight. Prices for direct flights from New Orleans to Cancun vary depending on the airline and time of year, but generally range from $200 to $500. The average flight time for a direct flight from New Orleans to Cancun is 1h43min. Tuesday is typically the cheapest day to fly for direct flights from New Orleans to Cancun, Mexico. The distance between the two cities is 645.48 miles.</p><h2>&nbsp;How much are Direct flights from New Orleans to Cancun, Mexico?</h2><p><br>Direct flights from New Orleans to Cancun typically range from $200 to $500.</p><h2>How long are Direct flights from New Orleans to Cancun, Mexico?</h2><p><br>The average flight time for a direct flight from New Orleans to Cancun is 1h43min.</p><h2>What's the cheapest day for Direct flights from New Orleans to Cancun, Mexico?</h2><p><br>Tuesday is typically the cheapest day to fly for direct flights from New Orleans to Cancun, Mexico.</p><h2>&nbsp;How far are the Direct flights from New Orleans to Cancun, Mexico?</h2><p><br>The distance between the two cities is 645.48 miles.</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

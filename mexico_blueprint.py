@@ -215,3 +215,42 @@ def FlightsfromAlbuquerquetoCancunMexico(): #ai-generated
 @mexico_blueprint.route("/Harlingen-TX-to-Cancun-Mexico-Flights/") #ai-generated
 def HarlingenTXtoCancunMexicoFlights(): #ai-generated
 	return render_template("/mexico-flights/Harlingen-TX-to-Cancun-Mexico-Flights.html") #ai-generated
+@mexico_blueprint.route("/Cheap-Flights-to-Guadalajara-Mexico-from-LAX/") #ai-generated
+def CheapFlightstoGuadalajaraMexicofromLAX(): #ai-generated
+	return render_template("/mexico-flights/Cheap-Flights-to-Guadalajara-Mexico-from-LAX.html") #ai-generated
+@mexico_blueprint.route("/Dallas-to-Guadalajara-Mexico/") #ai-generated
+def DallastoGuadalajaraMexico(): #ai-generated
+	return render_template("/mexico-flights/Dallas-to-Guadalajara-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Phoenix-to-Guadalajara-Mexico/") #ai-generated
+def FlightsfromPhoenixtoGuadalajaraMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Phoenix-to-Guadalajara-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-San-Jose-to-Guadalajara-Mexico/") #ai-generated
+def FlightsfromSanJosetoGuadalajaraMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-San-Jose-to-Guadalajara-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Ontario-Ca-to-Guadalajara-Mexico/") #ai-generated
+def FlightsfromOntarioCatoGuadalajaraMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Ontario-Ca-to-Guadalajara-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Sacramento-to-Guadalajara-Mexico/") #ai-generated
+def FlightsfromSacramentotoGuadalajaraMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Sacramento-to-Guadalajara-Mexico.html") #ai-generated
+@mexico_blueprint.route("/San-Jose-to-Guadalajara-Mexico-flights/") #ai-generated
+def SanJosetoGuadalajaraMexicoflights(): #ai-generated
+	return render_template("/mexico-flights/San-Jose-to-Guadalajara-Mexico-flights.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Portland-Oregon-to-Guadalajara-Mexico/") #ai-generated
+def FlightsfromPortlandOregontoGuadalajaraMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Portland-Oregon-to-Guadalajara-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Oakland-to-Guadalajara-Mexico/") #ai-generated
+def FlightsfromOaklandtoGuadalajaraMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Oakland-to-Guadalajara-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Ontario-to-Guadalajara,-Mexico/") #ai-generated
+def FlightsfromOntariotoGuadalajaraMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Ontario-to-Guadalajara,-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Fresno-CA-to-Guadalajara-Mexico/") #ai-generated
+def FlightsfromFresnoCAtoGuadalajaraMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Fresno-CA-to-Guadalajara-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Reno-NV-to-Guadalajara-Mexico/") #ai-generated
+def FlightsfromRenoNVtoGuadalajaraMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Reno-NV-to-Guadalajara-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Tijuana-to-Guadalajara,-Mexico/") #ai-generated
+def FlightsfromTijuanatoGuadalajaraMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Tijuana-to-Guadalajara,-Mexico.html") #ai-generated

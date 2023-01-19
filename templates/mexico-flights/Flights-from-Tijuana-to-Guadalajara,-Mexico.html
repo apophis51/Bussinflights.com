@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Tijuana to Guadalajara, Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="tijuana_mx" 
+data-to="guadalajara_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Flights from Tijuana to Guadalajara, Mexico are a great way to explore the country and experience all the country has to offer. Whether you're looking for a quick getaway or a longer journey, flights between these two cities make for an exciting and convenient way to explore Mexico. Below, we'll explore the cost, length, cheapest day, and distance of these flights from Tijuana to Guadalajara.</p><h2>How much are Flights from Tijuana to Guadalajara, Mexico?</h2><p>The cost of flights from Tijuana to Guadalajara, Mexico depends on the airline, departure date, and other factors. Generally, prices for these flights range from $150 to $400 depending on the season and other factors.</p><h2>How long are Flights from Tijuana to Guadalajara, Mexico?</h2><p>Flights from Tijuana to Guadalajara, Mexico take approximately 4 hours and 18 minutes. This time can vary depending on the airline, stopovers, and other factors.</p><h2>What's the cheapest day for Flights from Tijuana to Guadalajara, Mexico?</h2><p>Tuesday is often the cheapest day to fly from Tijuana to Guadalajara, Mexico. However, it's important to check with the airline to confirm the best day and time for your travel.</p><h2>How far are the Flights from Tijuana to Guadalajara, Mexico?</h2><p>The distance between Tijuana and Guadalajara, Mexico is approximately 2,014.45 miles. This distance can vary depending on the route taken, airline, and other factors.</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

@@ -7,6 +7,7 @@
 </head>
 <body>
         {{first}}
+
     <h1>Classic editor</h1>
     <form action="/example/mypostt/" method="post">
         <textarea name="content" class="editor">
@@ -26,7 +27,17 @@
 
     <form action="/example/print/" method="post">
     <label for = "title">title:</label>
-    <input type = "text"  name="title">
+    <input type = "text" name="title">
+
+
+
+    <label >widget_data</label>
+    <textarea  name="widget_data">{{url}}</textarea>
+
+
+
+
+
     <label for = "url">url:</label>
     <input type = "text"  name = "url">
         <textarea name="content" class="editor">

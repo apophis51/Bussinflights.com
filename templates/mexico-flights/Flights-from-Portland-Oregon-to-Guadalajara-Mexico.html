@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Portland Oregon to Guadalajara Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="portland_or_us" 
+data-to="guadalajara_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling from Portland, Oregon to Guadalajara, Mexico is a great option for those looking to explore a new experience. Guadalajara is the second largest city in Mexico and is known for its vibrant culture and attractions. Whether you're looking for a fun family vacation or a romantic getaway, this destination has something for everyone. In this blog, we'll explore the cost, length, and distance of flights from Portland to Guadalajara.</p><h2>How Much Are Flights from Portland Oregon to Guadalajara Mexico?</h2><p><br>Flights from Portland to Guadalajara can vary in price depending on the airline, time of year, and day of the week. Generally, flights range from $400 to $750 and can be found on major airlines like American Airlines, Delta, and United Airlines. You can also find cheaper flights on budget airlines like Frontier, Spirit, and Allegiant Air.</p><h2>How Long Are Flights from Portland Oregon to Guadalajara Mexico ?</h2><p><br>The flight time from Portland to Guadalajara is about 5 hours and 29 minutes. This includes time for takeoff and landing, as well as any layovers that may be necessary.</p><h2>What's the Cheapest Day for Flights from Portland Oregon to Guadalajara Mexico?</h2><p><br>Tuesdays are typically the cheapest days to fly from Portland to Guadalajara. This is because there is typically less demand for flights on Tuesdays, so airlines will offer discounts. If you're looking for the best deal, try booking your flight for a Tuesday.</p><h2>How Far Are the Flights from Portland Oregon to Guadalajara Mexico?</h2><p><br>The distance from Portland to Guadalajara is about 2,635.73 miles. This is equivalent to about 4,250 kilometers.<br>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

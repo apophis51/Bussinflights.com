@@ -2,10 +2,11 @@ from flask import Blueprint, render_template, request
 #from flask_ckeditor import CKEditorField, CKEditor
 import openai  #new
 import os.path
+import re
 
 example_blueprint = Blueprint('example_blueprint', __name__)
 #second = Blueprint('example_blueprint', __name__, template_folder='templates')
-openai.api_key = "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" #new
+openai.api_key = "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" #new
 
 myprompt = """make a 4 paragraph blog about Flights to 
 
@@ -27,7 +28,21 @@ def mypost():
 def myypost():
     #first = request.args.get('content')
     first = request.form['content']  
-    return render_template("cool.html", first=first)
+    ###print splitter added 1/19/2023
+    return_string = ""
+    second = first.rsplit("*")
+    for x in second:
+        for y in x.rsplit("?"):
+           # re.sub('<[^<]+?>', '', y)
+            y = y.replace("<p>", "")
+            y = y.replace("<br>", "")
+            y = y.replace("</p>", "")
+            return_string = return_string + y + "\r"
+            print(y)
+            print('\n')
+            #print(y +"?")
+    ###end print splitter 1/19/2023
+    return render_template("cool.html", first=first,return_string=return_string)
 
 @example_blueprint.route('/gpt3/', methods=['GET', 'POST'])
 def gpt3():
@@ -37,6 +52,9 @@ def gpt3():
             max_tokens=2000,
             prompt=first,
             temperature=0.6)
+
+    ##edit 1/19/2023
+    ##end 1/19/2023 edit
     first=first + response.choices[0].text    
     return render_template("cool.html", first=first)
 
@@ -54,14 +72,7 @@ blog ="""
 
 
 \n{% block widget %}
-\n<div id="widget-holder"></div>
-\n<script 
-\ndata-affilid="apophis51saltlaketobogota" 
-\ndata-from="LAX" 
-\ndata-to="bogota_co" 
-\ndata-transport-types="FLIGHT" 
-\nsrc="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
-\n</script>
+\n***
 \n{% endblock widget%}
 
 
@@ -86,9 +97,10 @@ blog ="""
 
 @example_blueprint.route('/print/', methods=['GET', 'POST'])
 def printt():
-    content = request.form['content'] 
+    content = request.form['content']
     
     title = request.form['title']
+    widget_data = request.form['widget_data'] ## 1/18/2023 edit
     route = title.replace(" ","-")
     url = title.replace(" " , "-") + ".html"
     urlwithouthtml = title.replace(" ", "-")
@@ -117,13 +129,14 @@ def printt():
     filelocation = f"{url}"
     completeName = os.path.join(save_path, filelocation)
     text = open(completeName,"a")
-    text.writelines(blog.replace("TTT",title).replace("###",content))
-
+    #text.writelines(blog.replace("TTT",title).replace("###",content)) depricated and added ***
+    content = content.replace("’","'")#added this line to correct messed up unicode characters incomming from gpt3
+    text.writelines(blog.replace("TTT",title).replace("###",content).replace("***",widget_data))
     text = open('mexico_blueprint.py', 'a')
     text.writelines(f'\n@mexico_blueprint.route("/{route}/") #ai-generated')
     text.writelines(f'\ndef {method}(): #ai-generated')
     text.writelines(f'\n\treturn render_template("/mexico-flights/{url}") #ai-generated')
-
+    
     filelocation = "mexico-base.html"
     completeName = os.path.join(save_path, filelocation)
 
@@ -138,7 +151,9 @@ def printt():
     #data[-1] = navigation
     
 
-    return render_template("cool.html", first=content)
+    #return render_template("cool.html", first=content)       depricated 1/19/2023
 
- 
+    return_navigation = f"/mexico-flights/{urlwithouthtml}/"
+
+    return render_template("cool.html", first=content,url = "http://127.0.0.1:5000" + return_navigation)
     

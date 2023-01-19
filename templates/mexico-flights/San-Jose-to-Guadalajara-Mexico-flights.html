@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}San Jose to Guadalajara Mexico flights{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="san-jose_ca_us" 
+data-to="guadalajara_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling from San Jose to Guadalajara, Mexico is a great way to explore the culture and beauty of Mexico. Flights from San Jose to Guadalajara allow you to experience the vibrant colors and flavors of Mexico in a short amount of time. Whether you're looking for a quick getaway or a longer vacation, there are many options for San Jose to Guadalajara flights to choose from.</p><h2><br>How much are San Jose to Guadalajara Mexico flights?</h2><p><br>Prices for San Jose to Guadalajara flights vary depending on the airline, time of year, and other factors. Generally, flights from San Jose to Guadalajara range from $200-$400 USD.</p><h2><br>How long are San Jose to Guadalajara Mexico flights?</h2><p><br>The flight time from San Jose to Guadalajara is approximately 1 hour 59 minutes.</p><h2><br>What's the cheapest day for San Jose to Guadalajara Mexico flights?</h2><p><br>Tuesdays are typically the least expensive day to fly from San Jose to Guadalajara.</p><h2><br>How far are the San Jose to Guadalajara Mexico flights?</h2><p><br>The distance from San Jose to Guadalajara is 785.75 miles.&nbsp;&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

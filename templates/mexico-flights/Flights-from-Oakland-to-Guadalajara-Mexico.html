@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Oakland to Guadalajara Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="oakland_ca_us" 
+data-to="guadalajara_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling from Oakland, California to Guadalajara, Mexico is a popular route for travelers looking to explore the vibrant culture of the country. Flights from Oakland to Guadalajara offer travelers a chance to immerse themselves in the unique culture of Mexico. These flights are relatively affordable and offer a convenient option for getting to Mexico quickly and easily.</p><h2>How much are flights from Oakland to Guadalajara Mexico?</h2><p><br>Flights from Oakland to Guadalajara typically range from $200 to $400 for round-trip tickets. Prices can vary depending on the time of year and the airline. It is recommended to book flights in advance for the best rates.</p><h2>How long are flights from Oakland to Guadalajara Mexico? &nbsp; &nbsp;</h2><p><br>Flights from Oakland to Guadalajara take approximately 5 hours and 3 minutes. This time can vary depending on weather conditions and other factors.</p><h2>What's the cheapest day for flights from Oakland to Guadalajara Mexico?</h2><p><br>Tuesdays are typically the cheapest days for flights from Oakland to Guadalajara. It is recommended to book flights in advance to get the best deals.</p><h2>How far are the flights from Oakland to Guadalajara Mexico?</h2><p><br>The flights from Oakland to Guadalajara are approximately 2,405.95 miles. This distance can vary depending on the route taken and other factors,</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

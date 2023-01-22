@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Houston to Durango Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="houston_tx_us" 
+data-to="durango_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Flying from Houston to Durango Mexico is a great way to explore the culture and cuisine of the region. It is a relatively short flight and can be quite affordable if you plan ahead. In this blog post, we will discuss the cost, length, cheapest day, and distance of flights from Houston to Durango Mexico.</p><h2>How much are flights from Houston to Durango Mexico?&nbsp;</h2><p>The cost of flights from Houston to Durango Mexico can vary depending on the time of year and the carrier. Generally, flights can range from $150-400 depending on the season and airline.</p><h2>How long are flights from Houston to Durango Mexico?&nbsp;</h2><p>Flights from Houston to Durango Mexico typically take 2 hours and 9 minutes.</p><h2>What's the cheapest day for flights from Houston to Durango Mexico?&nbsp;</h2><p>The cheapest day for flights from Houston to Durango Mexico is Tuesday.</p><h2>How far are the flights from Houston to Durango Mexico?</h2><p>&nbsp;The distance of flights from Houston to Durango Mexico is 879.17 miles.</p><p>&nbsp;</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

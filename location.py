@@ -34,10 +34,12 @@ for x,y in enumerate(sheet["a"]):
     if x < 1000:
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
         result = sheet[f"b{1+x}"].value.replace(" ","-")#####
+        destination_endpoint = sheet[f"h{1+x}"].value
         print(2, result)
         if result is not None:
             location = result
-            url_from = f"https://www.distance.to/{location}/Cancun"   #change city name her
+            # url_from = f"https://www.distance.to/{location}/Cancun"   #change city name her
+            url_from = f"https://www.distance.to/{location}/{destination_endpoint}" #edit on 1/20/2023
             driver.get(url_from)
             time.sleep(1)
             try:

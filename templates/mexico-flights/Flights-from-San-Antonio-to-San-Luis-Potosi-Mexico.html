@@ -1,0 +1,56 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from San Antonio to San Luis Potosi Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="san-antonio_tx_us" 
+data-to="san-luis-potosi_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Flying from San Antonio to San Luis Potosi, Mexico is an exciting and convenient way to travel! Whether you're looking for a quick getaway or a longer stay, there are plenty of flights available to get you to your destination.</p><h2><br>How much are flights from San Antonio to San Luis Potosi Mexico?</h2><p><br>Flights from San Antonio to San Luis Potosi typically range from $150 to $600 depending on the airline and the time of year. Prices can vary greatly, so it's best to shop around for the best deal.</p><h2><br>How long are flights from San Antonio to San Luis Potosi Mexico?</h2><p><br>Flights from San Antonio to San Luis Potosi typically take 1 hour and 47 minutes.</p><h2><br>What's the cheapest day for flights from San Antonio to San Luis Potosi Mexico?</h2><p><br>Tuesdays are typically the cheapest day for flights from San Antonio to San Luis Potosi.</p><h2><br>How far are the flights from San Antonio to San Luis Potosi Mexico?</h2><p><br>Flights from San Antonio to San Luis Potosi are 683.02 miles.&nbsp; &nbsp; &nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

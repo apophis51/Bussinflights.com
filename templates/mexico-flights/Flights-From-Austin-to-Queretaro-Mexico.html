@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights From Austin to Queretaro Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="austin_tx_us" 
+data-to="QRO" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Flights from Austin to Queretaro, Mexico are a great way to travel between these two cities. Flights are relatively inexpensive and the journey time is relatively short. Whether you're traveling for business or pleasure, flying from Austin to Queretaro is a great way to travel.</p><h2>How Much are Flights from Austin to Queretaro, Mexico?</h2><p>Flights from Austin to Queretaro, Mexico are generally quite affordable. Prices can vary depending on the day and time of the flight, but the average cost for a round-trip ticket is about $300 USD.</p><h2>How Long are Flights from Austin to Queretaro, Mexico?</h2><p>Flights from Austin to Queretaro, Mexico typically take about 1 hour and 55 minutes. The exact flight time can vary depending on the airline and other factors.</p><h2>What's the Cheapest Day for Flights from Austin to Queretaro, Mexico?</h2><p>Tuesdays are typically the cheapest day of the week to fly from Austin to Queretaro, Mexico. Prices tend to be lower on Tuesdays than other days of the week, so it's a good idea to plan your flight for Tuesday if you are looking for the best deal.</p><h2>How Far are the Flights from Austin to Queretaro, Mexico?</h2><p>Flights from Austin to Queretaro, Mexico cover a distance of about 750.13 miles. The exact distance may vary depending on the route taken by the aircraft.</p><p>&nbsp;</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

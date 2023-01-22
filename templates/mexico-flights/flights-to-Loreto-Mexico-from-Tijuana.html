@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}flights to Loreto Mexico from Tijuana{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="tijuana_mx" 
+data-to="loreto_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling to Loreto, Mexico from Tijuana, Mexico can be an exciting adventure. With over 1,000 miles of serene coastline, Loreto is the perfect destination for a beach getaway. With flights offered from Tijuana International Airport, it's easy to get there. Here's what you need to know about flights to Loreto Mexico from Tijuana.</p><h2>How much are flights to Loreto Mexico from Tijuana?&nbsp;</h2><p>Prices for flights from Tijuana to Loreto start at around $200 USD, depending on the airline and the time of year. Prices can range up to around $500 USD for more expensive flights.</p><h2>How long are flights to Loreto Mexico from Tijuana?&nbsp;</h2><p>The average flight time from Tijuana to Loreto is 2h 44min.</p><h2>What's the cheapest day for flights to Loreto Mexico from Tijuana?</h2><p>&nbsp;Tuesdays tend to be the cheapest day for flights from Tijuana to Loreto.</p><h2>How far are the flights to Loreto Mexico from Tijuana?&nbsp;</h2><p>The distance between Tijuana and Loreto is 1,182.86 miles.</p><p>&nbsp;</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

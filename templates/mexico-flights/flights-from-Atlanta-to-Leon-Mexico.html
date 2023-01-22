@@ -1,0 +1,65 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}flights from Atlanta to Leon Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+
+<script 
+
+data-affilid="apophis51saltlaketobogota" 
+
+data-from="atlanta_ga_us" 
+
+data-to="leon_mx" 
+
+data-transport-types="FLIGHT" 
+
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+
+</script>
+
+
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+<p>Traveling between Atlanta and Leon, Mexico is a convenient journey for those looking to experience a different culture. This article will discuss the cost, duration, cheapest day, and distance of flights from Atlanta to Leon, Mexico.</p><h3><br>How much are flights from Atlanta to Leon Mexico?</h3><p><br>The cost of flights from Atlanta to Leon, Mexico can vary depending on the airline, time of year, and other factors. Generally, flights from Atlanta to Leon, Mexico range from $200 - $400.</p><h3><br>How long are flights from Atlanta to Leon Mexico?</h3><p><br>Flights from Atlanta to Leon, Mexico typically take 3 hours and 17 minutes.</p><h3><br>What's the cheapest day for flights from Atlanta to Leon Mexico?</h3><p><br>Tuesday is usually the cheapest day of the week to fly from Atlanta to Leon, Mexico. This is because there is generally less demand for flights on Tuesdays.</p><h3><br>How far are the flights from Atlanta to Leon Mexico?</h3><p><br>The distance between Atlanta and Leon, Mexico is approximately 1,474.71 miles.&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

@@ -6,7 +6,7 @@ import re
 
 example_blueprint = Blueprint('example_blueprint', __name__)
 #second = Blueprint('example_blueprint', __name__, template_folder='templates')
-openai.api_key = "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" #new
+openai.api_key = "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" #new
 
 myprompt = """make a 4 paragraph blog about Flights to 
 

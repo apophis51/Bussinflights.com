@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Chicago to Leon Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="chicago_il_us" 
+data-to="leon_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling from Chicago to Leon, Mexico is a great way to explore the culture and vibrant scenes of Mexico. Whether you're headed to Leon for business or pleasure, the flight is a great introduction to your trip. Here, we'll look at how much the flight is, how long it takes, the best day to book, and how far the flight is.</p><h2>How much are Flights from Chicago to Leon, Mexico?&nbsp;</h2><p>Prices for flights from Chicago to Leon, Mexico vary greatly depending on the airline and the time of year you're traveling. Generally, you can expect to pay around $400 for a round-trip ticket, although prices can go as low as $300 during certain times of year.</p><h2>How long are Flights from Chicago to Leon, Mexico?&nbsp;</h2><p>The flight time from Chicago to Leon, Mexico is approximately 3 hours and 46 minutes.</p><h2>What's the cheapest day for Flights from Chicago to Leon, Mexico?</h2><p>&nbsp;Generally, Tuesday is the cheapest day of the week to book flights from Chicago to Leon, Mexico. However, it's always best to check the prices on different days of the week to make sure you're getting the best deal.</p><h2>How far are the Flights from Chicago to Leon, Mexico?&nbsp;</h2><p>The distance between Chicago and Leon, Mexico is 1,731.24 miles.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

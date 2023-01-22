@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from San Francisco to Morelia Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="san-francisco_ca_us" 
+data-to="morelia_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Flying from San Francisco to Morelia, Mexico is a great way to explore a new destination. Whether you are planning a vacation, a business trip, or simply want to visit family and friends, the flight from San Francisco to Morelia is an easy and convenient way to travel.&nbsp;</p><h2><br>How much are Flights from San Francisco to Morelia, Mexico?&nbsp;</h2><p><br>The price of flights from San Francisco to Morelia, Mexico can vary depending on the time of year and the airline you choose. On average, prices range from around $250 to $450 for a round-trip ticket.</p><h2>&nbsp;<br>How long are Flights from San Francisco to Morelia, Mexico?</h2><p>&nbsp;<br>The flight from San Francisco to Morelia, Mexico typically takes about 4 hours and 4 minutes.&nbsp;</p><h2><br>What's the cheapest day for Flights from San Francisco to Morelia, Mexico?</h2><p>&nbsp;<br>Tuesday is typically the cheapest day of the week to fly from San Francisco to Morelia, Mexico.&nbsp;</p><h2><br>How far are the Flights from San Francisco to Morelia, Mexico?</h2><p>&nbsp;<br>The flight from San Francisco to Morelia, Mexico is 1,889.23 miles.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

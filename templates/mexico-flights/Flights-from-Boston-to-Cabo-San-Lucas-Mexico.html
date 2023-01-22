@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Boston to Cabo San Lucas Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="boston_ma_us" 
+data-to="CSL" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Flights from Boston to Cabo San Lucas, Mexico are a great way to explore the beauty of this coastal city. Whether you're looking for a weekend getaway or a longer vacation, a flight to Cabo San Lucas can help make your dream a reality. With its stunning beaches, amazing nightlife, and plenty of activities for all ages, Cabo San Lucas is a perfect destination for anyone looking for a memorable trip.</p><h2>How much are Flights from Boston to Cabo San Lucas, Mexico?</h2><p>&nbsp;Prices for flights from Boston to Cabo San Lucas, Mexico can vary, but generally range from around $400-$700. It's important to check different airlines and websites for the best deals and prices, as they can change often.</p><h2>How long are Flights from Boston to Cabo San Lucas, Mexico?</h2><p>&nbsp;Generally speaking, flights from Boston to Cabo San Lucas, Mexico take around 5h23min. This can vary depending on the airline, layovers, and other factors.</p><h2>What's the cheapest day for Flights from Boston to Cabo San Lucas, Mexico?</h2><p>&nbsp;Tuesdays are usually the cheapest day to fly from Boston to Cabo San Lucas, Mexico. Again, prices can vary depending on the airline and other factors, so it's important to do your research and compare prices.</p><h2>How far are the Flights from Boston to Cabo San Lucas, Mexico?</h2><p>Flights from Boston to Cabo San Lucas, Mexico are approximately 2,579.57 miles.</p><p>&nbsp;</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

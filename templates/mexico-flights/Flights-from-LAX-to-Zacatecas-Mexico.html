@@ -1,0 +1,66 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from LAX to Zacatecas Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+
+<script 
+
+data-affilid="apophis51saltlaketobogota" 
+
+data-from="LAX" 
+
+data-to="zacatecas_mx" 
+
+data-transport-types="FLIGHT" 
+
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+
+</script>
+
+
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Flying from Los Angeles International Airport (LAX) to Zacatecas International Airport (ZCL) in Zacatecas, Mexico is a popular route for travelers looking to explore the vibrant culture and history of the region. If you're planning a trip, you'll want to know the flight details, including price, duration, and distance. Here's a look at the basics of flying from LAX to ZCL.</p><h2><br>How much are flights from LAX to Zacatecas Mexico?</h2><p><br>The price of flights from LAX to ZCL vary depending on the airline, time of year, and other factors. Generally, you can expect to pay around $300-$400 for a round-trip ticket. &nbsp; &nbsp;</p><h2><br>How long are flights from LAX to Zacatecas Mexico?</h2><p><br>Flights from LAX to ZCL typically take around 2 hours and 58 minutes. &nbsp;</p><h2><br>What's the cheapest day for flights from LAX to Zacatecas Mexico? &nbsp; &nbsp; &nbsp; &nbsp;</h2><p><br>Tuesday tends to be the cheapest day for flights from LAX to ZCL, although prices can vary depending on the season and other factors.</p><h2><br>How far are the flights from LAX to Zacatecas Mexico?</h2><p><br>The direct flights from LAX to ZCL are approximately 1,307.40 miles.&nbsp;<br>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

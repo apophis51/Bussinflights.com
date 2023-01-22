@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Sacramento to Morelia Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="sacramento_ca_us" 
+data-to="morelia_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Sacramento to Morelia Mexico is a popular route for travelers who want to experience the culture and history of Mexico. With direct flights available from Sacramento International Airport, this route is a great way to get to the beautiful city of Morelia. Whether you are looking for a quick weekend getaway or a longer stay in Morelia, flights from Sacramento to Morelia Mexico are a convenient way to get there.&nbsp;</p><h2>How much are flights from Sacramento to Morelia Mexico?</h2><p>The average cost for flights from Sacramento to Morelia Mexico is around $470, depending on the airline, time of year, and other factors. Prices may vary, and it is recommended to shop around for the best deal.</p><h2>&nbsp;How long are flights from Sacramento to Morelia Mexico?</h2><p>Flights from Sacramento to Morelia Mexico typically take around 4 hours and 3 minutes. This time can vary depending on the airline, layovers, and other factors.&nbsp;</p><h2>What's the cheapest day for flights from Sacramento to Morelia Mexico?</h2><p>Tuesday is typically the cheapest day for flights from Sacramento to Morelia Mexico. Prices may vary, so it is recommended to shop around for the best deal.&nbsp;</p><h2>How far are the flights from Sacramento to Morelia Mexico?</h2><p>Flights from Sacramento to Morelia Mexico are about 1,882.18 miles. This distance can vary depending on the airline, layovers, and other factors.&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

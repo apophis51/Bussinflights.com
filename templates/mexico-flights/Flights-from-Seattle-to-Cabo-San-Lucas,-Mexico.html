@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Seattle to Cabo San Lucas, Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="seattle_wa_us" 
+data-to="cabo-san-lucas_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Flights from Seattle to Cabo San Lucas, Mexico offer an exciting opportunity for travelers to explore the beautiful beaches, world-class golf courses, and vibrant nightlife of this Mexican vacation destination. The flight is relatively short, making it a great option for a weekend getaway or a longer vacation. In this blog, we'll explore the cost, duration, cheapest day of the week, and distance of flights from Seattle to Cabo San Lucas, Mexico.</p><h2>How much are Flights from Seattle to Cabo San Lucas, Mexico?</h2><p>The cost of flights from Seattle to Cabo San Lucas, Mexico can vary depending on the airline, time of year, and other factors. Generally, prices range from $400 to $800 for a round-trip ticket. Prices can be higher during peak travel season and lower during the off-season.</p><h2>How long are Flights from Seattle to Cabo San Lucas, Mexico?</h2><p>Flights from Seattle to Cabo San Lucas, Mexico typically take 3h57min. This includes the time spent in the air, as well as the layover time at the airport.</p><h2>What's the cheapest day for Flights from Seattle to Cabo San Lucas, Mexico?</h2><p>Tuesday is typically the cheapest day for flights from Seattle to Cabo San Lucas, Mexico. Prices tend to be higher on the weekends, and during peak travel season.</p><h2>How far are the Flights from Seattle to Cabo San Lucas, Mexico?</h2><p>The flight from Seattle to Cabo San Lucas, Mexico is 1,824.61 miles. This distance is equivalent to about 2,939 kilometers.</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

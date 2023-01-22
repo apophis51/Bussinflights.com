@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Seattle to Los Cabos Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="seattle_wa_us" 
+data-to="SJD" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Flying from Seattle to Los Cabos, Mexico is a great way to enjoy a tropical getaway. Los Cabos offers a variety of activities and attractions that make it the perfect destination for a vacation. Whether you're looking for a relaxing beach holiday or an adventure-filled escape, Los Cabos has something for everyone. The good news is that flights from Seattle to Los Cabos are relatively affordable, making it easy to plan a trip to this Mexican paradise.&nbsp;</p><h2>How much are Flights from Seattle to Los Cabos, Mexico?</h2><p><br>Flights from Seattle to Los Cabos are generally quite affordable, with prices ranging from around $250 - $500 USD depending on the time of year and the airline. Travelers can find great deals on flights if they book in advance, as well as discounts for specific days of the week or times of the day. Additionally, there are often promotional deals offered by airlines or travel sites that can make flights even cheaper.</p><h2>&nbsp;How long are Flights from Seattle to Los Cabos, Mexico?</h2><p><br>Flights from Seattle to Los Cabos typically take around 3 hours and 57 minutes. The flight time can vary depending on the airline and the number of stops, so it's important to check the details of your specific flight before booking. Most direct flights from Seattle to Los Cabos will take around 3 hours and 30 minutes.</p><h2>What's the cheapest day for Flights from Seattle to Los Cabos, Mexico? &nbsp; &nbsp; &nbsp;&nbsp;</h2><p><br>Tuesday is generally the cheapest day to fly from Seattle to Los Cabos. Travelers can find great deals on flights if they book in advance and look for promotional offers. Additionally, Tuesday is typically the least busy day of the week, so flights are often more affordable.</p><h2>How far are the Flights from Seattle to Los Cabos, Mexico?</h2><p><br>The flight from Seattle to Los Cabos is 1,824.61 miles, or 2,944.88 kilometers. The distance is relatively short compared to other international flights, making it a great option for a relaxing getaway.</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

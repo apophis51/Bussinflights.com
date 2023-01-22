@@ -1,0 +1,56 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Denver to Cozumel, Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="denver_co_us" 
+data-to="cozumel_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Flights from Denver to Cozumel, Mexico offer travelers a chance to experience the beauty and culture of the Caribbean. From the hidden cenotes to the stunning Mayan ruins, Cozumel is an ideal destination for those looking for a relaxing and exciting getaway. But before you book your flight, you'll want to know the cost, duration, and distance of the trip. In this blog post, we'll answer those questions and more, giving you all the information you need to plan a fantastic vacation.</p><h2>How much are Flights from Denver to Cozumel, Mexico?<br>&nbsp;</h2><p>Flights from Denver to Cozumel, Mexico typically range in price from $350 to $600 USD, depending on the airline and the time of year. Prices can also vary depending on the day of the week, so it pays to do your research before booking.</p><h2>How long are Flights from Denver to Cozumel, Mexico?</h2><p><br>Flights from Denver to Cozumel, Mexico typically take around 3h40min. This includes time in the air and any layovers, so make sure to leave plenty of time for your trip.</p><h2>What's the cheapest day for Flights from Denver to Cozumel, Mexico?</h2><p><br>Tuesdays are usually the cheapest day for Flights from Denver to Cozumel, Mexico. Airlines often offer discounts on Tuesdays, making them a great day to look for bargains.</p><h2>How far are the Flights from Denver to Cozumel, Mexico?</h2><p><br>Flights from Denver to Cozumel, Mexico typically cover a distance of 1,674.98 miles. This can vary depending on the route taken, so make sure to double-check the exact distance before booking.</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

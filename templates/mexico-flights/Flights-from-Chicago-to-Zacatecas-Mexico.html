@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Chicago to Zacatecas Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="chicago_il_us" 
+data-to="zacatecas_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>The good news is that you can find flights for as low as $279. This article will discuss the prices, flight times, cheapest days to fly, and distance of a cheap flight from Chicago to Zacatecas, Mexico.</p><h2><br>How much are cheap flights from Chicago to Zacatecas Mexico?</h2><p><br>You can find cheap flights from Chicago to Zacatecas, Mexico for as low as $279. Prices may vary depending on the airline and time of year you are flying.</p><h2><br>How long are cheap flights from Chicago to Zacatecas Mexico?</h2><p><br>The average flight time for a cheap flight from Chicago to Zacatecas, Mexico is 3 hours and 46 minutes.</p><h2><br>What's the cheapest day for cheap flights from Chicago to Zacatecas Mexico?</h2><p><br>Tuesday is usually the cheapest day to fly from Chicago to Zacatecas, Mexico.</p><h2><br>How far are the cheap flights from Chicago to Zacatecas Mexico?</h2><p><br>The distance of the cheap flights from Chicago to Zacatecas, Mexico is 1,731.24 miles.&nbsp;<br>&nbsp;</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

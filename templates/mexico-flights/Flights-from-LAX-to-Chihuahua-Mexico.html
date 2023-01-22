@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from LAX to Chihuahua Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="LAX" 
+data-to="chihuahua_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling from Los Angeles International Airport (LAX) to Chihuahua, Mexico can be a great way to explore the wonders of Mexico. Whether you are looking for a short getaway or a longer vacation, flights between LAX and Chihuahua provide an easy way to get there.&nbsp;</p><h2>How much are Flights from LAX to Chihuahua, Mexico?&nbsp;</h2><p>Prices for flights from LAX to Chihuahua vary depending on the airline, time of year, and other factors. Generally, flights from LAX to Chihuahua start at around $250 and can reach up to $500, depending on the airlines and dates of travel.&nbsp;</p><h2>How long are Flights from LAX to Chihuahua, Mexico?&nbsp;</h2><p>Flights from LAX to Chihuahua, Mexico typically take 1 hour and 32 minutes.&nbsp;</p><h2>What's the cheapest day for Flights from LAX to Chihuahua, Mexico?</h2><p>&nbsp;Tuesdays are usually the cheapest day to fly from LAX to Chihuahua, Mexico.&nbsp;</p><h2>How far are the Flights from LAX to Chihuahua, Mexico?&nbsp;</h2><p>Flights from LAX to Chihuahua, Mexico are approximately 547.68 miles.&nbsp;</p><h2>Are You Ready to Buy a Flight to Mexico?</h2><p>No matter what the reason for your trip, booking a flight from LAX to Chihuahua, Mexico is a great way to explore this beautiful country. With affordable prices and convenient flight times, you can make the most of your vacation.&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

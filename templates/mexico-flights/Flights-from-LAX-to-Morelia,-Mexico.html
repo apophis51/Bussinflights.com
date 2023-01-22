@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from LAX to Morelia, Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="LAX" 
+data-to="morelia_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Cheap flights from Los Angeles International Airport (LAX) to Morelia, Mexico (MLM) provide travelers with an affordable and convenient way to explore this vibrant city. Morelia, located in the Mexican state of Michoacan, is a colonial city known for its beautiful architecture, fascinating history, and unique cultural attractions. With a direct flight time of just 3 hours and 26 minutes, Morelia is an ideal destination for a weekend getaway or longer vacation.</p><h2>How much are Cheap flights from LAX to Morelia, Mexico?&nbsp;</h2><p>Prices for flights from LAX to MLM vary depending on the season and the airline chosen. On average, travelers can expect to pay between $200 and $400 for a round-trip ticket.</p><h2>How long are Cheap flights from LAX to Morelia, Mexico?</h2><p>&nbsp;The direct flight time from LAX to MLM is approximately 3 hours and 26 minutes.</p><h2>What's the cheapest day for Cheap flights from LAX to Morelia, Mexico?&nbsp;</h2><p>Tuesday is usually the cheapest day to fly from LAX to MLM.</p><h2>How far are the Cheap flights from LAX to Morelia, Mexico?</h2><p>&nbsp;The distance between LAX and MLM is 1,552.85 miles.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

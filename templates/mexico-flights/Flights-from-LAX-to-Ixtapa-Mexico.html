@@ -1,0 +1,56 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from LAX to Ixtapa Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="LAX" 
+data-to="ixtapa_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling from Los Angeles (LAX) to Ixtapa, Mexico (ZIH) is a great way to experience the vibrant culture and stunning beaches of Mexico. Flights from LAX to Ixtapa are somewhat pricey, but it's possible to find great deals if you plan your trip in advance. Read on to learn more about the cost, duration, and distance of flights from LAX to Ixtapa.</p><h2>How much are flights from LAX to Ixtapa Mexico?</h2><p>&nbsp;Generally, flights from LAX to Ixtapa cost anywhere between $200 and $600, depending on the airline, the time of year, and other factors. If you plan your trip far enough in advance and are flexible with your travel dates, you may be able to find a great deal on your flight.</p><h2>How long are flights from LAX to Ixtapa Mexico?</h2><p>&nbsp;Most flights from LAX to Ixtapa take about 2 hours and 48 minutes. This can vary slightly depending on the airline, the number of stops, and other factors.</p><h2>What's the cheapest day for flights from LAX to Ixtapa Mexico?&nbsp;</h2><p>Generally, Tuesdays are the cheapest days for flights from LAX to Ixtapa. You may be able to find a great deal if you plan your trip in advance and are flexible with your travel dates.</p><h2>How far are the flights from LAX to Ixtapa Mexico?&nbsp;</h2><p>The distance between LAX and Ixtapa is 1,217.66 miles. This can vary slightly depending on the airline and the route taken.</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

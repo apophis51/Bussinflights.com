@@ -1,0 +1,56 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from San Antonio Texas to Queretaro Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="san-antonio_tx_us" 
+data-to="QRO" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Queretaro, Mexico is a popular tourist destination for those looking to experience the beauty of Mexico. San Antonio, Texas is a great starting point for those wanting to visit Queretaro. With a flight time of only 1 hour and 48 minutes, it is the perfect place to begin a Mexican getaway.</p><h2>How much are Flights from San Antonio Texas to Queretaro Mexico?</h2><p>Flights from San Antonio to Queretaro are generally fairly inexpensive. Prices can range from $150 to $400 depending on the airline and the time of year. Prices may be even cheaper if you book your flight in advance or if you use a discount travel site.</p><h2>How long are Flights from San Antonio Texas to Queretaro Mexico?</h2><p>Flights from San Antonio to Queretaro typically take 1 hour and 48 minutes. This flight time is relatively short, making it a great option for those looking to get to Queretaro quickly.</p><h2>What's the cheapest day for Flights from San Antonio Texas to Queretaro Mexico?</h2><p>Tuesdays are usually the cheapest days to fly from San Antonio to Queretaro. Prices on Tuesdays tend to be lower than other days of the week due to less demand. It is also a good idea to book flights in advance to get the best deals.</p><h2>How far are the Flights from San Antonio Texas to Queretaro Mexico?</h2><p>The distance between San Antonio and Queretaro is 688.39 miles. This is a relatively short distance and can be covered in 1 hour and 48 minutes by plane.&nbsp;</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

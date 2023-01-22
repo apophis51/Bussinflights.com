@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Harlingen to Monterrey Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="harlingen_tx_us" 
+data-to="monterrey_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>If you're looking to take a flight from Harlingen, Texas to Monterrey, Mexico, you're in luck! There are a variety of flights available to meet your needs.&nbsp;</p><h2>How much are flights from Harlingen to Monterrey Mexico?&nbsp;</h2><p>Prices vary depending on the airline and the time of year, but generally, they start at around $125 USD per ticket.</p><h2>How long are flights from Harlingen to Monterrey Mexico?&nbsp;</h2><p>Flight times from Harlingen to Monterrey Mexico are generally about 0h47min.</p><h2>What's the cheapest day for flights from Harlingen to Monterrey Mexico?&nbsp;</h2><p>Tuesdays tend to be the cheapest day to fly from Harlingen to Monterrey Mexico.</p><h2>How far are the flights from Harlingen to Monterrey Mexico?</h2><p>&nbsp;The distance between Harlingen and Monterrey Mexico is approximately 152.66 miles.</p><h2>Ready to Buy a Flight to Mexico?</h2><p>When planning a trip from Harlingen to Monterrey Mexico, it's important to research and compare the different airline options to find the most affordable and convenient flight. With the right research and planning, you can get the best deal for your flight and enjoy a great trip!</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

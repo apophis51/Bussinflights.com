@@ -254,3 +254,163 @@ def FlightsfromRenoNVtoGuadalajaraMexico(): #ai-generated
 @mexico_blueprint.route("/Flights-from-Tijuana-to-Guadalajara,-Mexico/") #ai-generated
 def FlightsfromTijuanatoGuadalajaraMexico(): #ai-generated
 	return render_template("/mexico-flights/Flights-from-Tijuana-to-Guadalajara,-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-LAX-to-Zacatecas-Mexico/") #ai-generated
+def FlightsfromLAXtoZacatecasMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-LAX-to-Zacatecas-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Dallas-to-Zacatecas-Mexico/") #ai-generated
+def FlightsfromDallastoZacatecasMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Dallas-to-Zacatecas-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Denver-to-Zacatecas-Mexico/") #ai-generated
+def FlightsfromDenvertoZacatecasMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Denver-to-Zacatecas-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Chicago-to-Zacatecas-Mexico/") #ai-generated
+def FlightsfromChicagotoZacatecasMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Chicago-to-Zacatecas-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Tijuana-to-Torreon-Mexico/") #ai-generated
+def FlightsfromTijuanatoTorreonMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Tijuana-to-Torreon-Mexico.html") #ai-generated
+@mexico_blueprint.route("/From-San-Antonio-to-Toluca-Mexico/") #ai-generated
+def FromSanAntoniotoTolucaMexico(): #ai-generated
+	return render_template("/mexico-flights/From-San-Antonio-to-Toluca-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Cheap-Flights-from-Houston-to-Tampico-Mexico/") #ai-generated
+def CheapFlightsfromHoustontoTampicoMexico(): #ai-generated
+	return render_template("/mexico-flights/Cheap-Flights-from-Houston-to-Tampico-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Chicago-to-San-Luis-Potosi,-Mexico-flights/") #ai-generated
+def ChicagotoSanLuisPotosiMexicoflights(): #ai-generated
+	return render_template("/mexico-flights/Chicago-to-San-Luis-Potosi,-Mexico-flights.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-San-Antonio-to-San-Luis-Potosi-Mexico/") #ai-generated
+def FlightsfromSanAntoniotoSanLuisPotosiMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-San-Antonio-to-San-Luis-Potosi-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-From-Austin-to-Queretaro-Mexico/") #ai-generated
+def FlightsFromAustintoQueretaroMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-From-Austin-to-Queretaro-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Dallas-TX-to-Queretaro-Mexico/") #ai-generated
+def FlightsfromDallasTXtoQueretaroMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Dallas-TX-to-Queretaro-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-San-Antonio-Texas-to-Queretaro-Mexico/") #ai-generated
+def FlightsfromSanAntonioTexastoQueretaroMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-San-Antonio-Texas-to-Queretaro-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Las-Vegas-to-Puerto-Vallarta-Mexico/") #ai-generated
+def FlightsfromLasVegastoPuertoVallartaMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Las-Vegas-to-Puerto-Vallarta-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-San-Francisco-to-Puerto-Vallarta-Mexico/") #ai-generated
+def FlightsfromSanFranciscotoPuertoVallartaMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-San-Francisco-to-Puerto-Vallarta-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Atlanta-to-Puerto-Vallarta-Mexico/") #ai-generated
+def FlightsfromAtlantatoPuertoVallartaMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Atlanta-to-Puerto-Vallarta-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Phoenix-to-Puerto-Penasco-Mexico/") #ai-generated
+def FlightsfromPhoenixtoPuertoPenascoMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Phoenix-to-Puerto-Penasco-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Chicago-to-Morelia-Mexico/") #ai-generated
+def ChicagotoMoreliaMexico(): #ai-generated
+	return render_template("/mexico-flights/Chicago-to-Morelia-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Sacramento-to-Morelia-Mexico/") #ai-generated
+def FlightsfromSacramentotoMoreliaMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Sacramento-to-Morelia-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-San-Francisco-to-Morelia-Mexico/") #ai-generated
+def FlightsfromSanFranciscotoMoreliaMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-San-Francisco-to-Morelia-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-LAX-to-Morelia,-Mexico/") #ai-generated
+def FlightsfromLAXtoMoreliaMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-LAX-to-Morelia,-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-to-Monterrey-Mexico-from-Dallas/") #ai-generated
+def FlightstoMonterreyMexicofromDallas(): #ai-generated
+	return render_template("/mexico-flights/Flights-to-Monterrey-Mexico-from-Dallas.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Harlingen-to-Monterrey-Mexico/") #ai-generated
+def FlightsfromHarlingentoMonterreyMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Harlingen-to-Monterrey-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-to-Monterrey-Mexico-from-Houston/") #ai-generated
+def FlightstoMonterreyMexicofromHouston(): #ai-generated
+	return render_template("/mexico-flights/Flights-to-Monterrey-Mexico-from-Houston.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Chicago-to-Monterrey-Mexico/") #ai-generated
+def FlightsfromChicagotoMonterreyMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Chicago-to-Monterrey-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Denver-to-Mazatlan-Mexico/") #ai-generated
+def FlightsfromDenvertoMazatlanMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Denver-to-Mazatlan-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Phoenix-to-Loreto-Mexico/") #ai-generated
+def PhoenixtoLoretoMexico(): #ai-generated
+	return render_template("/mexico-flights/Phoenix-to-Loreto-Mexico.html") #ai-generated
+@mexico_blueprint.route("/flights-to-Loreto-Mexico-from-Tijuana/") #ai-generated
+def flightstoLoretoMexicofromTijuana(): #ai-generated
+	return render_template("/mexico-flights/flights-to-Loreto-Mexico-from-Tijuana.html") #ai-generated
+@mexico_blueprint.route("/flights-from-san-antonio-to-leon-mexico/") #ai-generated
+def flightsfromsanantoniotoleonmexico(): #ai-generated
+	return render_template("/mexico-flights/flights-from-san-antonio-to-leon-mexico.html") #ai-generated
+@mexico_blueprint.route("/flights-from-Atlanta-to-Leon-Mexico/") #ai-generated
+def flightsfromAtlantatoLeonMexico(): #ai-generated
+	return render_template("/mexico-flights/flights-from-Atlanta-to-Leon-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Chicago-to-Leon-Mexico/") #ai-generated
+def FlightsfromChicagotoLeonMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Chicago-to-Leon-Mexico.html") #ai-generated
+@mexico_blueprint.route("/San-Diego-to-Mazatlan-Mexico/") #ai-generated
+def SanDiegotoMazatlanMexico(): #ai-generated
+	return render_template("/mexico-flights/San-Diego-to-Mazatlan-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-to-Leon-Guanajuato-Mexico-from-LAX/") #ai-generated
+def FlightstoLeonGuanajuatoMexicofromLAX(): #ai-generated
+	return render_template("/mexico-flights/Flights-to-Leon-Guanajuato-Mexico-from-LAX.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Chicago-to-Leon-Guanajuato-Mexico/") #ai-generated
+def FlightsfromChicagotoLeonGuanajuatoMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Chicago-to-Leon-Guanajuato-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Dallas-to-Leon-Mexico-flights/") #ai-generated
+def DallastoLeonMexicoflights(): #ai-generated
+	return render_template("/mexico-flights/Dallas-to-Leon-Mexico-flights.html") #ai-generated
+
+@mexico_blueprint.route("/Flights-from-Seattle-to-Los-Cabos-Mexico/") #ai-generated
+def FlightsfromSeattletoLosCabosMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Seattle-to-Los-Cabos-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Phoenix-to-La-Paz-Mexico-flights/") #ai-generated
+def PhoenixtoLaPazMexicoflights(): #ai-generated
+	return render_template("/mexico-flights/Phoenix-to-La-Paz-Mexico-flights.html") #ai-generated
+@mexico_blueprint.route("/lights-San-Diego-to-La-Paz-Mexico/") #ai-generated
+def lightsSanDiegotoLaPazMexico(): #ai-generated
+	return render_template("/mexico-flights/lights-San-Diego-to-La-Paz-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-LAX-to-Ixtapa-Mexico/") #ai-generated
+def FlightsfromLAXtoIxtapaMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-LAX-to-Ixtapa-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Chicago-to-Ixtapa-Mexico/") #ai-generated
+def FlightsfromChicagotoIxtapaMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Chicago-to-Ixtapa-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Dallas-to-Durango-Mexico/") #ai-generated
+def FlightsfromDallastoDurangoMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Dallas-to-Durango-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Houston-to-Durango-Mexico/") #ai-generated
+def FlightsfromHoustontoDurangoMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Houston-to-Durango-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Los-Angeles-to-Durango-Mexico-flights/") #ai-generated
+def LosAngelestoDurangoMexicoflights(): #ai-generated
+	return render_template("/mexico-flights/Los-Angeles-to-Durango-Mexico-flights.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Denver-to-Cozumel,-Mexico/") #ai-generated
+def FlightsfromDenvertoCozumelMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Denver-to-Cozumel,-Mexico.html") #ai-generated
+@mexico_blueprint.route("/How-much-are-Flights-to-Cozumel-Mexico-from-Houston/") #ai-generated
+def HowmuchareFlightstoCozumelMexicofromHouston(): #ai-generated
+	return render_template("/mexico-flights/How-much-are-Flights-to-Cozumel-Mexico-from-Houston.html") #ai-generated
+@mexico_blueprint.route("/How-much-are-Flights-from-Houston-to-Chihuahua-Mexico/") #ai-generated
+def HowmuchareFlightsfromHoustontoChihuahuaMexico(): #ai-generated
+	return render_template("/mexico-flights/How-much-are-Flights-from-Houston-to-Chihuahua-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-LAX-to-Chihuahua-Mexico/") #ai-generated
+def FlightsfromLAXtoChihuahuaMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-LAX-to-Chihuahua-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Denver-to-Cabo-San-Lucas-Mexico/") #ai-generated
+def FlightsfromDenvertoCaboSanLucasMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Denver-to-Cabo-San-Lucas-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Seattle-to-Cabo-San-Lucas,-Mexico/") #ai-generated
+def FlightsfromSeattletoCaboSanLucasMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Seattle-to-Cabo-San-Lucas,-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Boston-to-Cabo-San-Lucas-Mexico/") #ai-generated
+def FlightsfromBostontoCaboSanLucasMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Boston-to-Cabo-San-Lucas-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Orlando-to-Cabo-San-Lucas-Mexico/") #ai-generated
+def FlightsfromOrlandotoCaboSanLucasMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Orlando-to-Cabo-San-Lucas-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-LAX-to-Aguascalientes-Mexico/") #ai-generated
+def FlightsfromLAXtoAguascalientesMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-LAX-to-Aguascalientes-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Chicago-to-Aguascalientes-Mexico/") #ai-generated
+def FlightsfromChicagotoAguascalientesMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Chicago-to-Aguascalientes-Mexico.html") #ai-generated
+@mexico_blueprint.route("/Flights-from-Houston-to-Aguascalientes-Mexico/") #ai-generated
+def FlightsfromHoustontoAguascalientesMexico(): #ai-generated
+	return render_template("/mexico-flights/Flights-from-Houston-to-Aguascalientes-Mexico.html") #ai-generated

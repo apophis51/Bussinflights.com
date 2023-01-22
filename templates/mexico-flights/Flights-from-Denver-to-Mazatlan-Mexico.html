@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Denver to Mazatlan Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="denver_co_us" 
+data-to="MZT" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling from Denver to Mazatlan, Mexico can be a great way to experience the beauty of Mexico and the culture of Latin America. Flights from Denver to Mazatlan offer travelers a unique opportunity to explore the city and its surrounding areas. Whether you're looking for a romantic getaway or a family vacation, flights from Denver to Mazatlan can provide an unforgettable experience.</p><h2>How much are Flights from Denver to Mazatlan, Mexico?&nbsp;</h2><p>Prices vary depending on the season and the airline, but you can usually find flights from Denver to Mazatlan for around $300-$400. Prices may be higher during peak travel times, such as the winter holidays.</p><h2>How long are Flights from Denver to Mazatlan, Mexico?</h2><p>&nbsp;The flight time from Denver to Mazatlan is approximately 2h59min.</p><h2>What's the cheapest day for Flights from Denver to Mazatlan, Mexico?&nbsp;</h2><p>Tuesdays and Wednesdays are generally the cheapest days for flights from Denver to Mazatlan.</p><h2>How far are the Flights from Denver to Mazatlan, Mexico?&nbsp;</h2><p>The distance between Denver and Mazatlan is 1,313.00 miles.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

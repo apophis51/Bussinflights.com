@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from LAX to Aguascalientes Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="LAX" 
+data-to="aguascalientes_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <h2>Flights from LAX to Aguascalientes Mexico</h2><p>Flying from Los Angeles International Airport (LAX) to Aguascalientes Mexico is a great way to experience the beauty and culture of Mexico. Aguascalientes is a city located in Central Mexico, known for its colonial architecture, vibrant nightlife, and outdoor activities. Whether you're looking for a family vacation or a weekend getaway, flights from LAX to Aguascalientes are a great option.</p><h2>How much are flights from LAX to Aguascalientes Mexico?</h2><p>Flights from LAX to Aguascalientes Mexico typically range from $300 to $600 USD depending on the airline, season, and time of the week. Prices can fluctuate, so it's important to shop around to get the best deal.</p><h2>How long are flights from LAX to Aguascalientes Mexico?</h2><p>Flights from LAX to Aguascalientes Mexico typically take 2 hours and 58 minutes. Non-stop flights are available, but most flights make at least one stop along the way.</p><h2>What's the cheapest day for flights from LAX to Aguascalientes Mexico?</h2><p>Tuesdays are typically the cheapest day for flights from LAX to Aguascalientes Mexico. Booking a flight on Tuesday can help you save money on your trip.</p><h2>How far are the flights from LAX to Aguascalientes Mexico?</h2><p>The distance from LAX to Aguascalientes Mexico is 1,307.40 miles. This is about a 2 hour and 58 minute flight.</p><p>&nbsp;</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

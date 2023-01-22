@@ -1,0 +1,57 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}How much are Flights from Houston to Chihuahua Mexico{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "mexico-flights/mexico-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/mexicoflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of mexico.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="houston_tx_us" 
+data-to="chihuahua_mx" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/mexico/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling from Houston to Chihuahua Mexico is a great way to explore the cultural and natural beauty of Mexico. Whether you are looking for a short getaway or a longer vacation, flights between Houston and Chihuahua can be a great option. Below, we'll explore the cost, length, cheapest day, and distance of this popular flight route.</p><h2>How much are flights from Houston to Chihuahua Mexico?</h2><p><br>Flights from Houston to Chihuahua Mexico can range in price depending on the airline and time of purchase. Generally, flights range from $250 to $400, with prices varying depending on the season and availability.&nbsp;</p><h2>How long are flights from Houston to Chihuahua Mexico?</h2><p><br>Flights from Houston to Chihuahua Mexico typically take 2 hours and 17 minutes. This includes the time it takes to taxi to and from the gates.&nbsp;</p><h2>What's the cheapest day for flights from Houston to Chihuahua Mexico?</h2><p><br>Tuesdays are typically the cheapest day to fly from Houston to Chihuahua Mexico. Prices can vary depending on the airline, but Tuesdays are often the least expensive day to fly.&nbsp;</p><h2>How far are the flights from Houston to Chihuahua Mexico?</h2><p><br>The distance of flights between Houston and Chihuahua Mexico is approximately 946.08 miles. This distance varies slightly depending on the route taken.&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/mexico-flights/">flights to Mexico.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,64 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Denver to Sydney{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "australia-flights/australia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/australiaflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of australia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+
+<script 
+
+data-affilid="apophis51saltlaketobogota" 
+
+data-from="denver_co_us" 
+
+data-to="AU" 
+
+data-transport-types="FLIGHT" 
+
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/australia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>There are several flights from Denver International Airport to various destinations in Australia. The most popular route is Denver to Sydney. Other popular destinations in Australia that can be reached with one or more stopovers include Melbourne, Brisbane, and Perth. The flight time from Denver to Sydney is around 18-19 hours, depending on the airline and route.</p><h2>How much are round-trip flights from Denver to Sydney Australia?</h2><p>&nbsp;Prices for a round-trip ticket can vary depending on the time of year and how far in advance you book, but generally range from $800-$1500.</p><p>&nbsp;</p><p><br>&nbsp;</p>
+
+            <p></p>
+
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/australia-flights/">flights to Australia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

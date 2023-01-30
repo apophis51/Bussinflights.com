@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Egypt to Australia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "australia-flights/australia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/australiaflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of australia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="EG" 
+data-to="AU" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/australia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Flights from Egypt to Australia typically involve at least one stopover, often in a major hub such as Dubai, Doha, or Istanbul, and then in a Asian hub such as Singapore or Hong Kong. The duration of the flight will depend on the specific route taken and the number of stopovers. On average, a direct flight from Egypt to Sydney, Australia can take around 18-19 hours, while flights to other major cities like Melbourne and Brisbane can take around 20-22 hours.</p><h2>Talk about Egypt to Australia flights</h2><p>Airlines that operate flights from Egypt to Australia include major international airlines such as EgyptAir, Qatar Airways, and Turkish Airlines. The cost of a round-trip economy class ticket can vary depending on the time of booking and travel, but generally ranges from $1,000 - $2,000 or more.</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/australia-flights/">flights to Australia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

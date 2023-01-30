@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from New Zealand to Australia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "australia-flights/australia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/australiaflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of australia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="NZ" 
+data-to="AU" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/australia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Flights between New Zealand and Australia are quite frequent and are operated by several airlines including Air New Zealand, Qantas, and Jetstar. These flights connect major cities in New Zealand such as Auckland, Wellington, and Christchurch with major cities in Australia such as Sydney, Melbourne, and Brisbane.</p><p>The flight duration between the two countries can vary depending on the specific route. For example, a flight from Auckland to Sydney takes around 3 hours and 20 minutes, while a flight from Christchurch to Melbourne takes around 3 hours and 50 minutes.</p><p>When it comes to the prices, they can vary depending on the time of booking, demand, and the airline. Budget airlines like Jetstar tend to have cheaper flights, but additional charges for baggage, seat selection and other services may apply. Other major airlines like Air New Zealand and Qantas also offer competitive prices and a variety of services.</p><p>It is important to compare prices and services from different airlines before making a decision. Travel websites such as Expedia, Kayak, or the website of the airline you wish to fly with can help you find the best deals.</p><p>In terms of international travel restrictions, please note that due to the ongoing COVID-19 pandemic, some flights may be cancelled or temporarily suspended, and travel restrictions may be in place. It's important to check the latest information from the government and the airlines before planning your trip.</p><h2>What is the cheapest for flights from New Zealand to Australia</h2><p>The cost of flights from New Zealand to Australia can vary greatly depending on the specific route, time of booking, and airline. It is best to search for flights on travel websites such as Expedia, Kayak, or the website of the airline you wish to fly with to get an idea of the current prices. Keep in mind that prices can also fluctuate based on demand.</p><h2>How much are flights from New Zealand to Australia</h2><p>There are several airlines that operate flights between New Zealand and Australia, and prices can vary depending on the route and time of booking. Some of the airlines that operate flights between the two countries are Air New Zealand, Qantas, and Jetstar.</p><p>Jetstar is known to have some of the cheapest flights between the two countries. They have a number of flights per day between the main cities in Australia and New Zealand.</p><p>It is important to check prices with multiple airlines and compare the prices and the services they offer. sometimes, you may find a better deal by booking with a different airline or a combination of airlines.</p><p>Keep in mind that budget airlines like Jetstar usually have additional charges for baggage, seat selection and other services. So, you may want to compare the total cost of your journey, including these additional charges, before making a final decision.</p><p>&nbsp;</p><p><br>&nbsp;</p><p>&nbsp;</p><p><br>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/australia-flights/">flights to Australia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

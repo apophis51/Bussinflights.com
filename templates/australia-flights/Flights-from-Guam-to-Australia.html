@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Guam to Australia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "australia-flights/australia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/australiaflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of australia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="GUM" 
+data-to="AU" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/australia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Flights from Guam to Australia typically involve at least one stopover, often in a major hub such as Manila, Hong Kong, or Singapore. The duration of the flight will depend on the specific route taken and the number of stopovers. On average, a direct flight from Guam to Sydney, Australia can take around 7-8 hours, while flights to other major cities like Melbourne and Brisbane can take around 8-9 hours.</p><p>Airlines that operate flights from Guam to Australia include United Airlines, Delta Air Lines, and Philippine Airlines. The cost of a round-trip economy class ticket can vary depending on the time of booking and travel, but generally ranges from $800 - $1200 or more.</p><h2>When are flights from Guam to Australia?</h2><p>The schedule of flights from Guam to Australia can vary depending on the airline and the specific destination within Australia. In general, major airlines such as United Airlines, Delta Air Lines and Philippine Airlines have flights on a daily basis. The frequency of flights can vary depending on the season and the demand for travel. It's best to check with the airlines or with a travel agency for the most up-to-date flight schedules and availability. Keep in mind that the pandemic has affected the flights and prices, so prices may be different and availability may be limited. It's recommended to check with the airlines for the most up-to-date information and booking options.&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/australia-flights/">flights to Australia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

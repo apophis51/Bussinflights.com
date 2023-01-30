@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights from Hawaii to Australia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "australia-flights/australia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/australiaflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of australia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="honolulu_hi_us" 
+data-to="AU" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/australia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Flights between Hawaii and Australia typically depart from Honolulu's Daniel K. Inouye International Airport (HNL) and arrive at one of several airports in Australia, including Sydney (SYD), Melbourne (MEL), and Brisbane (BNE). The flight duration can vary depending on the specific route and airline, but on average the flight can take around 8-12 hours.</p><p>Several airlines operate flights between Hawaii and Australia, including Qantas, Hawaiian Airlines, and United Airlines. Some of these flights may make stopovers in other cities, such as Los Angeles or San Francisco in the United States, or in other islands or cities in the Pacific region.</p><p>There are also some airlines providing direct flights between Hawaii and Australia, but the availability of these flights may vary depending on the season and the demand.</p><p>When flying from Hawaii to Australia, travelers will cross the International Date Line, which means that they will lose one day.</p><p>The prices of the flights may vary depending on the class, the time of the year, and the demand.</p><p>Additionally, it's recommended to check visa requirements for both countries before planning your trip and also to check if you are eligible for any quarantine measures.</p><h2>How long are flights from Hawaii to Australia?</h2><p>The flight time from Hawaii to Australia varies depending on the specific airports and airlines. On average, the flight can take around 8-12 hours.</p><h2>What Airports in Hawaii have flights to Australia?</h2><p>The main airport in Hawaii that offers flights to Australia is Daniel K. Inouye International Airport (HNL) in Honolulu. Some airlines that operate flights between Hawaii and Australia include Qantas, Hawaiian Airlines, and United Airlines.</p><h2>Which Hawaiian Airlines Flights to Australia have lie-flat seats?</h2><p>Hawaiian Airlines operates flights between Honolulu and Sydney, Australia, which are equipped with lie-flat seats. These seats are available in their premium cabin, called "Extra Comfort" seating. These seats offer more space, comfort, and amenities than standard economy seating, such as lie-flat seats, more legroom, and priority check-in and boarding. The flight duration is around 10hrs and 30 min.</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/australia-flights/">flights to Australia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

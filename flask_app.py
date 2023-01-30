@@ -2,11 +2,14 @@
 from flask import Flask, render_template, request
 from colombia_blueprint import colombia_blueprint
 from mexico_blueprint import mexico_blueprint
+from australia_blueprint import australia_blueprint
+
 from example_blueprint import example_blueprint
 
 app = Flask(__name__)
 app.register_blueprint(colombia_blueprint, url_prefix='/colombia-flights')
 app.register_blueprint(mexico_blueprint, url_prefix='/mexico-flights')
+app.register_blueprint(australia_blueprint, url_prefix='/australia-flights')
 app.register_blueprint(example_blueprint, url_prefix='/example')
 
 

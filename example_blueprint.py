@@ -6,7 +6,7 @@ import re
 
 example_blueprint = Blueprint('example_blueprint', __name__)
 #second = Blueprint('example_blueprint', __name__, template_folder='templates')
-openai.api_key = "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" #new
+openai.api_key = "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" #new
 
 myprompt = """make a 4 paragraph blog about Flights to 
 
@@ -28,9 +28,25 @@ def mypost():
 def myypost():
     #first = request.args.get('content')
     first = request.form['content']  
+
+
+##first we capitalize our h2 titles in capital case added 2/3/20223
+    find = re.compile(r'<h2>(.*?)</h2>')
+    results = find.findall(first)
+    for x,y in enumerate(range(len(results))):
+        first = first.replace(results[x], results[x].title())
+    #### end 2/3/2023 edit
+
+
+
+
+
+
     ###print splitter added 1/19/2023
     return_string = ""
-    second = first.rsplit("*")
+    second = first.rsplit("*")   #2/3/2023  this is just a note we should make second more descript and make it say blog_rough_draft
+    
+
     for x in second:
         for y in x.rsplit("?"):
            # re.sub('<[^<]+?>', '', y)

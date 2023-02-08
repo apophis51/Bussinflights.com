@@ -1,0 +1,58 @@
+Countents 
+javascript slice
+Replace methods
+uppercase methods
+random methods
+frontend javascript
+
+#memorized functions
+length
+
+continue on regex experiment
+//we need to learn regex
+
+#slice
+
+variable.slice(1) will return a string from the 1 index position to end of its index position
+
+//endslice
+
+
+content = content.replace("’","'")#added this line to correct messed up unicode characters incomming from gpt3
+
+///uppercase methods
+
+Python
+variable.title()Pyhon makes the first letter of each word in uppercase
+
+//random methods
+javascript random
+variable = Math.floor(Math.random()*10) -  would select a value between 0 and 9
+
+//frontend javascript
+variable = document.querySelector('css selector').innerText = "value" - this will change the innertext of the selected querySelector
+
+variable.value - will extract the text of what ever is located in that css selector we defined up above
+
+
+
+
+
+##first we capitalize our h2 titles in capital case added 2/3/20223
+    find = re.compile(r'<h2>(.*?)</h2>')
+    # results = find.search(first)
+    results = find.findall(first)
+
+
+    # print("h2",results.group())
+    print("h2", results)
+
+    #### end 2/3/2023 edit
+
+
+
+                ## 2/3/2023
+            find = re.compile(r'<h2>(.*?)</h2>')
+            results = find.search(y)
+            print("results, ", results)
+            ## end 2/3/2023

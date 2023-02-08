@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights From Chile to Australia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "australia-flights/australia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/australiaflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of australia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="CL" 
+data-to="AU" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/australia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Booking a flight from Chile to Australia is relatively straightforward and can be done through a variety of travel booking websites or directly through the airlines operating the route. Here are a few things to keep in mind when making your purchase:</p><ol><li>Choose your departure and arrival cities: Depending on your specific travel needs, you may have a choice between several departure and arrival cities in Chile and Australia.</li><li>Select your travel dates: It's important to choose dates that work best for your schedule, keeping in mind that airfares can vary depending on the day and time of travel.</li><li>Compare flight options: Before making your purchase, compare flights from different airlines to find the best option for your needs. Consider factors such as flight duration, number of stops, and price.</li><li>Consider additional services: Some airlines offer additional services such as baggage allowances, in-flight meals, and seat upgrades. Make sure to factor these into your decision when comparing flight options.</li><li>Book your flight: Once you've selected the best option, complete your booking by entering your personal and payment information.</li></ol><p>It's recommended to book your flight as early as possible to get the best availability and price.</p><p>&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/australia-flights/">flights to Australia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

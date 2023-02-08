@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights From Pakistan To Australia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "australia-flights/australia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/australiaflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of australia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="PK" 
+data-to="AU" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/australia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Travelling to Australia from Pakistan can be a great way to explore a new part of the world. With direct flights available from a number of airports in Pakistan, it's easy to find a flight that suits your budget and schedule. Knowing the details of the journey can help you plan your trip and make the most of your time in Australia.</p><h2>How Much Are Flights From Pakistan To Australia?</h2><p>The cost of flights from Pakistan to Australia can vary depending on the airline and route chosen. Generally, prices start from around $650, however this can go up depending on the time of year, the day of the week, and the availability of the flight.</p><h2>How Long Are Flights From Pakistan To Australia?</h2><p>The flight time from Pakistan to Australia is around 12 hours and 27 minutes. Depending on the length of the layover and the airline chosen, the total journey time can be longer.</p><h2>What'S The Cheapest Day For Flights From Pakistan To Australia?</h2><p>Generally, flights on Tuesdays are the cheapest day to fly from Pakistan to Australia. It's always worth comparing prices to make sure you're getting the best deal.</p><h2>How Far Are The Flights From Pakistan To Australia?</h2><p>The distance from Pakistan to Australia is around 6313.66 miles, making it one of the longest flights available. This can take up to 16 hours depending on the airline and route chosen.</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/australia-flights/">flights to Australia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

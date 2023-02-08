@@ -37,3 +37,40 @@ def FlightsfromDenvertoSydney(): #ai-generated
 @australia_blueprint.route("/Flights-from-the-USA-to-Australia/") #ai-generated
 def FlightsfromtheUSAtoAustralia(): #ai-generated
 	return render_template("/australia-flights/Flights-from-the-USA-to-Australia.html") #ai-generated
+@australia_blueprint.route("/Flights-From-St.-Louis-To-Australia/") #ai-generated
+def FlightsFromStLouisToAustralia(): #ai-generated
+	return render_template("/australia-flights/Flights-From-St.-Louis-To-Australia.html") #ai-generated
+@australia_blueprint.route("/Flights-From-South-Africa-To-Australia/") #ai-generated
+def FlightsFromSouthAfricaToAustralia(): #ai-generated
+	return render_template("/australia-flights/Flights-From-South-Africa-To-Australia.html") #ai-generated
+@australia_blueprint.route("/Flights-From-South-America-To-Australia/") #ai-generated
+def FlightsFromSouthAmericaToAustralia(): #ai-generated
+	return render_template("/australia-flights/Flights-From-South-America-To-Australia.html") #ai-generated
+@australia_blueprint.route("/Flights-From-Chile-to-Australia/") #ai-generated
+def FlightsFromChiletoAustralia(): #ai-generated
+	return render_template("/australia-flights/Flights-From-Chile-to-Australia.html") #ai-generated
+@australia_blueprint.route("/Flights-To-Australia-From-Uk/") #ai-generated
+def FlightsToAustraliaFromUk(): #ai-generated
+	return render_template("/australia-flights/Flights-To-Australia-From-Uk.html") #ai-generated
+@australia_blueprint.route("/Flights-To-Australia-From-Chicago/") #ai-generated
+def FlightsToAustraliaFromChicago(): #ai-generated
+	return render_template("/australia-flights/Flights-To-Australia-From-Chicago.html") #ai-generated
+@australia_blueprint.route("/Flights-To-Australia-From-Cincinnati/") #ai-generated
+def FlightsToAustraliaFromCincinnati(): #ai-generated
+	return render_template("/australia-flights/Flights-To-Australia-From-Cincinnati.html") #ai-generated
+@australia_blueprint.route("/Flights-From-North-Carolina-To-Australia/") #ai-generated
+def FlightsFromNorthCarolinaToAustralia(): #ai-generated
+	return render_template("/australia-flights/Flights-From-North-Carolina-To-Australia.html") #ai-generated
+@australia_blueprint.route("/Flights-From-Seattle-To-Australia/") #ai-generated
+def FlightsFromSeattleToAustralia(): #ai-generated
+	return render_template("/australia-flights/Flights-From-Seattle-To-Australia.html") #ai-generated
+@australia_blueprint.route("/Flights-From-San-Francisco-To-Australia/") #ai-generated
+def FlightsFromSanFranciscoToAustralia(): #ai-generated
+	return render_template("/australia-flights/Flights-From-San-Francisco-To-Australia.html") #ai-generated
+
+@australia_blueprint.route("/Flights-From-Pakistan-To-Australia/") #ai-generated
+def FlightsFromPakistanToAustralia(): #ai-generated
+	return render_template("/australia-flights/Flights-From-Pakistan-To-Australia.html") #ai-generated
+@australia_blueprint.route("/Flights-From-Dallas-To-Australia/") #ai-generated
+def FlightsFromDallasToAustralia(): #ai-generated
+	return render_template("/australia-flights/Flights-From-Dallas-To-Australia.html") #ai-generated

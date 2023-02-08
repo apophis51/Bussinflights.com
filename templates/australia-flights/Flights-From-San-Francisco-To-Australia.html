@@ -1,0 +1,56 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights From San Francisco To Australia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "australia-flights/australia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/australiaflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of australia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="SFO" 
+data-to="AU" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/australia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Flying from San Francisco to Australia is an amazing experience that offers travelers a unique opportunity to explore a new country and culture. With a flight time of around 15 hours and 47 minutes, it is a relatively short flight to cover the 8,072.48 miles between the two locations. The cost of flights from San Francisco to Australia can vary depending on the time of year and day of the week, but Tuesday is usually the cheapest day to fly.&nbsp;</p><h2>How Much Are Flights From San Francisco To Australia?</h2><p>The cost of flights from San Francisco to Australia can vary greatly, depending on the time of year and day of the week. Generally speaking, the cheapest flights can be found on Tuesdays, although this could vary depending on the airline and availability. Prices can range from around $900 to over $2,000, depending on the season and other factors.&nbsp;</p><h2>How Long Are Flights From San Francisco To Australia?</h2><p>Flights from San Francisco to Australia take around 15 hours and 47 minutes, depending on the airline and any layovers. This is a relatively short flight to cover the 8,072.48 miles between the two locations.&nbsp;</p><h2>What'S The Cheapest Day For Flights From San Francisco To Australia?</h2><p>The cheapest day for flights from San Francisco to Australia is usually Tuesday, although this can vary depending on the airline and availability. It is always worth checking multiple airlines and dates to get the best deal.&nbsp;</p><h2>How Far Are The Flights From San Francisco To Australia?</h2><p>Flights from San Francisco to Australia cover a distance of 8,072.48 miles. This is a relatively short flight, taking around 15 hours and 47 minutes to complete.&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/australia-flights/">flights to Australia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

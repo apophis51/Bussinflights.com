@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights From Dallas To Australia{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "australia-flights/australia-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/australiaflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of australia.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-from="DFW" 
+data-to="AU" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/australia/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Flying from Dallas to Australia can be an exciting journey and there is a variety of options available to suit any budget.&nbsp;</p><h2>How Much Are Flights From Dallas To Australia?</h2><p>&nbsp;Depending on the airline, the time of year and the type of ticket, flights from Dallas to Australia can range from around $1,000 to $2,000.&nbsp;</p><h2>How Long Are Flights From Dallas To Australia?</h2><p>On average, flights from Dallas to Australia take 18h 6min.&nbsp;</p><h2>What'S The Cheapest Day For Flights From Dallas To Australia?</h2><p>Tuesday is typically the cheapest day for flights from Dallas to Australia.</p><h2>How Far Are The Flights From Dallas To Australia?</h2><p>The distance from Dallas to Australia is 9,301.64 miles.</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/australia-flights/">flights to Australia.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

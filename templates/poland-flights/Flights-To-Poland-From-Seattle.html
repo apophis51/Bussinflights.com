@@ -1,0 +1,55 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights To Poland From Seattle{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "poland-flights/poland-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/polandflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of poland.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+<script 
+data-affilid="apophis51saltlaketobogota" 
+data-to="PL" 
+data-transport-types="FLIGHT" 
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+</script>
+
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/poland/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Traveling to Poland from Seattle can be a great way to explore central Europe. With direct flights available, it is easy to find a good deal on airfare. In this blog, we will explore how much flights to Poland typically cost, how long they are, the cheapest day to fly, and how far the flights are.&nbsp;</p><h2>How Much Are Flights To Poland From Seattle?</h2><p>&nbsp;The cost of a round-trip ticket from Seattle to Poland can range from around $600 to $1,000, depending on the time of year and the airline.&nbsp;</p><h2>How Long Are Flights To Poland From Seattle?</h2><p>&nbsp;The flight time from Seattle to Poland is around 10 hours and 10 minutes.&nbsp;</p><h2>What'S The Cheapest Day For Flights To Poland From Seattle?</h2><p>Tuesday is typically the cheapest day to fly from Seattle to Poland.&nbsp;</p><h2>How Far Are The Flights To Poland From Seattle?</h2><p>The distance from Seattle to Poland is around 5,222.2 miles.&nbsp;</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/poland-flights/">flights to poland.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}

@@ -6,7 +6,7 @@ import re
 
 example_blueprint = Blueprint('example_blueprint', __name__)
 #second = Blueprint('example_blueprint', __name__, template_folder='templates')
-openai.api_key = "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" #new
+openai.api_key = "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" #new
 
 myprompt = """make a 4 paragraph blog about Flights to 
 
@@ -82,9 +82,9 @@ def gpt3():
 blog ="""
 \n{% extends "base.html" %}
 \n{% block h1 %}{% block title %}TTT{% endblock %}{% endblock %}
-\n{% block travel %}  {% include "australia-flights/australia-base.html" %}{% endblock travel%}
-\n{% block flag %}<img class="bodyphoto visainfodiv" src="/static/australiaflag.png">{% endblock flag%}
-\n{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of australia.png">{% endblock %}
+\n{% block travel %}  {% include "poland-flights/poland-base.html" %}{% endblock travel%}
+\n{% block flag %}<img class="bodyphoto visainfodiv" src="/static/polandflag.png">{% endblock flag%}
+\n{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of poland.png">{% endblock %}
 
 
 \n{% block widget %}
@@ -93,7 +93,7 @@ blog ="""
 
 
 \n<div class = "white">
-\n{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/australia/"
+\n{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/poland/"
         rel="sponsored">VisaHQ</a></p>
 \n {% endblock %}
 
@@ -103,7 +103,7 @@ blog ="""
 \n<em>
 \n    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
         get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
-            href="/australia-flights/">flights to Australia.</a></strong>
+            href="/poland-flights/">flights to poland.</a></strong>
 \n</em>
 \n</div>
 \n{% endblock %}
@@ -127,7 +127,7 @@ def printt():
 
     navigation = f"""
     \n\n<li>
-     \n <a href = "/australia-flights/{urlwithouthtml}/">{title}</a>
+     \n <a href = "/poland-flights/{urlwithouthtml}/">{title}</a>
    \n </li>
    \n
     """
@@ -135,25 +135,25 @@ def printt():
     #text = open(f"{url}","a")
     #text.writelines(blog.replace("TTT",title).replace("###",content))
     #text = open('example_blueprint.py', 'a')
-    #text.writelines(f'\n@australia_blueprint.route("/{route}/") #ai-generated')
+    #text.writelines(f'\n@poland_blueprint.route("/{route}/") #ai-generated')
     #text.writelines(f'\ndef {method}(): #ai-generated')
-    #text.writelines(f'\n\treturn render_template("/australia-flights/{url}") #ai-generated')
+    #text.writelines(f'\n\treturn render_template("/poland-flights/{url}") #ai-generated')
     #text.writelines(navigation)
     #return render_template("cool.html", first=content)
 
-    save_path = r"C:\Users\malco\Bussinflights.com\templates\australia-flights" 
+    save_path = r"C:\Users\malco\Bussinflights.com\templates\poland-flights" 
     filelocation = f"{url}"
     completeName = os.path.join(save_path, filelocation)
     text = open(completeName,"a")
     #text.writelines(blog.replace("TTT",title).replace("###",content)) depricated and added ***
     content = content.replace("’","'")#added this line to correct messed up unicode characters incomming from gpt3
     text.writelines(blog.replace("TTT",title).replace("###",content).replace("***",widget_data))
-    text = open('australia_blueprint.py', 'a')
-    text.writelines(f'\n@australia_blueprint.route("/{route}/") #ai-generated')
+    text = open('poland_blueprint.py', 'a')
+    text.writelines(f'\n@poland_blueprint.route("/{route}/") #ai-generated')
     text.writelines(f'\ndef {method}(): #ai-generated')
-    text.writelines(f'\n\treturn render_template("/australia-flights/{url}") #ai-generated')
+    text.writelines(f'\n\treturn render_template("/poland-flights/{url}") #ai-generated')
     
-    filelocation = "australia-base.html"
+    filelocation = "poland-base.html"
     completeName = os.path.join(save_path, filelocation)
 
 
@@ -169,7 +169,7 @@ def printt():
 
     #return render_template("cool.html", first=content)       depricated 1/19/2023
 
-    return_navigation = f"/australia-flights/{urlwithouthtml}/"
+    return_navigation = f"/poland-flights/{urlwithouthtml}/"
 
     return render_template("cool.html", first=content,url = "http://127.0.0.1:5000" + return_navigation)
     

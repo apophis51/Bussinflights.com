@@ -10,12 +10,41 @@ length
 
 continue on regex experiment
 //we need to learn regex
-
+//slice
 #slice
-
+Javascript
+variable.slice(startindex,endindex)
 variable.slice(1) will return a string from the 1 index position to end of its index position
-
 //endslice
+#sort
+Python
+[list].sort() - sorts in assendening for numbers or strings
+[list].sort(reverse = true, key) - sorts in reverse and key is an optional parameter to set sorting crieteria - the return vale is none
+[list].sort(key=len) will sort accoriding to the lenght of the characters
+
+the next will sort by dictionary year key
+programming_languages = [{'language':'Python','year':1991},
+{'language':'Swift','year':2014},
+{'language':'Java', 'year':1995},
+{'language':'C++','year':1985},
+{'language':'Go','year':2007},
+{'language':'Rust','year':2010},
+]
+
+def get_year(element):
+    return element['year']
+
+programming_languages.sort(key=get_year)
+
+print(programming_languages)
+
+
+or you can combine function with a lambda
+programming_languages.sort(key=lambda element: element['year'])
+
+sorted(function) will output a new list instead of modifying the originioal
+---------------------
+//end sort
 
 
 content = content.replace("’","'")#added this line to correct messed up unicode characters incomming from gpt3

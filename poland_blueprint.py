@@ -188,3 +188,193 @@ def FlightsToPolandLeavingJfk(): #ai-generated
 @poland_blueprint.route("/Flights-To-Poland-From-Newark-Airport/") #ai-generated
 def FlightsToPolandFromNewarkAirport(): #ai-generated
 	return render_template("/poland-flights/Flights-To-Poland-From-Newark-Airport.html") #ai-generated
+@poland_blueprint.route("/Toronto-To-Poland-Flights/") #ai-generated
+def TorontoToPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Toronto-To-Poland-Flights.html") #ai-generated
+@poland_blueprint.route("/Flights-from-Fort-Myers-To-Poland/") #ai-generated
+def FlightsfromFortMyersToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-from-Fort-Myers-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Mumbai-To-Poland/") #ai-generated
+def FlightsFromMumbaiToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Mumbai-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Moscow-To-Poland-Flights/") #ai-generated
+def MoscowToPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Moscow-To-Poland-Flights.html") #ai-generated
+@poland_blueprint.route("/Milan-To-Poland-Flights/") #ai-generated
+def MilanToPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Milan-To-Poland-Flights.html") #ai-generated
+@poland_blueprint.route("/Miami-To-Poland-Flights/") #ai-generated
+def MiamiToPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Miami-To-Poland-Flights.html") #ai-generated
+@poland_blueprint.route("/Flights-To-Poland-From-Mexico/") #ai-generated
+def FlightsToPolandFromMexico(): #ai-generated
+	return render_template("/poland-flights/Flights-To-Poland-From-Mexico.html") #ai-generated
+@poland_blueprint.route("/Merida-To-Poland-Flights/") #ai-generated
+def MeridaToPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Merida-To-Poland-Flights.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Manchester-To-Poland/") #ai-generated
+def FlightsFromManchesterToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Manchester-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Malta-To-Poland/") #ai-generated
+def FlightsFromMaltaToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Malta-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Madrid-to-Poland-Flights/") #ai-generated
+def MadridtoPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Madrid-to-Poland-Flights.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Louisville-To-Poland/") #ai-generated
+def FlightsFromLouisvilleToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Louisville-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-from-LAX-to-Poland/") #ai-generated
+def FlightsfromLAXtoPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-from-LAX-to-Poland.html") #ai-generated
+@poland_blueprint.route("/Hyderabad-To-Poland-Flights/") #ai-generated
+def HyderabadToPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Hyderabad-To-Poland-Flights.html") #ai-generated
+@poland_blueprint.route("/Iceland-To-Poland-Flights/") #ai-generated
+def IcelandToPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Iceland-To-Poland-Flights.html") #ai-generated
+@poland_blueprint.route("/Luton-To-Poland-Flights/") #ai-generated
+def LutonToPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Luton-To-Poland-Flights.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Heathrow-To-Poland/") #ai-generated
+def FlightsFromHeathrowToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Heathrow-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Lithuania-To-Poland/") #ai-generated
+def LithuaniaToPoland(): #ai-generated
+	return render_template("/poland-flights/Lithuania-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Lisbon-To-Poland-Flights/") #ai-generated
+def LisbonToPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Lisbon-To-Poland-Flights.html") #ai-generated
+@poland_blueprint.route("/Flights-To-Poland-From-Leeds-Bradford-Airport/") #ai-generated
+def FlightsToPolandFromLeedsBradfordAirport(): #ai-generated
+	return render_template("/poland-flights/Flights-To-Poland-From-Leeds-Bradford-Airport.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Lebanon-To-Poland/") #ai-generated
+def FlightsFromLebanonToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Lebanon-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Kuala-Lumpur-To-Poland/") #ai-generated
+def KualaLumpurToPoland(): #ai-generated
+	return render_template("/poland-flights/Kuala-Lumpur-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Kenya-To-Poland/") #ai-generated
+def FlightsFromKenyaToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Kenya-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-To-Poland-From-India/") #ai-generated
+def FlightsToPolandFromIndia(): #ai-generated
+	return render_template("/poland-flights/Flights-To-Poland-From-India.html") #ai-generated
+@poland_blueprint.route("/Flights-Usa-To-Poland/") #ai-generated
+def FlightsUsaToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-Usa-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-From-East-Haven-To-Poland/") #ai-generated
+def FlightsFromEastHavenToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-East-Haven-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Gatwick-To-Poland/") #ai-generated
+def FlightsFromGatwickToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Gatwick-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Honolulu-To-Poland/") #ai-generated
+def FlightsFromHonoluluToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Honolulu-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Houston-To-Poland/") #ai-generated
+def FlightsFromHoustonToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Houston-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Detroit-To-Poland-Flights/") #ai-generated
+def DetroitToPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Detroit-To-Poland-Flights.html") #ai-generated
+@poland_blueprint.route("/Copenhagen-To-Poland-Flights/") #ai-generated
+def CopenhagenToPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Copenhagen-To-Poland-Flights.html") #ai-generated
+
+@poland_blueprint.route("/Flights-From-Dc-To-Poland/") #ai-generated
+def FlightsFromDcToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Dc-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Canada-To-Poland/") #ai-generated
+def FlightsFromCanadaToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Canada-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Doncaster-To-Poland/") #ai-generated
+def FlightsFromDoncasterToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Doncaster-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Edinburgh-To-Poland-Direct-Flights/") #ai-generated
+def EdinburghToPolandDirectFlights(): #ai-generated
+	return render_template("/poland-flights/Edinburgh-To-Poland-Direct-Flights.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Florida-To-Poland/") #ai-generated
+def FlightsFromFloridaToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Florida-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-To-Poland-From-Dallas/") #ai-generated
+def FlightsToPolandFromDallas(): #ai-generated
+	return render_template("/poland-flights/Flights-To-Poland-From-Dallas.html") #ai-generated
+@poland_blueprint.route("/Germany-To-Poland-Flights/") #ai-generated
+def GermanyToPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Germany-To-Poland-Flights.html") #ai-generated
+@poland_blueprint.route("/Cheap-Flights-From-Brussels-To-Poland/") #ai-generated
+def CheapFlightsFromBrusselsToPoland(): #ai-generated
+	return render_template("/poland-flights/Cheap-Flights-From-Brussels-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-From-England-To-Poland/") #ai-generated
+def FlightsFromEnglandToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-England-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Glasgow-To-Poland-Flights/") #ai-generated
+def GlasgowToPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Glasgow-To-Poland-Flights.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Chicago-To-Poland-Cost/") #ai-generated
+def FlightsFromChicagoToPolandCost(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Chicago-To-Poland-Cost.html") #ai-generated
+@poland_blueprint.route("/Flights-Cork-To-Poland/") #ai-generated
+def FlightsCorkToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-Cork-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-Ecuador-To-Poland/") #ai-generated
+def FlightsEcuadorToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-Ecuador-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Geneva-To-Poland/") #ai-generated
+def FlightsFromGenevaToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Geneva-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Eindhoven-To-Poland-Flights/") #ai-generated
+def EindhovenToPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Eindhoven-To-Poland-Flights.html") #ai-generated
+@poland_blueprint.route("/Flights-To-Poland-From-Birmingham/") #ai-generated
+def FlightsToPolandFromBirmingham(): #ai-generated
+	return render_template("/poland-flights/Flights-To-Poland-From-Birmingham.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Dublin-To-Poland/") #ai-generated
+def FlightsFromDublinToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Dublin-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Delhi-To-Poland/") #ai-generated
+def FlightsFromDelhiToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Delhi-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Poland-From-Hartford-Ct/") #ai-generated
+def PolandFromHartfordCt(): #ai-generated
+	return render_template("/poland-flights/Poland-From-Hartford-Ct.html") #ai-generated
+@poland_blueprint.route("/Flights-To-Poland-From-Boston/") #ai-generated
+def FlightsToPolandFromBoston(): #ai-generated
+	return render_template("/poland-flights/Flights-To-Poland-From-Boston.html") #ai-generated
+@poland_blueprint.route("/Txl-To-Bydgoszcz-Poland/") #ai-generated
+def TxlToBydgoszczPoland(): #ai-generated
+	return render_template("/poland-flights/Txl-To-Bydgoszcz-Poland.html") #ai-generated
+@poland_blueprint.route("/Canncun-To-Poland-Flights/") #ai-generated
+def CanncunToPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Canncun-To-Poland-Flights.html") #ai-generated
+@poland_blueprint.route("/Flights-To-Poland-From-Brisbane/") #ai-generated
+def FlightsToPolandFromBrisbane(): #ai-generated
+	return render_template("/poland-flights/Flights-To-Poland-From-Brisbane.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Barcelona-To-Poland/") #ai-generated
+def FlightsFromBarcelonaToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Barcelona-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-To-Poland-From-Cardiff/") #ai-generated
+def FlightsToPolandFromCardiff(): #ai-generated
+	return render_template("/poland-flights/Flights-To-Poland-From-Cardiff.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Bulgaria-To-Poland/") #ai-generated
+def FlightsFromBulgariaToPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Bulgaria-To-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-From-Arlanda-to-Poland/") #ai-generated
+def FlightsFromArlandatoPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-From-Arlanda-to-Poland.html") #ai-generated
+@poland_blueprint.route("/Antigua-to-Poland-Flights/") #ai-generated
+def AntiguatoPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Antigua-to-Poland-Flights.html") #ai-generated
+@poland_blueprint.route("/Australia-to-Poland-Flights/") #ai-generated
+def AustraliatoPolandFlights(): #ai-generated
+	return render_template("/poland-flights/Australia-to-Poland-Flights.html") #ai-generated
+@poland_blueprint.route("/Austin-to-Poland-Cheap-Flights/") #ai-generated
+def AustintoPolandCheapFlights(): #ai-generated
+	return render_template("/poland-flights/Austin-to-Poland-Cheap-Flights.html") #ai-generated
+@poland_blueprint.route("/Flights-from-Atlanta-to-Poland/") #ai-generated
+def FlightsfromAtlantatoPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-from-Atlanta-to-Poland.html") #ai-generated
+@poland_blueprint.route("/Flights-from-BWI-to-Poland/") #ai-generated
+def FlightsfromBWItoPoland(): #ai-generated
+	return render_template("/poland-flights/Flights-from-BWI-to-Poland.html") #ai-generated

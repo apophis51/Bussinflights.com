@@ -3,10 +3,11 @@ from flask import Blueprint, render_template, request
 import openai  #new
 import os.path
 import re
+import string #added 2/15/2023
 
 example_blueprint = Blueprint('example_blueprint', __name__)
 #second = Blueprint('example_blueprint', __name__, template_folder='templates')
-openai.api_key = "sk-Mv4ZXK8lkP3OVcHmBAdWT3BlbkFJFM4uz5AAuhQO2L2cv5o" #new
+openai.api_key = "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" #new
 
 myprompt = """make a 4 paragraph blog about Flights to 
 
@@ -28,7 +29,32 @@ def mypost():
 def myypost():
     #first = request.args.get('content')
     first = request.form['content']  
+###First we split the stars and then we split the regex question added 2/15/2023
+    #find = re.compile(r'(\..*?)\?') #this is the regex we use to split the questions
+    find = re.compile(r'(.*?)\?')
 
+    # find = re.compile(r'\.(.*?)\?')
+    #find = re.compile(r'[A-Z](.*?)\?')
+
+    results = find.findall(first)
+    for x,y in enumerate(range(len(results))):
+        first = first.replace(results[x]+"?", ((results[x]+"?") + "</h2>"))
+    
+    for x,y in enumerate(range(len(results))):
+        first = first.replace("*", "<h2><br>")
+    
+
+
+
+
+
+    def titlecasefunct(s):
+        return re.sub(r"[A-Za-z]+('[A-Za-z]+)?",
+        lambda mo: mo.group(0)[0].upper() + mo.group(0)[1:].lower(), s)
+        
+
+
+### pending the end of the edit 2/15/2023
 
 ##first we capitalize our h2 titles in capital case added 2/3/20223
     find = re.compile(r'<h2>(.*?)</h2>')
@@ -116,7 +142,20 @@ def printt():
     content = request.form['content']
     
     title = request.form['title']
-    widget_data = request.form['widget_data'] ## 1/18/2023 edit
+    # widget_data = request.form['widget_data'] ## 1/18/2023 edit
+    widget_data = """<div id="widget-holder"></div>
+
+<script 
+
+data-affilid="apophis51saltlaketobogota" 
+
+data-to="PL" 
+
+data-transport-types="FLIGHT" 
+
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+
+</script>"""                                                      #temp replacement 2/15/2023
     route = title.replace(" ","-")
     url = title.replace(" " , "-") + ".html"
     urlwithouthtml = title.replace(" ", "-")

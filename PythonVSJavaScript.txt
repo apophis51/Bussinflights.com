@@ -5,6 +5,11 @@ uppercase methods
 random methods
 frontend javascript
 
+#javascript tricks
+moleArr[programstartSeed].style.display = "block"
+holeArr[programstartSeed].style.display = "none"
+
+
 #memorized functions
 length
 

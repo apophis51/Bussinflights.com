@@ -1,0 +1,60 @@
+
+
+{% extends "base.html" %}
+
+{% block h1 %}{% block title %}Flights From Barcelona To Poland{% endblock %}{% endblock %}
+
+{% block travel %}  {% include "poland-flights/poland-base.html" %}{% endblock travel%}
+
+{% block flag %}<img class="bodyphoto visainfodiv" src="/static/polandflag.png">{% endblock flag%}
+
+{% block travelphoto %} <img class="bodyphoto" src="/static/nice view of poland.png">{% endblock %}
+
+
+
+{% block widget %}
+
+<div id="widget-holder"></div>
+
+<script 
+
+data-affilid="apophis51saltlaketobogota" 
+
+data-to="PL" 
+
+data-transport-types="FLIGHT" 
+
+src="https://widgets.kiwi.com/scripts/widget-search-iframe.js">
+
+</script>
+
+{% endblock widget%}
+
+
+
+<div class = "white">
+
+{% block visa %} <p class= "smallfont">Get Current Visa Information From <a href="https://www.visahq.com/poland/"
+        rel="sponsored">VisaHQ</a></p>
+
+ {% endblock %}
+
+
+{% block content %}
+
+             <p>Are you looking to take a trip from Barcelona to Poland?</h2> With many airlines offering flights from Barcelona to Poland, it can be hard to decide which airline to choose. Let's take a look at the cost, duration, distance, and the best day to book to get the best deal.</p><h2><Br>How Much Are Flights From Barcelona To Poland?</h2></h2><p>The cost of flights from Barcelona to Poland vary depending on the airline, time of year, and other factors. Generally, the cost of a one way ticket can range from $50 to $400.</p><h2><Br>How Long Are Flights From Barcelona To Poland?</h2></h2><p>Flights from Barcelona to Poland usually take around 2h41min. However, this can vary depending on the airline, route, and weather conditions.</p><h2><Br>What'S The Cheapest Day For Flights From Barcelona To Poland?</h2></h2><p>Tuesdays are usually the cheapest day to book flights from Barcelona to Poland. However, it is always best to check airline websites for the most up to date pricing information.</p><h2><Br>How Far Are The Flights From Barcelona To Poland?</h2></h2><p>The distance between Barcelona and Poland is approximately 1,155.46 miles.</p>
+            <p></p>
+        
+
+
+<em>
+
+    <strong>Before booking your trip, make sure to compare flights and prices to get the most out of your experience. To
+        get started, check out FlightTicketFinder.com flight tracker for the best deals and discounts on <a
+            href="/poland-flights/">flights to poland.</a></strong>
+
+</em>
+
+</div>
+
+{% endblock %}
